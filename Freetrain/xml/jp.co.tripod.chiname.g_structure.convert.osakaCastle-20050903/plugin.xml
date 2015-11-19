@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>大阪城</title>
+	<homepage>http://www.rocket.ne.jp/~nao/</homepage>
+	<author>477@２両目</author>
+	<depend on="org.kohsuke.freetrain.structure.osakaCastle"/>	
+	
+	<contribution type="GenericStructure" id="{12CA8CE9-7D92-44CA-BB96-47C4A60A8316}-gs">
+		<group>大阪城</group>
+		<design>天守閣</design>
+		<structure>
+			<category byname="城郭"/>
+		</structure>
+		<price>5000</price>
+		<size>2,2</size>
+		<height>4</height>
+		<sprite origin="0,0" offset="64">
+			<picture ref="{4F129DD1-CCCF-4C2C-B317-0874AD9F77B7}"/>
+		</sprite>
+		<sprite origin="64,0" offset="64">
+			<picture ref="{4F129DD1-CCCF-4C2C-B317-0874AD9F77B7}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+</plug-in>

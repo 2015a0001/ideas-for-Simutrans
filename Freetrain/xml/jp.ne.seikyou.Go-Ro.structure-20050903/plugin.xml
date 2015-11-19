@@ -1,0 +1,3308 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+
+<!ENTITY vhbi_001colorMap002 '
+	<spriteType name="colorMapped">
+<map from="150,150,150" to="159,150,128"/>
+<map from="162,162,162" to="180,169,149"/>
+<map from="115,115,115" to="123,110,88"/>
+<map from="92,92,92" to="98,87,69"/>
+<map from="185,185,185" to="198,187,167"/>
+<map from="175,0,0" to="161,138,137"/>
+<map from="255,0,0" to="234,201,199"/>
+<map from="127,0,0" to="117,100,99"/>
+<map from="95,0,0" to="87,75,74"/>
+<map from="191,0,0" to="175,151,149"/>
+	</spriteType>
+'>
+
+<!ENTITY home_001colorMap001 '
+	<spriteType name="colorMapped">
+<map from="255,236,178" to="255,173,107"/>
+<map from="151,140,107" to="135,93,59"/>
+<map from="192,178,133" to="185,126,79"/>
+<map from="71,66,84" to="135,93,59"/>
+<map from="143,133,169" to="255,173,107"/>
+<map from="60,56,71" to="115,79,49"/>
+
+	</spriteType>
+'>
+
+<!ENTITY Apartment_001colorMap001 '
+	<spriteType name="colorMapped">
+<map from="69,95,102" to="108,74,40"/>
+<map from="103,142,151" to="142,97,54"/>
+<map from="150,209,223" to="218,150,82"/>
+<map from="166,166,166" to="143,111,94"/>
+<map from="232,232,232" to="222,177,152"/>
+<map from="51,70,75" to="85,58,32"/>
+	</spriteType>
+'>
+
+<!ENTITY Apartment_001colorMap002 '
+	<spriteType name="colorMapped">
+<map from="69,95,102" to="148,114,111"/>
+<map from="103,142,151" to="182,139,136"/>
+<map from="150,209,223" to="255,194,189"/>
+<map from="51,70,75" to="109,82,81"/>
+	</spriteType>
+'>
+
+<!ENTITY Apartment_001colorMap003 '
+	<spriteType name="colorMapped">
+<map from="69,95,102" to="85,82,93"/>
+<map from="103,142,151" to="130,126,142"/>
+<map from="150,209,223" to="205,198,224"/>
+<map from="51,70,75" to="68,66,75"/>
+	</spriteType>
+'>
+
+<!ENTITY vhbi_001hueTransform_001 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="155,212,192"/>
+	</spriteType>
+'>
+
+<!ENTITY vhbi_001hueTransform_002 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="186,202,249"/>
+	</spriteType>
+'>
+
+
+<!ENTITY hueTransform_001 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="205,200,255"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_002 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="220,200,205"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_003 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="210,160,110"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_004 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_005 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,175,100"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_006 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="213,182,141"/>
+	</spriteType>
+'>
+
+
+<!ENTITY hueTransform_007 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="131,131,131"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_008 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,72,84"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_009 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="92,136,178"/>
+	</spriteType>
+'>
+
+
+<!ENTITY restaurant_001-hueTransform_001 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="129,129,129"/>
+	</spriteType>
+'>
+
+<!ENTITY restaurant_001-hueTransform_002 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="95,151,140"/>
+	</spriteType>
+'>
+
+<!ENTITY restaurant_001-hueTransform_003 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="128,93,75"/>
+	</spriteType>
+'>
+
+
+<!ENTITY hueTransform_014 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="196,87,76"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_015 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="147,151,175"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_017 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,54,54"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_018 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="63,81,255"/>
+	</spriteType>
+'>
+
+
+<!ENTITY vhbi_007hueTransform_001 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="204,226,233"/>
+	</spriteType>
+'>
+
+<!ENTITY vhbi_007hueTransform_002 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+	</spriteType>
+'>
+
+<!ENTITY vhbi_007hueTransform_003 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,233,201"/>
+	</spriteType>
+'>
+
+<!ENTITY vhbi_007hueTransform_004 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="179,131,92"/>
+	</spriteType>
+'>
+
+
+<!ENTITY hueTransform_010 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,183,81"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_011 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="240,168,136"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_012 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="188,143,86"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_013 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="216,191,214"/>
+	</spriteType>
+'>
+
+<!ENTITY Apartment_002hueTransform_001 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="75,166,197"/>
+	</spriteType>
+'>
+
+<!ENTITY Apartment_002hueTransform_002 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,84,88"/>
+	</spriteType>
+'>
+
+<!ENTITY vhbi_009-hT_001 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="184,86,90"/>
+	</spriteType>
+'>
+
+<!ENTITY vhbi_009-hT_002 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="241,140,72"/>
+	</spriteType>
+'>
+
+<!ENTITY vhbi_009-hT_003 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="163,103,68"/>
+	</spriteType>
+'>
+
+<!ENTITY vhbi_009-hT_004 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="225,200,229"/>
+	</spriteType>
+'>
+
+
+
+
+
+<!ENTITY vhbi_001Population '
+	<group>テナントビル1</group>
+	<price>270</price>
+	<size>1,1</size>
+	<minHeight>2</minHeight>
+	<maxHeight>3</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>40</base>
+	</population>
+'>
+
+<!ENTITY home_001Population '
+	<group>一戸建て住宅</group>
+	<price>96</price>
+	<size>1,1</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>5</base>
+	</population>
+'>
+
+<!ENTITY factory_001data '
+	<group>工場</group>
+	<name>町工場</name>
+	<price>100</price>
+	<size>1,1</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>9</base>
+	</population>
+'>
+
+
+<!ENTITY slope_a3road_data '
+		<group>勾配道路(一般)</group>
+		<name>二車線道路用</name>
+		<price>1000</price>
+		<height>2</height>
+		<computerCannotBuild/>
+'>
+
+<!ENTITY warehouse_001data '
+	<group>倉庫</group>
+	<price>120</price>
+	<size>1,1</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>9</base>
+	</population>
+'>
+
+
+<!ENTITY Apartment_001data '
+	<group>アパート</group>
+	<price>140</price>
+	<size>1,1</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>8</base>
+	</population>
+'>
+
+<!ENTITY FarmStr_001data '
+	<group>牧場</group>
+	<name>牛舎</name>
+	<price>100</price>
+	<size>1,1</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.AgriculturalPopulation"/>
+		<base>4</base>
+	</population>
+		<computerCannotBuild/>
+'>
+
+<!ENTITY FarmStr_002data '
+	<group>牧場</group>
+	<name>牧草地</name>
+	<price>160</price>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.AgriculturalPopulation"/>
+		<base>4</base>
+	</population>
+<computerCannotBuild />
+
+'>
+
+
+<!ENTITY FarmStr_003data '
+	<group>牧場</group>
+	<name>サイロ</name>
+	<price>200</price>
+	<size>1,1</size>
+	<height>2</height>
+	<population>
+		<class name="freetrain.contributions.population.AgriculturalPopulation"/>
+		<base>2</base>
+	</population>
+<computerCannotBuild />
+'>
+
+<!ENTITY vhbi_005Population '
+		<group>インテリジェントビル</group>
+		<price>1250</price>
+		<size>2,2</size>
+		<minHeight>3</minHeight>
+		<maxHeight>10</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>120</base>
+	</population>
+'>
+
+<!ENTITY RentalVideoShop_001Population '
+	<population>
+		<class name="freetrain.contributions.population.ShopperPopulation"/>
+		<base>50</base>
+	</population>
+'>
+
+<!ENTITY CreditA_001Population '
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>40</base>
+	</population>
+'>
+
+<!ENTITY MensWearShop_001Population '
+	<population>
+		<class name="freetrain.contributions.population.ShopperPopulation"/>
+		<base>35</base>
+	</population>
+'>
+
+<!ENTITY supermarket_001data '
+		<price>1160</price>
+		<size>2,2</size>
+		<height>3</height>
+	<population>
+		<class name="freetrain.contributions.population.CombinationPopulation"/>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>520</base>
+		</population>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>30</base>
+		</population>
+	</population>
+'>
+
+<!ENTITY home_002data '
+	<group>一戸建て住宅</group>
+	<price>88</price>
+	<size>1,1</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>6</base>
+	</population>
+'>
+
+<!ENTITY restaurant_001data '
+		<price>560</price>
+		<size>2,2</size>
+		<height>2</height>
+	<population>
+		<class name="freetrain.contributions.population.RestaurantPopulation"/>
+		<base>120</base>
+	</population>
+'>
+
+<!ENTITY DoughnutShop_data '
+	<name>ドーナツチェーン</name>
+	<price>175</price>
+	<size>1,1</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.RestaurantPopulation"/>
+		<base>45</base>
+	</population>
+'>
+
+<!ENTITY vhbi_002data '
+		<group>テナントビル2</group>
+		<price>250</price>
+		<size>1,1</size>
+		<minHeight>2</minHeight>
+		<maxHeight>3</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>40</base>
+	</population>
+'>
+
+<!ENTITY vhbi_004data '
+		<group>テナントビル3</group>
+		<price>270</price>
+		<size>1,1</size>
+		<minHeight>2</minHeight>
+		<maxHeight>3</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>36</base>
+	</population>
+'>
+
+<!ENTITY vhbi_007data '
+		<group>テナントビル4</group>
+		<price>180</price>
+		<size>1,1</size>
+		<minHeight>2</minHeight>
+		<maxHeight>3</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>36</base>
+	</population>
+'>
+
+<!ENTITY vhbi_003data '
+		<group>賃貸マンション</group>
+		<price>290</price>
+		<size>1,1</size>
+		<minHeight>2</minHeight>
+		<maxHeight>4</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>32</base>
+	</population>
+'>
+
+<!ENTITY Apartment_002data '
+	<group>文化住宅</group>
+	<price>110</price>
+	<size>1,1</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>8</base>
+	</population>
+'>
+<!ENTITY vhbi_009data '
+		<group>ビジネスホテル</group>
+		<price>4800</price>
+		<minHeight>3</minHeight>
+		<maxHeight>5</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>28</base>
+	</population>
+'>
+
+
+
+]>
+
+
+<plug-in>
+	<title>建物セット(想作館)</title>
+	<author>haru（qra_ra）</author>
+	<homepage>http://hb4.seikyou.ne.jp/home/Go-Ro/FreeTrain/</homepage>
+
+
+
+
+
+
+	<contribution type="picture" id="{CfeS_001-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="CfeS_001.bmp"/>
+	</contribution>
+
+	
+	<contribution type="picture" id="{vhbi_001-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="vhbi_001.bmp"/>
+	</contribution>
+
+
+	<contribution type="picture" id="{home_001-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="home_001.bmp"/>
+	</contribution>
+
+			
+			
+	<contribution type="varHeightBuilding" id="{vhbi_001-varH-C000-000A-4C8B212DD67q}">
+		<name>テナントビル(緑)</name>
+				&vhbi_001Population;
+		<pictures>
+			<top    origin=" 0, 2" offset="9">
+				&vhbi_001hueTransform_001;
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 34" offset="9">
+				&vhbi_001hueTransform_001;
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 66" offset="9">
+				&vhbi_001hueTransform_001;
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_001-varH-C000-000B-4C8B212DD67q}">
+		<name>テナントビル(緑)</name>
+				&vhbi_001Population;
+		<pictures>
+			<top    origin=" 32, 0" offset="11">
+				&vhbi_001hueTransform_001;
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 32, 34" offset="9">
+				&vhbi_001hueTransform_001;
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 32, 66" offset="9">
+				&vhbi_001hueTransform_001;
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	<contribution type="varHeightBuilding" id="{vhbi_001-varH-C000-000c-4C8B212DD67q}">
+		<name>テナントビル(緑)</name>
+				&vhbi_001Population;
+		<pictures>
+			<top    origin=" 64, 0" offset="11">
+				&vhbi_001hueTransform_001;
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 34" offset="9">
+				&vhbi_001hueTransform_001;
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 66" offset="9">
+				&vhbi_001hueTransform_001;
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_001-varH-C000-000d-4C8B212DD67q}">
+		<name>テナントビル(緑)</name>
+				&vhbi_001Population;
+		<pictures>
+			<top    origin=" 96, 0" offset="11">
+				&vhbi_001hueTransform_001;
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 34" offset="9">
+				&vhbi_001hueTransform_001;
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 66" offset="9">
+				&vhbi_001hueTransform_001;
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+			
+			
+	<contribution type="varHeightBuilding" id="{vhbi_001-varH-C001-000A-4C8B212DD67q}">
+		<name>テナントビル(青)</name>
+				&vhbi_001Population;
+		<pictures>
+			<top    origin=" 0, 2" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001hueTransform_002;
+			</top>
+			<middle origin=" 0, 34" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001hueTransform_002;
+			</middle>
+			<bottom origin=" 0, 66" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001hueTransform_002;
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_001-varH-C001-000B-4C8B212DD67q}">
+		<name>テナントビル(青)</name>
+		<price>270</price>
+				&vhbi_001Population;
+		<pictures>
+			<top    origin=" 32, 0" offset="11">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001hueTransform_002;
+			</top>
+			<middle origin=" 32, 34" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001hueTransform_002;
+			</middle>
+			<bottom origin=" 32, 66" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001hueTransform_002;
+			</bottom>
+		</pictures>
+	</contribution>
+
+			
+			
+	<contribution type="varHeightBuilding" id="{vhbi_001-varH-C001-000c-4C8B212DD67q}">
+		<name>テナントビル(青)</name>
+				&vhbi_001Population;
+		<pictures>
+			<top    origin=" 64, 2" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001hueTransform_002;
+			</top>
+			<middle origin=" 64, 34" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001hueTransform_002;
+			</middle>
+			<bottom origin=" 64, 66" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001hueTransform_002;
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_001-varH-C001-000d-4C8B212DD67q}">
+		<name>テナントビル(青)</name>
+		<price>270</price>
+				&vhbi_001Population;
+		<pictures>
+			<top    origin=" 96, 0" offset="11">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001hueTransform_002;
+			</top>
+			<middle origin=" 96, 34" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001hueTransform_002;
+			</middle>
+			<bottom origin=" 96, 66" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001hueTransform_002;
+			</bottom>
+		</pictures>
+	</contribution>
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_001-varH-C002-000A-4C8B212DD67q}">
+		<name>テナントビル(ピンク)</name>
+				&vhbi_001Population;
+		<pictures>
+			<top    origin=" 0, 2" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001colorMap002;
+			</top>
+			<middle origin=" 0, 34" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001colorMap002;
+			</middle>
+			<bottom origin=" 0, 66" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001colorMap002;
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_001-varH-C002-000B-4C8B212DD67q}">
+		<name>テナントビル(ピンク)</name>
+				&vhbi_001Population;
+		<pictures>
+			<top    origin=" 32, 0" offset="11">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001colorMap002;
+			</top>
+			<middle origin=" 32, 34" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001colorMap002;
+			</middle>
+			<bottom origin=" 32, 66" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001colorMap002;
+			</bottom>
+		</pictures>
+	</contribution>
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_001-varH-C002-000c-4C8B212DD67q}">
+		<name>テナントビル(ピンク)</name>
+				&vhbi_001Population;
+		<pictures>
+			<top    origin=" 64, 2" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001colorMap002;
+			</top>
+			<middle origin=" 64, 34" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001colorMap002;
+			</middle>
+			<bottom origin=" 64, 66" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001colorMap002;
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_001-varH-C002-000d-4C8B212DD67q}">
+		<name>テナントビル(ピンク)</name>
+				&vhbi_001Population;
+		<pictures>
+			<top    origin=" 96, 0" offset="11">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001colorMap002;
+			</top>
+			<middle origin=" 96, 34" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001colorMap002;
+			</middle>
+			<bottom origin=" 96, 66" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+				&vhbi_001colorMap002;
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+
+	<contribution type="commercial" id="{CfeS_001-comm-C000-000A-4C8B212DD67q}">
+		<name>喫茶店</name>
+		<price>180</price>
+		<size>1,1</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+		<sprite origin="0,0" offset="7">
+			<picture ref="{CfeS_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{home_001-comm-C000-000A-4C8B212DD67q}">
+		<name>一戸建て住宅(紺+クリーム)</name>
+				&home_001Population;
+		<sprite origin="0,0" offset="8">
+			<picture ref="{home_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{home_001-comm-C000-000B-4C8B212DD67q}">
+		<name>一戸建て住宅(紺+クリーム)</name>
+				&home_001Population;
+		<sprite origin="32,0" offset="8">
+			<picture ref="{home_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{home_001-comm-C001-000A-4C8B212DD67q}">
+		<name>一戸建て住宅(サーモンピンク)</name>
+				&home_001Population;
+		<sprite origin="0,0" offset="8">
+				&home_001colorMap001;
+			<picture ref="{home_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{home_001-comm-C001-000B-4C8B212DD67q}">
+		<name>一戸建て住宅(サーモンピンク)</name>
+				&home_001Population;
+		<sprite origin="32,0" offset="8">
+				&home_001colorMap001;
+			<picture ref="{home_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+	
+
+	<contribution type="picture" id="{885A55E5-F548-1276-83FD-001854178F24}">
+		<picture src="taiyo.bmp"/>
+	</contribution>
+
+
+	<contribution type="commercial" id="{1BC58789-5D12-64CA-BB35-91C4A00A5316}">
+		<group>太陽の塔</group>
+		<name>左前</name>
+		<price>3000</price>
+		<size>2,4</size>
+		<height>6</height>
+		<sprite origin="0,0" offset="75">
+			<picture ref="{885A55E5-F548-1276-83FD-001854178F24}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	
+
+	<contribution type="commercial" id="{1BC58789-5D12-64CA-BB35-92C4A00A5316}">
+		<group>太陽の塔</group>
+		<name>右前</name>
+		<price>3000</price>
+		<size>4,2</size>
+		<height>6</height>
+		<sprite origin="96,0" offset="91">
+			<picture ref="{885A55E5-F548-1276-83FD-001854178F24}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	
+	<!-- 二車線道路用勾配 -->
+
+	<contribution type="picture" id="{slope_a3road_d-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="slope_a3road_d.bmp">
+			<override when="night" src="slope_a3road_n.bmp" />
+		</picture>
+	</contribution>
+	
+
+	<contribution type="commercial" id="{slope_a3road_d-comm-C000-000a-4C8B212DD67q}">
+		<size>1,4</size>
+				&slope_a3road_data;
+		<sprite origin="0,0" offset="24">
+			<picture ref="{slope_a3road_d-pcon-C000-0000-4C8B212DD67q}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{slope_a3road_d-comm-C000-000b-4C8B212DD67q}">
+		<size>4,1</size>
+				&slope_a3road_data;
+		<sprite origin="80,0" offset="48">
+			<picture ref="{slope_a3road_d-pcon-C000-0000-4C8B212DD67q}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="commercial" id="{slope_a3road_d-comm-C000-000c-4C8B212DD67q}">
+		<size>1,4</size>
+				&slope_a3road_data;
+		<sprite origin="160,0" offset="24">
+			<picture ref="{slope_a3road_d-pcon-C000-0000-4C8B212DD67q}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="commercial" id="{slope_a3road_d-comm-C000-000d-4C8B212DD67q}">
+		<size>4,1</size>
+				&slope_a3road_data;
+		<sprite origin="240,0" offset="48">
+			<picture ref="{slope_a3road_d-pcon-C000-0000-4C8B212DD67q}"/>
+		</sprite>
+	</contribution>
+	
+
+
+	<contribution type="picture" id="{Apartment_001-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="Apartment_001.bmp"/>
+	</contribution>
+
+
+	<contribution type="commercial" id="{Apartment_001-comm-C000-000A-4C8B212DD67q}">
+		<name>アパート(水色)</name>
+				&Apartment_001data;
+		<sprite origin="32,0" offset="7">
+			<picture ref="{Apartment_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{Apartment_001-comm-C000-000B-4C8B212DD67q}">
+		<name>アパート(水色)</name>
+				&Apartment_001data;
+		<sprite origin="0,0" offset="7">
+			<picture ref="{Apartment_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{Apartment_001-comm-C001-000A-4C8B212DD67q}">
+		<name>アパート(茶色)</name>
+				&Apartment_001data;
+		<sprite origin="32,0" offset="7">
+				&Apartment_001colorMap001;
+			<picture ref="{Apartment_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{Apartment_001-comm-C001-000B-4C8B212DD67q}">
+		<name>アパート(茶色)</name>
+				&Apartment_001data;
+		<sprite origin="0,0" offset="7">
+				&Apartment_001colorMap001;
+			<picture ref="{Apartment_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{Apartment_001-comm-C002-000A-4C8B212DD67q}">
+		<name>アパート(紫色)</name>
+				&Apartment_001data;
+		<sprite origin="32,0" offset="7">
+				&Apartment_001colorMap002;
+			<picture ref="{Apartment_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{Apartment_001-comm-C002-000B-4C8B212DD67q}">
+		<name>アパート(紫色)</name>
+				&Apartment_001data;
+		<sprite origin="0,0" offset="7">
+				&Apartment_001colorMap002;
+			<picture ref="{Apartment_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{Apartment_001-comm-C003-000A-4C8B212DD67q}">
+		<name>アパート(ピンク)</name>
+				&Apartment_001data;
+		<sprite origin="32,0" offset="7">
+				&Apartment_001colorMap003;
+			<picture ref="{Apartment_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{Apartment_001-comm-C003-000B-4C8B212DD67q}">
+		<name>アパート(ピンク)</name>
+				&Apartment_001data;
+		<sprite origin="0,0" offset="7">
+				&Apartment_001colorMap003;
+			<picture ref="{Apartment_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+	
+
+
+	<contribution type="picture" id="{factory_001-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="factory_001.bmp">
+			<override when="night" src="factory_001n.bmp" />
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{warehouse_001-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="warehouse_001.bmp"/>
+	</contribution>
+
+
+	<contribution type="commercial" id="{factory_001-comm-C000-000A-4C8B212DD67q}">
+				&factory_001data;
+		<sprite origin="0,0" offset="8">
+			<picture ref="{factory_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{factory_001-comm-C000-000B-4C8B212DD67q}">
+				&factory_001data;
+		<sprite origin="32,0" offset="8">
+			<picture ref="{factory_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{factory_001-comm-C000-000c-4C8B212DD67q}">
+				&factory_001data;
+		<sprite origin="64,0" offset="8">
+			<picture ref="{factory_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{factory_001-comm-C000-000d-4C8B212DD67q}">
+				&factory_001data;
+		<sprite origin="96,0" offset="8">
+			<picture ref="{factory_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="commercial" id="{warehouse_001-comm-C000-000A-4C8B212DD67q}">
+		<name>汎用倉庫(開)</name>
+				&warehouse_001data;
+		<sprite origin="32,0" offset="9">
+			<picture ref="{warehouse_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{warehouse_001-comm-C000-000B-4C8B212DD67q}">
+		<name>汎用倉庫(開)</name>
+				&warehouse_001data;
+		<sprite origin="0,0" offset="9">
+			<picture ref="{warehouse_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{warehouse_001-comm-C000-000c-4C8B212DD67q}">
+		<name>汎用倉庫(閉)</name>
+				&warehouse_001data;
+		<sprite origin="96,0" offset="9">
+			<picture ref="{warehouse_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{warehouse_001-comm-C000-000d-4C8B212DD67q}">
+		<name>汎用倉庫(閉)</name>
+				&warehouse_001data;
+		<sprite origin="64,0" offset="9">
+			<picture ref="{warehouse_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+<!-- 牧場 -->
+
+
+	<contribution type="picture" id="{FarmStr_001-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="FarmStr_001.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{FarmStr_002-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="FarmStr_002.bmp">
+			<override when="autumn" src="FarmStr_002AUT.bmp" />
+			<override when="winter" src="FarmStr_002WIN.bmp" />
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{FarmStr_003-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="FarmStr_003.bmp">
+			<override when="autumn" src="FarmStr_003AUT.bmp" />
+			<override when="winter" src="FarmStr_003WIN.bmp" />
+		</picture>
+	</contribution>
+
+
+
+	<contribution type="commercial" id="{FarmStr_001-comm-C000-000A-4C8B212DD67q}">
+				&FarmStr_001data;
+		<sprite origin="32,0" offset="7">
+			<picture ref="{FarmStr_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{FarmStr_001-comm-C000-000B-4C8B212DD67q}">
+				&FarmStr_001data;
+		<sprite origin="0,0" offset="7">
+			<picture ref="{FarmStr_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{FarmStr_002-comm-C000-000a-4C8B212DD67q}">
+		<size>4,8</size>
+				&FarmStr_002data;
+		<sprite origin="192,0" offset="24">
+			<picture ref="{FarmStr_002-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{FarmStr_002-comm-C000-000b-4C8B212DD67q}">
+		<size>8,4</size>
+				&FarmStr_002data;
+		<sprite origin="0,0" offset="56">
+			<picture ref="{FarmStr_002-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="commercial" id="{FarmStr_003-comm-C000-000a-4C8B212DD67q}">
+				&FarmStr_003data;
+		<sprite origin="0,0" offset="22">
+			<picture ref="{FarmStr_003-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{FarmStr_003-comm-C000-000b-4C8B212DD67q}">
+				&FarmStr_003data;
+		<sprite origin="32,0" offset="22">
+			<picture ref="{FarmStr_003-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{FarmStr_003-comm-C000-000c-4C8B212DD67q}">
+				&FarmStr_003data;
+		<sprite origin="64,0" offset="22">
+			<picture ref="{FarmStr_003-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{FarmStr_003-comm-C000-000d-4C8B212DD67q}">
+				&FarmStr_003data;
+		<sprite origin="96,0" offset="22">
+			<picture ref="{FarmStr_003-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="picture" id="{vhbi_005-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="vhbi_005.bmp">
+			<override when="night" src="vhbi_005n.bmp" />
+		</picture>
+	</contribution>
+
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_005-varH-C001-000A-4C8B212DD67q}">
+		<name>インテリジェントビル（ブルー）</name>
+				&vhbi_005Population;
+		<pictures>
+			<top    origin=" 0, 4" offset="12">
+			&hueTransform_001;
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 36" offset="12">
+			&hueTransform_001;
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 68" offset="12">
+			&hueTransform_001;
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_005-varH-C001-000B-4C8B212DD67q}">
+		<name>インテリジェントビル（ブルー）</name>
+				&vhbi_005Population;
+		<pictures>
+			<top    origin=" 64, 4" offset="12">
+			&hueTransform_001;
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 36" offset="12">
+			&hueTransform_001;
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 68" offset="12">
+			&hueTransform_001;
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_005-varH-C002-000A-4C8B212DD67q}">
+		<name>インテリジェントビル（灰紫）</name>
+				&vhbi_005Population;
+		<pictures>
+			<top    origin=" 0, 4" offset="12">
+			&hueTransform_002;
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 36" offset="12">
+			&hueTransform_002;
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 68" offset="12">
+			&hueTransform_002;
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_005-varH-C002-000B-4C8B212DD67q}">
+		<name>インテリジェントビル（灰紫）</name>
+				&vhbi_005Population;
+		<pictures>
+			<top    origin=" 64, 4" offset="12">
+			&hueTransform_002;
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 36" offset="12">
+			&hueTransform_002;
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 68" offset="12">
+			&hueTransform_002;
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_005-varH-C003-000A-4C8B212DD67q}">
+		<name>インテリジェントビル（茶）</name>
+				&vhbi_005Population;
+		<pictures>
+			<top    origin=" 0, 4" offset="12">
+			&hueTransform_003;
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 36" offset="12">
+			&hueTransform_003;
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 68" offset="12">
+			&hueTransform_003;
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_005-varH-C003-000B-4C8B212DD67q}">
+		<name>インテリジェントビル（茶）</name>
+				&vhbi_005Population;
+		<pictures>
+			<top    origin=" 64, 4" offset="12">
+			&hueTransform_003;
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 36" offset="12">
+			&hueTransform_003;
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 68" offset="12">
+			&hueTransform_003;
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+			
+
+	<contribution type="picture" id="{RentalVideoShop_001-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="RentalVideoShop_001.bmp">
+			<override when="night" src="RentalVideoShop_001n.bmp" />
+		</picture>
+	</contribution>
+
+
+	<contribution type="commercial" id="{RentalVideoShop_001-comm-C000-000A-4C8B212DD67q}">
+		<name>レンタルビデオチェーン</name>
+		<price>200</price>
+		<size>1,2</size>
+		<height>1</height>
+				&RentalVideoShop_001Population;
+		<sprite origin="0,0" offset="10">
+			<picture ref="{RentalVideoShop_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{RentalVideoShop_001-comm-C000-000B-4C8B212DD67q}">
+		<name>レンタルビデオチェーン</name>
+		<price>200</price>
+		<size>2,1</size>
+		<height>1</height>
+				&RentalVideoShop_001Population;
+		<sprite origin="48,0" offset="18">
+			<picture ref="{RentalVideoShop_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{RentalVideoShop_001-comm-C000-000c-4C8B212DD67q}">
+		<name>レンタルビデオチェーン</name>
+		<price>200</price>
+		<size>1,2</size>
+		<height>1</height>
+				&RentalVideoShop_001Population;
+		<sprite origin="96,0" offset="10">
+			<picture ref="{RentalVideoShop_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{RentalVideoShop_001-comm-C000-000d-4C8B212DD67q}">
+		<name>レンタルビデオチェーン</name>
+		<price>200</price>
+		<size>2,1</size>
+		<height>1</height>
+				&RentalVideoShop_001Population;
+		<sprite origin="144,0" offset="18">
+			<picture ref="{RentalVideoShop_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="picture" id="{CreditA_001-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="CreditA_001.bmp">
+			<override when="night" src="CreditA_001n.bmp" />
+		</picture>
+	</contribution>
+
+
+
+	<contribution type="commercial" id="{CreditA_001-comm-C000-000A-4C8B212DD67q}">
+		<name>信用金庫</name>
+		<price>220</price>
+		<size>1,1</size>
+		<height>2</height>
+				&CreditA_001Population;
+		<sprite origin="0,0" offset="21">
+			<picture ref="{CreditA_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{CreditA_001-comm-C000-000B-4C8B212DD67q}">
+		<name>信用金庫</name>
+		<price>220</price>
+		<size>1,1</size>
+		<height>2</height>
+				&CreditA_001Population;
+		<sprite origin="32,0" offset="21">
+			<picture ref="{CreditA_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{CreditA_001-comm-C000-000c-4C8B212DD67q}">
+		<name>信用金庫</name>
+		<price>220</price>
+		<size>1,1</size>
+		<height>2</height>
+				&CreditA_001Population;
+		<sprite origin="64,0" offset="21">
+			<picture ref="{CreditA_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{CreditA_001-comm-C000-000d-4C8B212DD67q}">
+		<name>信用金庫</name>
+		<price>220</price>
+		<size>1,1</size>
+		<height>2</height>
+				&CreditA_001Population;
+		<sprite origin="96,0" offset="21">
+			<picture ref="{CreditA_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+
+
+	<contribution type="picture" id="{MensWearShop_001-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="MensWearShop_001.bmp">
+			<override when="night" src="MensWearShop_001n.bmp" />
+		</picture>
+	</contribution>
+
+
+	<contribution type="commercial" id="{MensWearShop_001-comm-C000-000A-4C8B212DD67q}">
+		<name>紳士服チェーン</name>
+		<price>160</price>
+		<size>1,1</size>
+		<height>2</height>
+				&MensWearShop_001Population;
+		<sprite origin="0,2" offset="14">
+			<picture ref="{MensWearShop_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{MensWearShop_001-comm-C000-000B-4C8B212DD67q}">
+		<name>紳士服チェーン</name>
+		<price>160</price>
+		<size>1,1</size>
+		<height>2</height>
+				&MensWearShop_001Population;
+		<sprite origin="32,2" offset="14">
+			<picture ref="{MensWearShop_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{MensWearShop_001-comm-C000-000c-4C8B212DD67q}">
+		<name>紳士服チェーン</name>
+		<price>160</price>
+		<size>1,1</size>
+		<height>2</height>
+				&MensWearShop_001Population;
+		<sprite origin="64,0" offset="16">
+			<picture ref="{MensWearShop_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{MensWearShop_001-comm-C000-000d-4C8B212DD67q}">
+		<name>紳士服チェーン</name>
+		<price>160</price>
+		<size>1,1</size>
+		<height>2</height>
+				&MensWearShop_001Population;
+		<sprite origin="96,0" offset="16">
+			<picture ref="{MensWearShop_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="picture" id="{supermarket_001-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="supermarket_001.bmp">
+			<override when="night" src="supermarket_001n.bmp" />
+		</picture>
+	</contribution>
+
+
+	<contribution type="commercial" id="{supermarket_001-comm-C001-000A-4C8B212DD67q}">
+		<name>大型スーパー</name>
+				&supermarket_001data;
+		<sprite origin="0,0" offset="41">
+			&hueTransform_004;
+			<picture ref="{supermarket_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{supermarket_001-comm-C001-000B-4C8B212DD67q}">
+		<name>大型スーパー</name>
+				&supermarket_001data;
+		<sprite origin="64,0" offset="41">
+			&hueTransform_004;
+			<picture ref="{supermarket_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{supermarket_001-comm-C001-000c-4C8B212DD67q}">
+		<name>大型スーパー</name>
+				&supermarket_001data;
+		<sprite origin="128,0" offset="41">
+			&hueTransform_004;
+			<picture ref="{supermarket_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="commercial" id="{supermarket_001-comm-C001-000d-4C8B212DD67q}">
+		<name>大型スーパー</name>
+				&supermarket_001data;
+		<sprite origin="192,0" offset="41">
+			&hueTransform_004;
+			<picture ref="{supermarket_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{supermarket_001-comm-C002-000A-4C8B212DD67q}">
+		<name>大型スーパー</name>
+				&supermarket_001data;
+		<sprite origin="0,0" offset="41">
+			&hueTransform_005;
+			<picture ref="{supermarket_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{supermarket_001-comm-C002-000B-4C8B212DD67q}">
+		<name>大型スーパー</name>
+				&supermarket_001data;
+		<sprite origin="64,0" offset="41">
+			&hueTransform_005;
+			<picture ref="{supermarket_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{supermarket_001-comm-C002-000c-4C8B212DD67q}">
+		<name>大型スーパー</name>
+				&supermarket_001data;
+		<sprite origin="128,0" offset="41">
+			&hueTransform_005;
+			<picture ref="{supermarket_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="commercial" id="{supermarket_001-comm-C002-000d-4C8B212DD67q}">
+		<name>大型スーパー</name>
+				&supermarket_001data;
+		<sprite origin="192,0" offset="41">
+			&hueTransform_005;
+			<picture ref="{supermarket_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{supermarket_001-comm-C003-000A-4C8B212DD67q}">
+		<name>大型スーパー</name>
+				&supermarket_001data;
+		<sprite origin="0,0" offset="41">
+			&hueTransform_006;
+			<picture ref="{supermarket_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{supermarket_001-comm-C003-000B-4C8B212DD67q}">
+		<name>大型スーパー</name>
+				&supermarket_001data;
+		<sprite origin="64,0" offset="41">
+			&hueTransform_006;
+			<picture ref="{supermarket_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{supermarket_001-comm-C003-000c-4C8B212DD67q}">
+		<name>大型スーパー</name>
+				&supermarket_001data;
+		<sprite origin="128,0" offset="41">
+			&hueTransform_006;
+			<picture ref="{supermarket_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="commercial" id="{supermarket_001-comm-C003-000d-4C8B212DD67q}">
+		<name>大型スーパー</name>
+				&supermarket_001data;
+		<sprite origin="192,0" offset="41">
+			&hueTransform_006;
+			<picture ref="{supermarket_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+	
+
+	<contribution type="picture" id="{home_002-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="home_002.bmp">
+		</picture>
+	</contribution>
+
+
+	<contribution type="commercial" id="{home_002-comm-C001-000A-4C8B212DD67q}">
+		<name>一戸建て住宅2(黒)</name>
+				&home_002data;
+		<sprite origin="0,0" offset="9">
+			&hueTransform_007;
+			<picture ref="{home_002-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{home_002-comm-C001-000B-4C8B212DD67q}">
+		<name>一戸建て住宅2(黒)</name>
+				&home_002data;
+		<sprite origin="32,0" offset="9">
+			&hueTransform_007;
+			<picture ref="{home_002-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{home_002-comm-C002-000A-4C8B212DD67q}">
+		<name>一戸建て住宅2(赤)</name>
+				&home_002data;
+		<sprite origin="0,0" offset="9">
+			&hueTransform_008;
+			<picture ref="{home_002-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{home_002-comm-C002-000B-4C8B212DD67q}">
+		<name>一戸建て住宅2(赤)</name>
+				&home_002data;
+		<sprite origin="32,0" offset="9">
+			&hueTransform_008;
+			<picture ref="{home_002-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{home_002-comm-C003-000A-4C8B212DD67q}">
+		<name>一戸建て住宅2(青)</name>
+				&home_002data;
+		<sprite origin="0,0" offset="9">
+			&hueTransform_009;
+			<picture ref="{home_002-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{home_002-comm-C003-000B-4C8B212DD67q}">
+		<name>一戸建て住宅2(青)</name>
+				&home_002data;
+		<sprite origin="32,0" offset="9">
+			&hueTransform_009;
+			<picture ref="{home_002-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="picture" id="{restaurant_001-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="restaurant_001.bmp">
+			<override when="night" src="restaurant_001n.bmp" />
+		</picture>
+	</contribution>
+
+
+	<contribution type="commercial" id="{restaurant_001-comm-C001-000A-4C8B212DD67q}">
+		<name>和食処</name>
+				&restaurant_001data;
+		<sprite origin="0,0" offset="26">
+			&restaurant_001-hueTransform_001;
+			<picture ref="{restaurant_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{restaurant_001-comm-C001-000B-4C8B212DD67q}">
+		<name>和食処</name>
+				&restaurant_001data;
+		<sprite origin="64,0" offset="26">
+			&restaurant_001-hueTransform_001;
+			<picture ref="{restaurant_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{restaurant_001-comm-C001-000c-4C8B212DD67q}">
+		<name>和食処</name>
+				&restaurant_001data;
+		<sprite origin="128,0" offset="26">
+			&restaurant_001-hueTransform_001;
+			<picture ref="{restaurant_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="commercial" id="{restaurant_001-comm-C001-000d-4C8B212DD67q}">
+		<name>和食処</name>
+				&restaurant_001data;
+		<sprite origin="192,0" offset="26">
+			&restaurant_001-hueTransform_001;
+			<picture ref="{restaurant_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{restaurant_001-comm-C002-000A-4C8B212DD67q}">
+		<name>和食処</name>
+				&restaurant_001data;
+		<sprite origin="0,0" offset="26">
+			&restaurant_001-hueTransform_002;
+			<picture ref="{restaurant_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{restaurant_001-comm-C002-000B-4C8B212DD67q}">
+		<name>和食処</name>
+				&restaurant_001data;
+		<sprite origin="64,0" offset="26">
+			&restaurant_001-hueTransform_002;
+			<picture ref="{restaurant_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{restaurant_001-comm-C002-000c-4C8B212DD67q}">
+		<name>和食処</name>
+				&restaurant_001data;
+		<sprite origin="128,0" offset="26">
+			&restaurant_001-hueTransform_002;
+			<picture ref="{restaurant_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="commercial" id="{restaurant_001-comm-C002-000d-4C8B212DD67q}">
+		<name>和食処</name>
+				&restaurant_001data;
+		<sprite origin="192,0" offset="26">
+			&restaurant_001-hueTransform_002;
+			<picture ref="{restaurant_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{restaurant_001-comm-C003-000A-4C8B212DD67q}">
+		<name>和食処</name>
+				&restaurant_001data;
+		<sprite origin="0,0" offset="26">
+			&restaurant_001-hueTransform_003;
+			<picture ref="{restaurant_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{restaurant_001-comm-C003-000B-4C8B212DD67q}">
+		<name>和食処</name>
+				&restaurant_001data;
+		<sprite origin="64,0" offset="26">
+			&restaurant_001-hueTransform_003;
+			<picture ref="{restaurant_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{restaurant_001-comm-C003-000c-4C8B212DD67q}">
+		<name>和食処</name>
+				&restaurant_001data;
+		<sprite origin="128,0" offset="26">
+			&restaurant_001-hueTransform_003;
+			<picture ref="{restaurant_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="commercial" id="{restaurant_001-comm-C003-000d-4C8B212DD67q}">
+		<name>和食処</name>
+				&restaurant_001data;
+		<sprite origin="192,0" offset="26">
+			&restaurant_001-hueTransform_003;
+			<picture ref="{restaurant_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="picture" id="{DoughnutShop-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="DoughnutShop.bmp">
+			<override when="night" src="DoughnutShopn.bmp" />
+		</picture>
+	</contribution>
+
+
+	<contribution type="commercial" id="{DoughnutShop-comm-C000-000A-4C8B212DD67q}">
+				&DoughnutShop_data;
+		<sprite origin="0,0" offset="9">
+			<picture ref="{DoughnutShop-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{DoughnutShop-comm-C000-000B-4C8B212DD67q}">
+				&DoughnutShop_data;
+		<sprite origin="32,0" offset="9">
+			<picture ref="{DoughnutShop-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{DoughnutShop-comm-C000-000C-4C8B212DD67q}">
+				&DoughnutShop_data;
+		<sprite origin="64,0" offset="9">
+			<picture ref="{DoughnutShop-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{DoughnutShop-comm-C000-000D-4C8B212DD67q}">
+				&DoughnutShop_data;
+		<sprite origin="96,0" offset="9">
+			<picture ref="{DoughnutShop-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="picture" id="{vhbi_002-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="vhbi_002.bmp">
+			<override when="night" src="vhbi_002n.bmp" />
+		</picture>
+	</contribution>
+
+
+	<contribution type="picture" id="{vhbi_004-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="vhbi_004.bmp">
+			<override when="night" src="vhbi_004n.bmp" />
+		</picture>
+	</contribution>
+
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_002-varH-C001-000A-4C8B212DD67q}">
+		<name>テナントビル2（赤看板）</name>
+				&vhbi_002data;
+		<pictures>
+			<top    origin=" 0, 4" offset="7">
+			&hueTransform_017;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 32" offset="11">
+			&hueTransform_017;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 64" offset="11">
+			&hueTransform_017;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_002-varH-C001-000B-4C8B212DD67q}">
+		<name>テナントビル2（赤看板）</name>
+				&vhbi_002data;
+		<pictures>
+			<top    origin=" 32, 0" offset="11">
+			&hueTransform_017;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 32, 32" offset="11">
+			&hueTransform_017;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 32, 64" offset="11">
+			&hueTransform_017;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+			
+			
+	<contribution type="varHeightBuilding" id="{vhbi_002-varH-C001-000c-4C8B212DD67q}">
+		<name>テナントビル2（赤看板）</name>
+				&vhbi_002data;
+		<pictures>
+			<top    origin=" 64, 0" offset="11">
+			&hueTransform_017;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 32" offset="11">
+			&hueTransform_017;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 64" offset="11">
+			&hueTransform_017;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_002-varH-C001-000d-4C8B212DD67q}">
+		<name>テナントビル2（赤看板）</name>
+				&vhbi_002data;
+		<pictures>
+			<top    origin=" 96, 4" offset="7">
+			&hueTransform_017;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 32" offset="11">
+			&hueTransform_017;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 64" offset="11">
+			&hueTransform_017;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	<contribution type="varHeightBuilding" id="{vhbi_002-varH-C002-000A-4C8B212DD67q}">
+		<name>テナントビル2（青看板）</name>
+				&vhbi_002data;
+		<pictures>
+			<top    origin=" 0, 4" offset="7">
+			&hueTransform_018;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 32" offset="11">
+			&hueTransform_018;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 64" offset="11">
+			&hueTransform_018;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_002-varH-C002-000B-4C8B212DD67q}">
+		<name>テナントビル2（青看板）</name>
+				&vhbi_002data;
+		<pictures>
+			<top    origin=" 32, 0" offset="11">
+			&hueTransform_018;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 32, 32" offset="11">
+			&hueTransform_018;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 32, 64" offset="11">
+			&hueTransform_018;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+
+	<contribution type="varHeightBuilding" id="{vhbi_002-varH-C002-000c-4C8B212DD67q}">
+		<name>テナントビル2（青看板）</name>
+				&vhbi_002data;
+		<pictures>
+			<top    origin=" 64, 0" offset="11">
+			&hueTransform_018;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 32" offset="11">
+			&hueTransform_018;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 64" offset="11">
+			&hueTransform_018;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_002-varH-C002-000d-4C8B212DD67q}">
+		<name>テナントビル2（青看板）</name>
+				&vhbi_002data;
+		<pictures>
+			<top    origin=" 96, 4" offset="7">
+			&hueTransform_018;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 32" offset="11">
+			&hueTransform_018;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 64" offset="11">
+			&hueTransform_018;
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_004-varH-C001-000A-4C8B212DD67q}">
+		<name>テナントビル3（煉瓦色）</name>
+				&vhbi_004data;
+		<pictures>
+			<top    origin=" 0, 1" offset="9">
+			&hueTransform_014;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 33" offset="9">
+			&hueTransform_014;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 65" offset="9">
+			&hueTransform_014;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_004-varH-C001-000B-4C8B212DD67q}">
+		<name>テナントビル3（煉瓦色）</name>
+				&vhbi_004data;
+		<pictures>
+			<top    origin=" 32, 0" offset="10">
+			&hueTransform_014;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 32, 33" offset="9">
+			&hueTransform_014;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 32, 65" offset="9">
+			&hueTransform_014;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_004-varH-C001-000C-4C8B212DD67q}">
+		<name>テナントビル3（煉瓦色）</name>
+				&vhbi_004data;
+		<pictures>
+			<top    origin=" 96, 1" offset="9">
+			&hueTransform_014;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 33" offset="9">
+			&hueTransform_014;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 65" offset="9">
+			&hueTransform_014;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_004-varH-C001-000D-4C8B212DD67q}">
+		<name>テナントビル3（煉瓦色）</name>
+				&vhbi_004data;
+		<pictures>
+			<top    origin=" 64, 1" offset="9">
+			&hueTransform_014;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 33" offset="9">
+			&hueTransform_014;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 65" offset="9">
+			&hueTransform_014;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	
+	<contribution type="varHeightBuilding" id="{vhbi_004-varH-C002-000A-4C8B212DD67q}">
+		<name>テナントビル3（渋青色）</name>
+				&vhbi_004data;
+		<pictures>
+			<top    origin=" 0, 1" offset="9">
+			&hueTransform_015;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 33" offset="9">
+			&hueTransform_015;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 65" offset="9">
+			&hueTransform_015;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_004-varH-C002-000B-4C8B212DD67q}">
+		<name>テナントビル3（渋青色）</name>
+				&vhbi_004data;
+		<pictures>
+			<top    origin=" 32, 0" offset="10">
+			&hueTransform_015;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 32, 33" offset="9">
+			&hueTransform_015;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 32, 65" offset="9">
+			&hueTransform_015;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_004-varH-C002-000C-4C8B212DD67q}">
+		<name>テナントビル3（渋青色）</name>
+				&vhbi_004data;
+		<pictures>
+			<top    origin=" 96, 1" offset="9">
+			&hueTransform_015;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 33" offset="9">
+			&hueTransform_015;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 65" offset="9">
+			&hueTransform_015;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_004-varH-C002-000D-4C8B212DD67q}">
+		<name>テナントビル3（渋青色）</name>
+				&vhbi_004data;
+		<pictures>
+			<top    origin=" 64, 1" offset="9">
+			&hueTransform_015;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 33" offset="9">
+			&hueTransform_015;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 65" offset="9">
+			&hueTransform_015;
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+	<contribution type="picture" id="{vhbi_007-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="vhbi_007.bmp">
+			<override when="night" src="vhbi_007n.bmp" />
+		</picture>
+	</contribution>
+
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_007-varH-C001-000A-4C8B212DD67q}">
+		<name>テナントビル4（灰青）</name>
+				&vhbi_007data;
+		<pictures>
+			<top    origin=" 0, 0" offset="16">
+			&vhbi_007hueTransform_001;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 32" offset="16">
+			&vhbi_007hueTransform_001;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 64" offset="16">
+			&vhbi_007hueTransform_001;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_007-varH-C001-000B-4C8B212DD67q}">
+		<name>テナントビル4（灰青）</name>
+				&vhbi_007data;
+		<pictures>
+			<top    origin=" 32, 0" offset="16">
+			&vhbi_007hueTransform_001;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 32, 32" offset="16">
+			&vhbi_007hueTransform_001;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 32, 64" offset="16">
+			&vhbi_007hueTransform_001;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_007-varH-C001-000c-4C8B212DD67q}">
+		<name>テナントビル4（灰青）</name>
+				&vhbi_007data;
+		<pictures>
+			<top    origin=" 64, 0" offset="16">
+			&vhbi_007hueTransform_001;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 32" offset="16">
+			&vhbi_007hueTransform_001;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 64" offset="16">
+			&vhbi_007hueTransform_001;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+		<computerCannotBuild/>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_007-varH-C001-000d-4C8B212DD67q}">
+		<name>テナントビル4（灰青）</name>
+				&vhbi_007data;
+		<pictures>
+			<top    origin=" 96, 0" offset="16">
+			&vhbi_007hueTransform_001;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 32" offset="16">
+			&vhbi_007hueTransform_001;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 64" offset="16">
+			&vhbi_007hueTransform_001;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+			
+
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_007-varH-C002-000A-4C8B212DD67q}">
+		<name>テナントビル4（白）</name>
+				&vhbi_007data;
+		<pictures>
+			<top    origin=" 0, 0" offset="16">
+			&vhbi_007hueTransform_002;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 32" offset="16">
+			&vhbi_007hueTransform_002;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 64" offset="16">
+			&vhbi_007hueTransform_002;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_007-varH-C002-000B-4C8B212DD67q}">
+		<name>テナントビル4（白）</name>
+				&vhbi_007data;
+		<pictures>
+			<top    origin=" 32, 0" offset="16">
+			&vhbi_007hueTransform_002;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 32, 32" offset="16">
+			&vhbi_007hueTransform_002;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 32, 64" offset="16">
+			&vhbi_007hueTransform_002;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_007-varH-C002-000c-4C8B212DD67q}">
+		<name>テナントビル4（白）</name>
+				&vhbi_007data;
+		<pictures>
+			<top    origin=" 64, 0" offset="16">
+			&vhbi_007hueTransform_002;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 32" offset="16">
+			&vhbi_007hueTransform_002;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 64" offset="16">
+			&vhbi_007hueTransform_002;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+		<computerCannotBuild/>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_007-varH-C002-000d-4C8B212DD67q}">
+		<name>テナントビル4（白）</name>
+				&vhbi_007data;
+		<pictures>
+			<top    origin=" 96, 0" offset="16">
+			&vhbi_007hueTransform_002;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 32" offset="16">
+			&vhbi_007hueTransform_002;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 64" offset="16">
+			&vhbi_007hueTransform_002;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+		
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_007-varH-C003-000A-4C8B212DD67q}">
+		<name>テナントビル4（クリーム）</name>
+				&vhbi_007data;
+		<pictures>
+			<top    origin=" 0, 0" offset="16">
+			&vhbi_007hueTransform_003;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 32" offset="16">
+			&vhbi_007hueTransform_003;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 64" offset="16">
+			&vhbi_007hueTransform_003;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_007-varH-C003-000B-4C8B212DD67q}">
+		<name>テナントビル4（クリーム）</name>
+				&vhbi_007data;
+		<pictures>
+			<top    origin=" 32, 0" offset="16">
+			&vhbi_007hueTransform_003;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 32, 32" offset="16">
+			&vhbi_007hueTransform_003;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 32, 64" offset="16">
+			&vhbi_007hueTransform_003;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_007-varH-C003-000c-4C8B212DD67q}">
+		<name>テナントビル4（クリーム）</name>
+				&vhbi_007data;
+		<pictures>
+			<top    origin=" 64, 0" offset="16">
+			&vhbi_007hueTransform_003;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 32" offset="16">
+			&vhbi_007hueTransform_003;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 64" offset="16">
+			&vhbi_007hueTransform_003;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+		<computerCannotBuild/>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_007-varH-C003-000d-4C8B212DD67q}">
+		<name>テナントビル4（クリーム）</name>
+				&vhbi_007data;
+		<pictures>
+			<top    origin=" 96, 0" offset="16">
+			&vhbi_007hueTransform_003;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 32" offset="16">
+			&vhbi_007hueTransform_003;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 64" offset="16">
+			&vhbi_007hueTransform_003;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_007-varH-C004-000A-4C8B212DD67q}">
+		<name>テナントビル4（茶）</name>
+				&vhbi_007data;
+		<pictures>
+			<top    origin=" 0, 0" offset="16">
+			&vhbi_007hueTransform_004;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 32" offset="16">
+			&vhbi_007hueTransform_004;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 64" offset="16">
+			&vhbi_007hueTransform_004;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_007-varH-C004-000B-4C8B212DD67q}">
+		<name>テナントビル4（茶）</name>
+				&vhbi_007data;
+		<pictures>
+			<top    origin=" 32, 0" offset="16">
+			&vhbi_007hueTransform_004;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 32, 32" offset="16">
+			&vhbi_007hueTransform_004;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 32, 64" offset="16">
+			&vhbi_007hueTransform_004;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_007-varH-C004-000c-4C8B212DD67q}">
+		<name>テナントビル4（茶）</name>
+				&vhbi_007data;
+		<pictures>
+			<top    origin=" 64, 0" offset="16">
+			&vhbi_007hueTransform_004;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 32" offset="16">
+			&vhbi_007hueTransform_004;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 64" offset="16">
+			&vhbi_007hueTransform_004;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+		<computerCannotBuild/>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_007-varH-C004-000d-4C8B212DD67q}">
+		<name>テナントビル4（茶）</name>
+				&vhbi_007data;
+		<pictures>
+			<top    origin=" 96, 0" offset="16">
+			&vhbi_007hueTransform_004;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 32" offset="16">
+			&vhbi_007hueTransform_004;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 64" offset="16">
+			&vhbi_007hueTransform_004;
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	
+
+
+
+<!-- 賃貸マンション -->
+
+
+	<contribution type="picture" id="{vhbi_003-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="vhbi_003.bmp">
+			<override when="night" src="vhbi_003n.bmp" />
+		</picture>
+	</contribution>
+
+
+
+	<contribution type="varHeightBuilding" id="{vhbi_003-varH-C001-000A-4C8B212DD67q}">
+		<name>賃貸マンション（オレンジ）</name>
+				&vhbi_003data;
+		<pictures>
+			<top    origin=" 0, 0" offset="7">
+			&hueTransform_010;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 28" offset="11">
+			&hueTransform_010;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 60" offset="11">
+			&hueTransform_010;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_003-varH-C001-000B-4C8B212DD67q}">
+		<name>賃貸マンション（オレンジ）</name>
+				&vhbi_003data;
+		<pictures>
+			<top    origin=" 32, 0" offset="7">
+			&hueTransform_010;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 32, 28" offset="11">
+			&hueTransform_010;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 32, 60" offset="11">
+			&hueTransform_010;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+	<contribution type="varHeightBuilding" id="{vhbi_003-varH-C001-000c-4C8B212DD67q}">
+		<name>賃貸マンション（オレンジ）</name>
+				&vhbi_003data;
+		<pictures>
+			<top    origin=" 64, 0" offset="7">
+			&hueTransform_010;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 28" offset="11">
+			&hueTransform_010;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 60" offset="11">
+			&hueTransform_010;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_003-varH-C001-000d-4C8B212DD67q}">
+		<name>賃貸マンション（オレンジ）</name>
+				&vhbi_003data;
+		<pictures>
+			<top    origin=" 96, 0" offset="7">
+			&hueTransform_010;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 28" offset="11">
+			&hueTransform_010;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 60" offset="11">
+			&hueTransform_010;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+			
+
+	<contribution type="varHeightBuilding" id="{vhbi_003-varH-C002-000A-4C8B212DD67q}">
+		<name>賃貸マンション（ピンク）</name>
+				&vhbi_003data;
+		<pictures>
+			<top    origin=" 0, 0" offset="7">
+			&hueTransform_011;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 28" offset="11">
+			&hueTransform_011;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 60" offset="11">
+			&hueTransform_011;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_003-varH-C002-000B-4C8B212DD67q}">
+		<name>賃貸マンション（ピンク）</name>
+				&vhbi_003data;
+		<pictures>
+			<top    origin=" 32, 0" offset="7">
+			&hueTransform_011;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 32, 28" offset="11">
+			&hueTransform_011;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 32, 60" offset="11">
+			&hueTransform_011;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+	<contribution type="varHeightBuilding" id="{vhbi_003-varH-C002-000c-4C8B212DD67q}">
+		<name>賃貸マンション（ピンク）</name>
+				&vhbi_003data;
+		<pictures>
+			<top    origin=" 64, 0" offset="7">
+			&hueTransform_011;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 28" offset="11">
+			&hueTransform_011;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 60" offset="11">
+			&hueTransform_011;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_003-varH-C002-000d-4C8B212DD67q}">
+		<name>賃貸マンション（ピンク）</name>
+				&vhbi_003data;
+		<pictures>
+			<top    origin=" 96, 0" offset="7">
+			&hueTransform_011;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 28" offset="11">
+			&hueTransform_011;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 60" offset="11">
+			&hueTransform_011;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+			
+
+	<contribution type="varHeightBuilding" id="{vhbi_003-varH-C003-000A-4C8B212DD67q}">
+		<name>賃貸マンション（茶）</name>
+				&vhbi_003data;
+		<pictures>
+			<top    origin=" 0, 0" offset="7">
+			&hueTransform_012;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 28" offset="11">
+			&hueTransform_012;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 60" offset="11">
+			&hueTransform_012;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_003-varH-C003-000B-4C8B212DD67q}">
+		<name>賃貸マンション（茶）</name>
+				&vhbi_003data;
+		<pictures>
+			<top    origin=" 32, 0" offset="7">
+			&hueTransform_012;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 32, 28" offset="11">
+			&hueTransform_012;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 32, 60" offset="11">
+			&hueTransform_012;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+	<contribution type="varHeightBuilding" id="{vhbi_003-varH-C003-000c-4C8B212DD67q}">
+		<name>賃貸マンション（茶）</name>
+				&vhbi_003data;
+		<pictures>
+			<top    origin=" 64, 0" offset="7">
+			&hueTransform_012;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 28" offset="11">
+			&hueTransform_012;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 60" offset="11">
+			&hueTransform_012;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_003-varH-C003-000d-4C8B212DD67q}">
+		<name>賃貸マンション（茶）</name>
+				&vhbi_003data;
+		<pictures>
+			<top    origin=" 96, 0" offset="7">
+			&hueTransform_012;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 28" offset="11">
+			&hueTransform_012;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 60" offset="11">
+			&hueTransform_012;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+			
+
+	<contribution type="varHeightBuilding" id="{vhbi_003-varH-C004-000A-4C8B212DD67q}">
+		<name>賃貸マンション（藤）</name>
+				&vhbi_003data;
+		<pictures>
+			<top    origin=" 0, 0" offset="7">
+			&hueTransform_013;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 28" offset="11">
+			&hueTransform_013;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 60" offset="11">
+			&hueTransform_013;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_003-varH-C004-000B-4C8B212DD67q}">
+		<name>賃貸マンション（藤）</name>
+				&vhbi_003data;
+		<pictures>
+			<top    origin=" 32, 0" offset="7">
+			&hueTransform_013;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 32, 28" offset="11">
+			&hueTransform_013;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 32, 60" offset="11">
+			&hueTransform_013;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+	<contribution type="varHeightBuilding" id="{vhbi_003-varH-C004-000c-4C8B212DD67q}">
+		<name>賃貸マンション（藤）</name>
+				&vhbi_003data;
+		<pictures>
+			<top    origin=" 64, 0" offset="7">
+			&hueTransform_013;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 28" offset="11">
+			&hueTransform_013;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 60" offset="11">
+			&hueTransform_013;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_003-varH-C004-000d-4C8B212DD67q}">
+		<name>賃貸マンション（藤）</name>
+				&vhbi_003data;
+		<pictures>
+			<top    origin=" 96, 0" offset="7">
+			&hueTransform_013;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 28" offset="11">
+			&hueTransform_013;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 60" offset="11">
+			&hueTransform_013;
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+
+<!-- 文化住宅 -->
+
+
+	<contribution type="picture" id="{Apartment_002-pcon-C000-0000-4C8B212Dharu}">
+		<picture src="Apartment_002.bmp"/>
+	</contribution>
+
+
+	<contribution type="commercial" id="{Apartment_002-comm-C001-000a-4C8B212Dharu}">
+		<name>文化住宅(青)</name>
+				&Apartment_002data;
+		<sprite origin="0,0" offset="8">
+				&Apartment_002hueTransform_001;
+			<picture ref="{Apartment_002-pcon-C000-0000-4C8B212Dharu}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{Apartment_002-comm-C001-000B-4C8B212Dharu}">
+		<name>文化住宅(青)</name>
+				&Apartment_002data;
+		<sprite origin="32,0" offset="8">
+				&Apartment_002hueTransform_001;
+			<picture ref="{Apartment_002-pcon-C000-0000-4C8B212Dharu}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{Apartment_002-comm-C001-000c-4C8B212Dharu}">
+		<name>文化住宅(青)</name>
+				&Apartment_002data;
+		<sprite origin="64,0" offset="8">
+				&Apartment_002hueTransform_001;
+			<picture ref="{Apartment_002-pcon-C000-0000-4C8B212Dharu}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{Apartment_002-comm-C001-000d-4C8B212Dharu}">
+		<name>文化住宅(青)</name>
+				&Apartment_002data;
+		<sprite origin="96,0" offset="8">
+				&Apartment_002hueTransform_001;
+			<picture ref="{Apartment_002-pcon-C000-0000-4C8B212Dharu}" />
+		</sprite>
+	</contribution>
+
+
+
+
+	<contribution type="commercial" id="{Apartment_002-comm-C002-000a-4C8B212Dharu}">
+		<name>文化住宅(赤)</name>
+				&Apartment_002data;
+		<sprite origin="0,0" offset="8">
+				&Apartment_002hueTransform_002;
+			<picture ref="{Apartment_002-pcon-C000-0000-4C8B212Dharu}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{Apartment_002-comm-C002-000B-4C8B212Dharu}">
+		<name>文化住宅(赤)</name>
+				&Apartment_002data;
+		<sprite origin="32,0" offset="8">
+				&Apartment_002hueTransform_002;
+			<picture ref="{Apartment_002-pcon-C000-0000-4C8B212Dharu}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{Apartment_002-comm-C002-000c-4C8B212Dharu}">
+		<name>文化住宅(赤)</name>
+				&Apartment_002data;
+		<sprite origin="64,0" offset="8">
+				&Apartment_002hueTransform_002;
+			<picture ref="{Apartment_002-pcon-C000-0000-4C8B212Dharu}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="commercial" id="{Apartment_002-comm-C002-000d-4C8B212Dharu}">
+		<name>文化住宅(赤)</name>
+				&Apartment_002data;
+		<sprite origin="96,0" offset="8">
+				&Apartment_002hueTransform_002;
+			<picture ref="{Apartment_002-pcon-C000-0000-4C8B212Dharu}" />
+		</sprite>
+	</contribution>
+
+
+
+<!-- ビジネスホテル (基本類別:宿泊 副類別:一般宿泊施設) -->
+
+	<contribution type="picture" id="{vhbi_009-pcon-C000-0000-4C8B212DD67q}">
+		<picture src="vhbi_009.bmp">
+			<override when="night" src="vhbi_009n.bmp" />
+		</picture>
+	</contribution>
+
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_009-varH-C001-000A-4C8B212DD67q}">
+		<name>ビジネスホテル（ワインレッド）</name>
+		<size>2,1</size>
+				&vhbi_009data;
+		<pictures>
+			<top    origin=" 0, 0" offset="20">
+			&vhbi_009-hT_001;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 36" offset="16">
+			&vhbi_009-hT_001;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 68" offset="16">
+			&vhbi_009-hT_001;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_009-varH-C001-000B-4C8B212DD67q}">
+		<name>ビジネスホテル（ワインレッド）</name>
+		<size>1,2</size>
+				&vhbi_009data;
+		<pictures>
+			<top    origin=" 48, 0" offset="12">
+			&vhbi_009-hT_001;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 48, 36" offset="8">
+			&vhbi_009-hT_001;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 48, 68" offset="8">
+			&vhbi_009-hT_001;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_009-varH-C001-000c-4C8B212DD67q}">
+		<name>ビジネスホテル（ワインレッド）</name>
+		<size>2,1</size>
+				&vhbi_009data;
+		<pictures>
+			<top    origin=" 96, 0" offset="20">
+			&vhbi_009-hT_001;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 36" offset="16">
+			&vhbi_009-hT_001;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 68" offset="16">
+			&vhbi_009-hT_001;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_009-varH-C001-000d-4C8B212DD67q}">
+		<name>ビジネスホテル（ワインレッド）</name>
+		<size>1,2</size>
+				&vhbi_009data;
+		<pictures>
+			<top    origin=" 144, 0" offset="12">
+			&vhbi_009-hT_001;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 144, 36" offset="8">
+			&vhbi_009-hT_001;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 144, 68" offset="8">
+			&vhbi_009-hT_001;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+			
+			
+	<contribution type="varHeightBuilding" id="{vhbi_009-varH-C002-000A-4C8B212DD67q}">
+		<name>ビジネスホテル（オレンジ）</name>
+		<size>2,1</size>
+				&vhbi_009data;
+		<pictures>
+			<top    origin=" 0, 0" offset="20">
+			&vhbi_009-hT_002;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 36" offset="16">
+			&vhbi_009-hT_002;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 68" offset="16">
+			&vhbi_009-hT_002;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_009-varH-C002-000B-4C8B212DD67q}">
+		<name>ビジネスホテル（オレンジ）</name>
+		<size>1,2</size>
+				&vhbi_009data;
+		<pictures>
+			<top    origin=" 48, 0" offset="12">
+			&vhbi_009-hT_002;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 48, 36" offset="8">
+			&vhbi_009-hT_002;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 48, 68" offset="8">
+			&vhbi_009-hT_002;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_009-varH-C002-000c-4C8B212DD67q}">
+		<name>ビジネスホテル（オレンジ）</name>
+		<size>2,1</size>
+				&vhbi_009data;
+		<pictures>
+			<top    origin=" 96, 0" offset="20">
+			&vhbi_009-hT_002;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 36" offset="16">
+			&vhbi_009-hT_002;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 68" offset="16">
+			&vhbi_009-hT_002;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_009-varH-C002-000d-4C8B212DD67q}">
+		<name>ビジネスホテル（オレンジ）</name>
+		<size>1,2</size>
+				&vhbi_009data;
+		<pictures>
+			<top    origin=" 144, 0" offset="12">
+			&vhbi_009-hT_002;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 144, 36" offset="8">
+			&vhbi_009-hT_002;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 144, 68" offset="8">
+			&vhbi_009-hT_002;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+			
+			
+	<contribution type="varHeightBuilding" id="{vhbi_009-varH-C003-000A-4C8B212DD67q}">
+		<name>ビジネスホテル（ブラウン）</name>
+		<size>2,1</size>
+				&vhbi_009data;
+		<pictures>
+			<top    origin=" 0, 0" offset="20">
+			&vhbi_009-hT_003;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 36" offset="16">
+			&vhbi_009-hT_003;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 68" offset="16">
+			&vhbi_009-hT_003;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_009-varH-C003-000B-4C8B212DD67q}">
+		<name>ビジネスホテル（ブラウン）</name>
+		<size>1,2</size>
+				&vhbi_009data;
+		<pictures>
+			<top    origin=" 48, 0" offset="12">
+			&vhbi_009-hT_003;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 48, 36" offset="8">
+			&vhbi_009-hT_003;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 48, 68" offset="8">
+			&vhbi_009-hT_003;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_009-varH-C003-000c-4C8B212DD67q}">
+		<name>ビジネスホテル（ブラウン）</name>
+		<size>2,1</size>
+				&vhbi_009data;
+		<pictures>
+			<top    origin=" 96, 0" offset="20">
+			&vhbi_009-hT_003;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 36" offset="16">
+			&vhbi_009-hT_003;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 68" offset="16">
+			&vhbi_009-hT_003;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_009-varH-C003-000d-4C8B212DD67q}">
+		<name>ビジネスホテル（ブラウン）</name>
+		<size>1,2</size>
+				&vhbi_009data;
+		<pictures>
+			<top    origin=" 144, 0" offset="12">
+			&vhbi_009-hT_003;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 144, 36" offset="8">
+			&vhbi_009-hT_003;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 144, 68" offset="8">
+			&vhbi_009-hT_003;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+
+			
+			
+	<contribution type="varHeightBuilding" id="{vhbi_009-varH-C004-000A-4C8B212DD67q}">
+		<name>ビジネスホテル（ラベンダー）</name>
+		<size>2,1</size>
+				&vhbi_009data;
+		<pictures>
+			<top    origin=" 0, 0" offset="20">
+			&vhbi_009-hT_004;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 36" offset="16">
+			&vhbi_009-hT_004;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 68" offset="16">
+			&vhbi_009-hT_004;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_009-varH-C004-000B-4C8B212DD67q}">
+		<name>ビジネスホテル（ラベンダー）</name>
+		<size>1,2</size>
+				&vhbi_009data;
+		<pictures>
+			<top    origin=" 48, 0" offset="12">
+			&vhbi_009-hT_004;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 48, 36" offset="8">
+			&vhbi_009-hT_004;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 48, 68" offset="8">
+			&vhbi_009-hT_004;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+			
+	<contribution type="varHeightBuilding" id="{vhbi_009-varH-C004-000c-4C8B212DD67q}">
+		<name>ビジネスホテル（ラベンダー）</name>
+		<size>2,1</size>
+				&vhbi_009data;
+		<pictures>
+			<top    origin=" 96, 0" offset="20">
+			&vhbi_009-hT_004;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 36" offset="16">
+			&vhbi_009-hT_004;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 68" offset="16">
+			&vhbi_009-hT_004;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	
+	<contribution type="varHeightBuilding" id="{vhbi_009-varH-C004-000d-4C8B212DD67q}">
+		<name>ビジネスホテル（ラベンダー）</name>
+		<size>1,2</size>
+				&vhbi_009data;
+		<pictures>
+			<top    origin=" 144, 0" offset="12">
+			&vhbi_009-hT_004;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 144, 36" offset="8">
+			&vhbi_009-hT_004;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 144, 68" offset="8">
+			&vhbi_009-hT_004;
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+
+
+
+
+</plug-in>
+	

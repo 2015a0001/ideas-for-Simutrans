@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+
+]>
+
+<plugin>
+	<title>半ボクセル建築</title>
+	<author>C477@2両目</author>
+	<homepage>http://chiname.at.infoseek.co.jp/</homepage>
+
+	<!--以下のコントリビューション定義は読み込む順番を変えては行けない-->	
+	<contribution type="picture" id="{HALF-VOXEL-STRUCTURE-CURSOR-IMAGE}">
+		<picture src="HVCursor.bmp"/>
+	</contribution>
+			
+	<contribution type="contribution" id="{C6F610B7-5046-4F74-C477-049B238F262D}">
+		<name>ColorLibrary</name>
+		<class name="freetrain.framework.plugin.FixedClassContributionFactory"/>
+		<implementation name="freetrain.world.structs.hv.ColorLibrary"
+			codebase="bin/Debug/HalfVoxelStructure.DLL" />
+	</contribution>
+
+	<contribution type="ColorLibrary" id="{COLORLIB-NULL}">
+		<name>NULL</name>
+	</contribution>
+	
+	<contribution type="ColorLibrary" id="{COLORLIB-HIGHLIGHT}">
+		<name>ハイライト</name>
+		<element color="0,0,0"/>
+	</contribution>
+
+	<contribution type="ColorLibrary" id="{COLORLIB-STONES}">
+		<name>石壁</name>
+		<element color="230,230,230"/>
+		<element color="231,217,170"/>
+		<element color="210,167,117"/>
+		<element color="152,61,30"/>
+		<element color="80,90,106"/>
+		<element color="38,38,38"/>
+	</contribution>
+
+	<contribution type="ColorLibrary" id="{COLORLIB-WOODS}">
+		<name>木材</name>
+		<element color="190,157,38"/>
+		<element color="207,136,34"/>
+		<element color="218,206,138"/>
+		<element color="241,190,109"/>
+		<element color="124,91,43"/>
+		<element color="95,67,31"/>
+	</contribution>
+
+	<contribution type="ColorLibrary" id="{COLORLIB-METALS}">
+		<name>金属</name>
+		<element color="250,250,250"/>
+		<element color="153,153,153"/>
+		<element color="198,158,153"/>
+		<element color="126,142,200"/>
+		<element color="170,212,238"/>
+		<element color="105,140,84"/>
+		<element color="105,140,84"/>
+		<element color="137,61,61"/>
+		<element color="12,126,58"/>
+		<element color="48,61,79"/>
+	</contribution>
+
+	<contribution type="ColorLibrary" id="{COLORLIB-BRICKS}">
+		<name>レンガ</name>
+		<element color="95,60,27"/>
+		<element color="154,31,11"/>
+		<element color="232,72,121"/>
+		<element color="247,172,129"/>
+		<element color="192,123,40"/>
+		<element color="128,114,36"/>
+	</contribution>
+
+	<contribution type="ColorLibrary" id="{COLORLIB-DIRTS}">
+		<name>土・コンクリ</name>
+		<element color="180,180,180"/>
+		<element color="175,151,128"/>
+		<element color="110,81,53"/>
+		<element color="170,164,96"/>
+		<element color="165,167,177"/>
+		<element color="84,73,67"/>
+	</contribution>
+
+	<contribution type="ColorLibrary" id="{COLORLIB-PASTEL}">
+		<name>パステル</name>
+		<element color="247,158,195"/>
+		<element color="241,153,103"/>
+		<element color="247,242,125"/>
+		<element color="205,234,149"/>
+		<element color="138,241,150"/>
+		<element color="156,240,225"/>
+		<element color="173,191,238"/>
+		<element color="191,160,242"/>
+	</contribution>
+	
+	<contribution type="contribution" id="{A8454630-96EB-45AD-C477-7DA394892BE6}">
+		<name>HalfVoxelStructure</name>
+		<class name="freetrain.framework.plugin.FixedClassContributionFactory"/>
+		<implementation name="freetrain.world.structs.hv.HalfVoxelContribution"
+			codebase="bin/Debug/HalfVoxelStructure.DLL" />
+	</contribution>
+	
+	<!-- temporary -->
+	<contribution type="menu" id="{01AA051B-6112-4C00-C477-DE82E240F19F}">
+		<class name="freetrain.world.structs.hv.MenuContributionImpl"
+			codebase="bin/Debug/HalfVoxelStructure.DLL" />
+	</contribution>	
+	<!--ここまでの順序は大切-->
+	
+	<contribution type="HalfVoxelStructure" id="{FE805631-E213-4930-C477-9699E6F30000}">
+		<group>半ボクセル建築</group>
+		<subgroup>住宅</subgroup>
+		<name>住宅Ａ</name>
+		<price>20</price>
+		<height>1</height>
+		<sprite>
+			<picture src="hvtest.bmp">
+				<!--override when="night" src="hvtest.bmp"/-->
+			</picture>
+			<map from="0,*,0" to="{COLORLIB-PASTEL}"/>
+			<!--highlight  src="cars_base.bmp" /-->
+			<pattern direction="north" side="either" origin="0,32"/>
+			<pattern direction="south" side="either" origin="32,32">
+				<highlight origin="0,0"/>
+			</pattern>			
+			<pattern direction="east" side="either" origin="0,0"/>
+			<pattern direction="west" side="either" origin="0,64">
+				<highlight origin="0,0"/>
+			</pattern>
+		</sprite>
+	</contribution>	
+</plugin>

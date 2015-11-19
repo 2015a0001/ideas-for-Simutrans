@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+
+<!ENTITY vhbi_001colorMap002 '
+	<spriteType name="colorMapped">
+<map from="150,150,150" to="159,150,128"/>
+<map from="162,162,162" to="180,169,149"/>
+<map from="115,115,115" to="123,110,88"/>
+<map from="92,92,92" to="98,87,69"/>
+<map from="185,185,185" to="198,187,167"/>
+<map from="175,0,0" to="161,138,137"/>
+<map from="255,0,0" to="234,201,199"/>
+<map from="127,0,0" to="117,100,99"/>
+<map from="95,0,0" to="87,75,74"/>
+<map from="191,0,0" to="175,151,149"/>
+	</spriteType>
+'>
+
+<!ENTITY home_001colorMap001 '
+	<spriteType name="colorMapped">
+<map from="255,236,178" to="255,173,107"/>
+<map from="151,140,107" to="135,93,59"/>
+<map from="192,178,133" to="185,126,79"/>
+<map from="71,66,84" to="135,93,59"/>
+<map from="143,133,169" to="255,173,107"/>
+<map from="60,56,71" to="115,79,49"/>
+
+	</spriteType>
+'>
+
+<!ENTITY Apartment_001colorMap001 '
+	<spriteType name="colorMapped">
+<map from="69,95,102" to="108,74,40"/>
+<map from="103,142,151" to="142,97,54"/>
+<map from="150,209,223" to="218,150,82"/>
+<map from="166,166,166" to="143,111,94"/>
+<map from="232,232,232" to="222,177,152"/>
+<map from="51,70,75" to="85,58,32"/>
+	</spriteType>
+'>
+
+<!ENTITY Apartment_001colorMap002 '
+	<spriteType name="colorMapped">
+<map from="69,95,102" to="148,114,111"/>
+<map from="103,142,151" to="182,139,136"/>
+<map from="150,209,223" to="255,194,189"/>
+<map from="51,70,75" to="109,82,81"/>
+	</spriteType>
+'>
+
+<!ENTITY Apartment_001colorMap003 '
+	<spriteType name="colorMapped">
+<map from="69,95,102" to="85,82,93"/>
+<map from="103,142,151" to="130,126,142"/>
+<map from="150,209,223" to="205,198,224"/>
+<map from="51,70,75" to="68,66,75"/>
+	</spriteType>
+'>
+
+<!ENTITY vhbi_001hueTransform_001 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="155,212,192"/>
+	</spriteType>
+'>
+
+<!ENTITY vhbi_001hueTransform_002 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="186,202,249"/>
+	</spriteType>
+'>
+
+
+<!ENTITY hueTransform_001 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="205,200,255"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_002 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="220,200,205"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_003 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="210,160,110"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_004 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_005 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,175,100"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_006 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="213,182,141"/>
+	</spriteType>
+'>
+
+
+<!ENTITY hueTransform_007 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="131,131,131"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_008 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,72,84"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_009 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="92,136,178"/>
+	</spriteType>
+'>
+
+
+<!ENTITY restaurant_001-hueTransform_001 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="129,129,129"/>
+	</spriteType>
+'>
+
+<!ENTITY restaurant_001-hueTransform_002 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="95,151,140"/>
+	</spriteType>
+'>
+
+<!ENTITY restaurant_001-hueTransform_003 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="128,93,75"/>
+	</spriteType>
+'>
+
+
+<!ENTITY hueTransform_014 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="196,87,76"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_015 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="147,151,175"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_017 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,54,54"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_018 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="63,81,255"/>
+	</spriteType>
+'>
+
+
+<!ENTITY vhbi_007hueTransform_001 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="204,226,233"/>
+	</spriteType>
+'>
+
+<!ENTITY vhbi_007hueTransform_002 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+	</spriteType>
+'>
+
+<!ENTITY vhbi_007hueTransform_003 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,233,201"/>
+	</spriteType>
+'>
+
+<!ENTITY vhbi_007hueTransform_004 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="179,131,92"/>
+	</spriteType>
+'>
+
+
+<!ENTITY hueTransform_010 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,183,81"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_011 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="240,168,136"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_012 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="188,143,86"/>
+	</spriteType>
+'>
+
+<!ENTITY hueTransform_013 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="216,191,214"/>
+	</spriteType>
+'>
+
+<!ENTITY Apartment_002hueTransform_001 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="75,166,197"/>
+	</spriteType>
+'>
+
+<!ENTITY Apartment_002hueTransform_002 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,84,88"/>
+	</spriteType>
+'>
+
+
+<!ENTITY hueTransform_902 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="217,188,157"/>
+	</spriteType>
+'>
+
+
+<!ENTITY hueTransform_903 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="203,203,207"/>
+	</spriteType>
+'>
+
+<!ENTITY vhbi_009-hT_001 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="184,86,90"/>
+	</spriteType>
+'>
+
+<!ENTITY vhbi_009-hT_002 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="241,140,72"/>
+	</spriteType>
+'>
+
+<!ENTITY vhbi_009-hT_003 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="163,103,68"/>
+	</spriteType>
+'>
+
+<!ENTITY vhbi_009-hT_004 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="225,200,229"/>
+	</spriteType>
+'>
+
+
+
+
+
+
+
+<!ENTITY vhbi_001Population '
+	<group>テナントビル1</group>
+		<structure>
+			<category byname="オフィス"/>
+		</structure>
+	<price>270</price>
+	<size>1,1</size>
+	<minHeight>2</minHeight>
+	<maxHeight>3</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>40</base>
+	</population>
+'>
+
+<!ENTITY home_001Population '
+	<group>一戸建て住宅</group>
+		<structure>
+			<category byname="一戸建て"/>
+		</structure>
+	<price>96</price>
+	<size>1,1</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>5</base>
+	</population>
+'>
+
+<!ENTITY factory_001data '
+	<group>工場</group>
+	<name>町工場</name>
+		<structure>
+			<category byname="町工場"/>
+		</structure>
+	<price>100</price>
+	<size>1,1</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>9</base>
+	</population>
+'>
+
+
+<!ENTITY slope_a3road_data '
+		<group>勾配道路(一般)</group>
+		<name>勾配道路(一般)二車線道路用</name>
+		<structure>
+			<category byname="道路関連物"/>
+		</structure>
+		<price>1000</price>
+		<height>2</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>0</base>
+		</population>
+		<computerCannotBuild/>
+'>
+
+<!ENTITY warehouse_001data '
+	<group>倉庫</group>
+		<structure>
+			<category byname="倉庫"/>
+		</structure>
+	<price>120</price>
+	<size>1,1</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>9</base>
+	</population>
+'>
+
+
+<!ENTITY Apartment_001data '
+	<group>アパート</group>
+		<structure>
+			<category byname="賃貸アパート"/>
+		</structure>
+	<price>140</price>
+	<size>1,1</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>8</base>
+	</population>
+'>
+
+<!ENTITY FarmStr_001data '
+	<group>牧場</group>
+	<name>牛舎</name>
+		<structure>
+			<category byname="畜産場"/>
+		</structure>
+	<price>100</price>
+	<size>1,1</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.AgriculturalPopulation"/>
+		<base>4</base>
+	</population>
+		<computerCannotBuild/>
+'>
+
+<!ENTITY FarmStr_002data '
+	<group>牧場</group>
+	<name>牧草地</name>
+		<structure>
+			<category byname="畜産場"/>
+		</structure>
+	<price>160</price>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.AgriculturalPopulation"/>
+		<base>4</base>
+	</population>
+<computerCannotBuild />
+
+'>
+
+
+<!ENTITY FarmStr_003data '
+	<group>牧場</group>
+	<name>サイロ</name>
+		<structure>
+			<category byname="畜産場"/>
+		</structure>
+	<price>200</price>
+	<size>1,1</size>
+	<height>2</height>
+	<population>
+		<class name="freetrain.contributions.population.AgriculturalPopulation"/>
+		<base>2</base>
+	</population>
+<computerCannotBuild />
+'>
+
+<!ENTITY vhbi_005Population '
+		<group>インテリジェントビル</group>
+		<structure>
+			<category byname="オフィス"/>
+		</structure>
+		<price>1250</price>
+		<size>2,2</size>
+		<minHeight>3</minHeight>
+		<maxHeight>10</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>120</base>
+	</population>
+'>
+
+<!ENTITY RentalVideoShop_001Population '
+		<structure>
+			<category byname="チェーン専門店"/>
+		</structure>
+	<population>
+		<class name="freetrain.contributions.population.ShopperPopulation"/>
+		<base>50</base>
+	</population>
+'>
+
+<!ENTITY CreditA_001Population '
+		<structure>
+			<category byname="銀行"/>
+		</structure>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>40</base>
+	</population>
+'>
+
+<!ENTITY MensWearShop_001Population '
+		<structure>
+			<category byname="チェーン専門店"/>
+		</structure>
+	<population>
+		<class name="freetrain.contributions.population.ShopperPopulation"/>
+		<base>35</base>
+	</population>
+'>
+
+<!ENTITY supermarket_001data '
+		<structure>
+			<category byname="スーパー"/>
+		</structure>
+		<price>1160</price>
+		<size>2,2</size>
+		<height>3</height>
+	<population>
+		<class name="freetrain.contributions.population.CombinationPopulation"/>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>520</base>
+		</population>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>30</base>
+		</population>
+	</population>
+'>
+
+<!ENTITY home_002data '
+	<group>一戸建て住宅</group>
+		<structure>
+			<category byname="一戸建て"/>
+		</structure>
+	<price>88</price>
+	<size>1,1</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>6</base>
+	</population>
+'>
+
+<!ENTITY restaurant_001data '
+		<structure>
+			<category byname="一般飲食店"/>
+		</structure>
+		<price>560</price>
+		<size>2,2</size>
+		<height>2</height>
+	<population>
+		<class name="freetrain.contributions.population.RestaurantPopulation"/>
+		<base>120</base>
+	</population>
+'>
+
+<!ENTITY DoughnutShop_data '
+	<name>ドーナツチェーン</name>
+		<structure>
+			<category byname="ファーストフード"/>
+		</structure>
+	<price>175</price>
+	<size>1,1</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.RestaurantPopulation"/>
+		<base>45</base>
+	</population>
+'>
+
+<!ENTITY vhbi_002data '
+		<group>テナントビル2</group>
+		<structure>
+			<category byname="オフィス"/>
+		</structure>
+		<price>250</price>
+		<size>1,1</size>
+		<minHeight>2</minHeight>
+		<maxHeight>3</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>40</base>
+	</population>
+'>
+
+<!ENTITY vhbi_004data '
+		<group>テナントビル3</group>
+		<structure>
+			<category byname="オフィス"/>
+		</structure>
+		<price>270</price>
+		<size>1,1</size>
+		<minHeight>2</minHeight>
+		<maxHeight>3</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>36</base>
+	</population>
+'>
+
+<!ENTITY vhbi_007data '
+		<group>テナントビル4</group>
+		<structure>
+			<category byname="オフィス"/>
+		</structure>
+		<price>180</price>
+		<size>1,1</size>
+		<minHeight>2</minHeight>
+		<maxHeight>3</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>36</base>
+	</population>
+'>
+
+<!ENTITY vhbi_003data '
+		<group>賃貸マンション</group>
+		<structure>
+			<category byname="賃貸集合住宅"/>
+		</structure>
+		<price>290</price>
+		<size>1,1</size>
+		<minHeight>2</minHeight>
+		<maxHeight>4</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>32</base>
+	</population>
+'>
+
+<!ENTITY Apartment_002data '
+	<group>文化住宅</group>
+		<structure>
+			<category byname="賃貸アパート"/>
+		</structure>
+	<price>110</price>
+	<size>1,1</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>8</base>
+	</population>
+'>
+
+
+<!ENTITY LandmarkBuildingParam '
+		<group>ランドマークビル</group>
+		<structure>
+			<category byname="オフィス"/>
+			<category byname="店舗"/>
+		</structure>
+		<price>5000</price>
+		<minHeight>3</minHeight>
+		<maxHeight>10</maxHeight>
+		<population>
+			<class name="freetrain.contributions.population.CombinationPopulation"/>
+			<population>
+				<class name="freetrain.contributions.population.OfficePopulation"/>
+				<base>150</base>
+			</population>
+			<population>
+				<class name="freetrain.contributions.population.RestaurantPopulation"/>
+				<base>50</base>
+			</population>
+			<population>
+				<class name="freetrain.contributions.population.ShopperPopulation"/>
+				<base>70</base>
+			</population>
+		</population>
+'>
+
+<!ENTITY officeBuildingWithHeliport2Param '
+		<group>貸しビル(ヘリポート付)</group>
+		<structure>
+			<category byname="オフィス"/>
+		</structure>
+		<price>4600</price>
+		<minHeight>3</minHeight>
+		<maxHeight>10</maxHeight>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>240</base>
+		</population>
+'>
+
+<!ENTITY vhbi_009data '
+		<group>ビジネスホテル</group>
+		<structure>
+			<category byname="ビジネスホテル"/>
+		</structure>
+		<price>4800</price>
+		<minHeight>3</minHeight>
+		<maxHeight>5</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>28</base>
+	</population>
+'>
+
+
+]>
+
+
+
+
+<plug-in>
+	<title>建物セット(想作館)の建物総合対応</title>
+	<author>haru（qra_ra）</author>
+	<homepage>http://hb4.seikyou.ne.jp/home/Go-Ro/FreeTrain/</homepage>
+	<depend on="jp.ne.seikyou.Go-Ro.structure"/>
+	<depend on="jp.ne.seikyou.Go-Ro.structure.dependon"/>
+
+
+
+
+
+			
+	<contribution type="GenericStructure" id="{vhbi_001-GenericStructure-C000-000a-4C8B212Dharu}">
+		<name>テナントビル</name>
+				&vhbi_001Population;
+				&vhbi_001hueTransform_001;
+				&vhbi_001hueTransform_002;
+				&vhbi_001colorMap002;
+		<pictures>
+			<top    origin=" 0, 2" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 34" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 66" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+
+		<pictures>
+			<top    origin=" 32, 0" offset="11">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 32, 34" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 32, 66" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+
+		<pictures>
+			<top    origin=" 64, 0" offset="11">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 34" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 66" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+
+		<pictures>
+			<top    origin=" 96, 0" offset="11">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 34" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 66" offset="9">
+				<picture ref="{vhbi_001-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+			
+			
+
+
+
+	<contribution type="GenericStructure" id="{CfeS_001-GenericStructure-C000-000a-4C8B212Dharu}">
+		<name>喫茶店</name>
+		<structure>
+			<category byname="一般飲食店"/>
+		</structure>
+		<price>180</price>
+		<size>1,1</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+		<sprite origin="0,0" offset="7">
+			<picture ref="{CfeS_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{home_001-GenericStructure-C000-000a-4C8B212Dharu}">
+		<name>一戸建て住宅1</name>
+				&home_001Population;
+				&vhbi_001hueTransform_001;
+				&home_001colorMap001;
+		<sprite origin="0,0" offset="8">
+			<picture ref="{home_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="32,0" offset="8">
+			<picture ref="{home_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+	
+
+	<contribution type="GenericStructure" id="{taiyo-GenericStructure-C000-000a-4C8B212Dharu}">
+		<group>太陽の塔</group>
+		<name>太陽の塔</name>
+		<structure>
+			<category byname="ランドマーク"/>
+		</structure>
+		<price>3000</price>
+		<size>2,4</size>
+		<height>6</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>10</base>
+		</population>
+		<sprite origin="0,0" offset="75">
+			<picture ref="{885A55E5-F548-1276-83FD-001854178F24}"/>
+		</sprite>
+
+		<sprite origin="96,0" offset="91" opposite="true">
+			<picture ref="{885A55E5-F548-1276-83FD-001854178F24}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	
+	<!-- 二車線道路用勾配 -->
+
+
+	<contribution type="GenericStructure" id="{slope_a3road_d-GenericStructure-C000-000a-4C8B212Dharu}">
+		<size>1,4</size>
+				&slope_a3road_data;
+		<sprite origin="0,0" offset="24">
+			<picture ref="{slope_a3road_d-pcon-C000-0000-4C8B212DD67q}"/>
+		</sprite>
+
+		<sprite origin="80,0" offset="48" opposite="true">
+			<picture ref="{slope_a3road_d-pcon-C000-0000-4C8B212DD67q}"/>
+		</sprite>
+
+		<sprite origin="160,0" offset="24">
+			<picture ref="{slope_a3road_d-pcon-C000-0000-4C8B212DD67q}"/>
+		</sprite>
+
+		<sprite origin="240,0" offset="48" opposite="true">
+			<picture ref="{slope_a3road_d-pcon-C000-0000-4C8B212DD67q}"/>
+		</sprite>
+	</contribution>
+	
+
+
+	<contribution type="GenericStructure" id="{Apartment_001-GenericStructure-C000-000a-4C8B212Dharu}">
+		<name>アパート</name>
+				&Apartment_001data;
+				&vhbi_001hueTransform_001;
+				&Apartment_001colorMap001;
+				&Apartment_001colorMap002;
+				&Apartment_001colorMap003;
+		<sprite origin="32,0" offset="7">
+			<picture ref="{Apartment_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="0,0" offset="7">
+			<picture ref="{Apartment_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+
+
+	<contribution type="GenericStructure" id="{factory_001-GenericStructure-C000-000A-4C8B212DD67q}">
+				&factory_001data;
+		<sprite origin="0,0" offset="8">
+			<picture ref="{factory_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="32,0" offset="8">
+			<picture ref="{factory_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="64,0" offset="8">
+			<picture ref="{factory_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="96,0" offset="8">
+			<picture ref="{factory_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="GenericStructure" id="{warehouse_001-GenericStructure-C000-000A-4C8B212DD67q}">
+		<name>汎用倉庫(開)</name>
+				&warehouse_001data;
+		<sprite origin="32,0" offset="9">
+			<picture ref="{warehouse_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="0,0" offset="9">
+			<picture ref="{warehouse_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{warehouse_001-GenericStructure-C000-000B-4C8B212DD67q}">
+		<name>汎用倉庫(閉)</name>
+				&warehouse_001data;
+		<sprite origin="96,0" offset="9">
+			<picture ref="{warehouse_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="64,0" offset="9">
+			<picture ref="{warehouse_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+<!-- 牧場 -->
+
+
+
+
+	<contribution type="GenericStructure" id="{FarmStr_001-GenericStructure-C000-000A-4C8B212DD67q}">
+				&FarmStr_001data;
+		<sprite origin="32,0" offset="7">
+			<picture ref="{FarmStr_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="0,0" offset="7">
+			<picture ref="{FarmStr_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{FarmStr_002-GenericStructure-C000-000a-4C8B212DD67q}">
+		<size>4,8</size>
+				&FarmStr_002data;
+		<sprite origin="192,0" offset="24">
+			<picture ref="{FarmStr_002-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="0,0" offset="56" opposite="true">
+			<picture ref="{FarmStr_002-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="GenericStructure" id="{FarmStr_003-GenericStructure-C000-000a-4C8B212DD67q}">
+				&FarmStr_003data;
+		<sprite origin="0,0" offset="22">
+			<picture ref="{FarmStr_003-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="32,0" offset="22">
+			<picture ref="{FarmStr_003-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="64,0" offset="22">
+			<picture ref="{FarmStr_003-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="96,0" offset="22">
+			<picture ref="{FarmStr_003-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+
+			
+	<contribution type="GenericStructure" id="{vhbi_005-GenericStructure-C001-000A-4C8B212DD67q}">
+		<name>インテリジェントビル</name>
+				&vhbi_005Population;
+			&hueTransform_001;
+			&hueTransform_002;
+			&hueTransform_003;
+		<pictures>
+			<top    origin=" 0, 4" offset="12">
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 36" offset="12">
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 68" offset="12">
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+
+		<pictures>
+			<top    origin=" 64, 4" offset="12">
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 36" offset="12">
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 68" offset="12">
+				<picture ref="{vhbi_005-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+
+	<contribution type="GenericStructure" id="{RentalVideoShop_001-GenericStructure-C000-000A-4C8B212DD67q}">
+		<name>レンタルビデオチェーン</name>
+		<price>200</price>
+		<size>1,2</size>
+		<height>1</height>
+				&RentalVideoShop_001Population;
+		<sprite origin="0,0" offset="10">
+			<picture ref="{RentalVideoShop_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="48,0" offset="18" opposite="true">
+			<picture ref="{RentalVideoShop_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="96,0" offset="10">
+			<picture ref="{RentalVideoShop_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="144,0" offset="18" opposite="true">
+			<picture ref="{RentalVideoShop_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+
+
+	<contribution type="GenericStructure" id="{CreditA_001-GenericStructure-C000-000A-4C8B212DD67q}">
+		<name>信用金庫</name>
+		<price>220</price>
+		<size>1,1</size>
+		<height>2</height>
+				&CreditA_001Population;
+		<sprite origin="0,0" offset="21">
+			<picture ref="{CreditA_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="32,0" offset="21">
+			<picture ref="{CreditA_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="64,0" offset="21">
+			<picture ref="{CreditA_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="96,0" offset="21">
+			<picture ref="{CreditA_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+
+
+	<contribution type="GenericStructure" id="{MensWearShop_001-GenericStructure-C000-000A-4C8B212DD67q}">
+		<name>紳士服チェーン</name>
+		<price>160</price>
+		<size>1,1</size>
+		<height>2</height>
+				&MensWearShop_001Population;
+		<sprite origin="0,2" offset="14">
+			<picture ref="{MensWearShop_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="32,2" offset="14">
+			<picture ref="{MensWearShop_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="64,0" offset="16">
+			<picture ref="{MensWearShop_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="96,0" offset="16">
+			<picture ref="{MensWearShop_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+
+
+	<contribution type="GenericStructure" id="{supermarket_001-GenericStructure-C001-000A-4C8B212DD67q}">
+		<name>大型スーパー</name>
+				&supermarket_001data;
+			&hueTransform_004;
+			&hueTransform_005;
+			&hueTransform_006;
+		<sprite origin="0,0" offset="41">
+			<picture ref="{supermarket_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="64,0" offset="41">
+			<picture ref="{supermarket_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="128,0" offset="41">
+			<picture ref="{supermarket_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="192,0" offset="41">
+			<picture ref="{supermarket_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+
+
+	<contribution type="GenericStructure" id="{home_002-GenericStructure-C001-000A-4C8B212DD67q}">
+		<name>一戸建て住宅2</name>
+				&home_002data;
+			&hueTransform_007;
+			&hueTransform_008;
+			&hueTransform_009;
+		<sprite origin="0,0" offset="9">
+			<picture ref="{home_002-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="32,0" offset="9">
+			<picture ref="{home_002-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="GenericStructure" id="{restaurant_001-GenericStructure-C001-000A-4C8B212DD67q}">
+		<name>和食処</name>
+				&restaurant_001data;
+			&restaurant_001-hueTransform_001;
+			&restaurant_001-hueTransform_002;
+			&restaurant_001-hueTransform_003;
+		<sprite origin="0,0" offset="26">
+			<picture ref="{restaurant_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="64,0" offset="26">
+			<picture ref="{restaurant_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="128,0" offset="26">
+			<picture ref="{restaurant_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="192,0" offset="26">
+			<picture ref="{restaurant_001-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+
+
+
+
+	<contribution type="GenericStructure" id="{DoughnutShop-GenericStructure-C000-000A-4C8B212DD67q}">
+				&DoughnutShop_data;
+		<sprite origin="0,0" offset="9">
+			<picture ref="{DoughnutShop-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="32,0" offset="9">
+			<picture ref="{DoughnutShop-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="64,0" offset="9">
+			<picture ref="{DoughnutShop-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+
+		<sprite origin="96,0" offset="9">
+			<picture ref="{DoughnutShop-pcon-C000-0000-4C8B212DD67q}" />
+		</sprite>
+	</contribution>
+
+
+
+			
+	<contribution type="GenericStructure" id="{vhbi_002-GenericStructure-C001-000A-4C8B212DD67q}">
+		<name>テナントビル2</name>
+				&vhbi_002data;
+			&hueTransform_017;
+			&hueTransform_018;
+		<pictures>
+			<top    origin=" 0, 4" offset="7">
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 32" offset="11">
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 64" offset="11">
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+
+		<pictures>
+			<top    origin=" 32, 0" offset="11">
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 32, 32" offset="11">
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 32, 64" offset="11">
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+
+		<pictures>
+			<top    origin=" 64, 0" offset="11">
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 32" offset="11">
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 64" offset="11">
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+
+		<pictures>
+			<top    origin=" 96, 4" offset="7">
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 32" offset="11">
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 64" offset="11">
+				<picture ref="{vhbi_002-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+
+
+	
+	<contribution type="GenericStructure" id="{vhbi_004-GenericStructure-C001-000A-4C8B212DD67q}">
+		<name>テナントビル3</name>
+				&vhbi_004data;
+			&hueTransform_014;
+			&hueTransform_015;
+		<pictures>
+			<top    origin=" 0, 1" offset="9">
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 33" offset="9">
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 65" offset="9">
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+
+		<pictures>
+			<top    origin=" 32, 0" offset="10">
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 32, 33" offset="9">
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 32, 65" offset="9">
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+
+		<pictures>
+			<top    origin=" 96, 1" offset="9">
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 33" offset="9">
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 65" offset="9">
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+
+		<pictures>
+			<top    origin=" 64, 1" offset="9">
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 33" offset="9">
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 65" offset="9">
+				<picture ref="{vhbi_004-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	
+
+
+
+			
+	<contribution type="GenericStructure" id="{vhbi_007-GenericStructure-C001-000A-4C8B212DD67q}">
+		<name>テナントビル4</name>
+				&vhbi_007data;
+			&vhbi_007hueTransform_001;
+			&vhbi_007hueTransform_002;
+			&vhbi_007hueTransform_003;
+			&vhbi_007hueTransform_004;
+		<pictures>
+			<top    origin=" 0, 0" offset="16">
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 32" offset="16">
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 64" offset="16">
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+
+		<pictures>
+			<top    origin=" 32, 0" offset="16">
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 32, 32" offset="16">
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 32, 64" offset="16">
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+
+		<pictures>
+			<top    origin=" 64, 0" offset="16">
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 32" offset="16">
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 64" offset="16">
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+
+		<pictures>
+			<top    origin=" 96, 0" offset="16">
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 32" offset="16">
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 64" offset="16">
+				<picture ref="{vhbi_007-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+			
+
+
+
+<!-- 賃貸マンション -->
+
+
+	<contribution type="GenericStructure" id="{vhbi_003-GenericStructure-C001-000A-4C8B212DD67q}">
+		<name>賃貸マンション</name>
+				&vhbi_003data;
+			&hueTransform_010;
+			&hueTransform_011;
+			&hueTransform_012;
+			&hueTransform_013;
+		<pictures>
+			<top    origin=" 0, 0" offset="7">
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 28" offset="11">
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 60" offset="11">
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+
+		<pictures>
+			<top    origin=" 32, 0" offset="7">
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 32, 28" offset="11">
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 32, 60" offset="11">
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+
+		<pictures>
+			<top    origin=" 64, 0" offset="7">
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 64, 28" offset="11">
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 64, 60" offset="11">
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+
+		<pictures>
+			<top    origin=" 96, 0" offset="7">
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 28" offset="11">
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 60" offset="11">
+				<picture ref="{vhbi_003-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+			
+
+
+<!-- 文化住宅 -->
+
+
+	<contribution type="GenericStructure" id="{Apartment_002-GenericStructure-C001-000a-4C8B212Dharu}">
+		<name>文化住宅</name>
+				&Apartment_002data;
+				&Apartment_002hueTransform_001;
+				&Apartment_002hueTransform_002;
+		<sprite origin="0,0" offset="8">
+			<picture ref="{Apartment_002-pcon-C000-0000-4C8B212Dharu}" />
+		</sprite>
+
+		<sprite origin="32,0" offset="8">
+				&Apartment_002hueTransform_001;
+			<picture ref="{Apartment_002-pcon-C000-0000-4C8B212Dharu}" />
+		</sprite>
+
+		<sprite origin="64,0" offset="8">
+				&Apartment_002hueTransform_001;
+			<picture ref="{Apartment_002-pcon-C000-0000-4C8B212Dharu}" />
+		</sprite>
+
+		<sprite origin="96,0" offset="8">
+				&Apartment_002hueTransform_001;
+			<picture ref="{Apartment_002-pcon-C000-0000-4C8B212Dharu}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{bldgVH02-GenericStructure-C001-000a-4C8B212Dharu}">
+		&LandmarkBuildingParam;
+		<size>3,2</size>
+			&hueTransform_902;
+		<pictures>
+			<top    origin="  0,  0" offset="19">
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850002}"/>
+			</top>
+			<middle origin="  0, 48" offset="24">
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850004}"/>
+			</middle>
+			<bottom origin="  0, 96" offset="24">
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850004}"/>
+			</bottom>
+		</pictures>
+
+		<pictures opposite="true">
+			<top    origin=" 0,  0" offset="11">
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850002}"/>
+			</top>
+			<middle origin=" 80, 48" offset="16">
+			&hueTransform_902;
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850004}"/>
+			</middle>
+			<bottom origin=" 80, 96" offset="16">
+			&hueTransform_902;
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850004}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{bldgVH02-GenericStructure-C001-000b-4C8B212Dharu}">
+		&officeBuildingWithHeliport2Param;
+		<price>4600</price>
+		<size>3,2</size>
+			&hueTransform_903;
+		<pictures>
+			<top    origin="  0,  0" offset="24">
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850004}"/>
+			</top>
+			<middle origin="  0, 48" offset="24">
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850004}"/>
+			</middle>
+			<bottom origin="  0, 96" offset="24">
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850004}"/>
+			</bottom>
+		</pictures>
+
+		<pictures opposite="true">
+			<top    origin=" 80,  0" offset="16">
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850004}"/>
+			</top>
+			<middle origin=" 80, 48" offset="16">
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850004}"/>
+			</middle>
+			<bottom origin=" 80, 96" offset="16">
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850004}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+		
+
+<!-- ビジネスホテル (基本類別:宿泊 副類別:一般宿泊施設) -->
+
+			
+	<contribution type="GenericStructure" id="{vhbi_009-GenericStructure-C001-000A-4C8B212DD67q}">
+		<name>ビジネスホテル</name>
+		<size>2,1</size>
+				&vhbi_009data;
+			&vhbi_009-hT_001;
+			&vhbi_009-hT_002;
+			&vhbi_009-hT_003;
+			&vhbi_009-hT_004;
+		<pictures>
+			<top    origin=" 0, 0" offset="20">
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 0, 36" offset="16">
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 0, 68" offset="16">
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+
+		<pictures opposite="true">
+			<top    origin=" 48, 0" offset="12">
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 48, 36" offset="8">
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 48, 68" offset="8">
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+
+		<pictures>
+			<top    origin=" 96, 0" offset="20">
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 96, 36" offset="16">
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 96, 68" offset="16">
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+ 
+		<pictures opposite="true">
+			<top    origin=" 144, 0" offset="12">
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</top>
+			<middle origin=" 144, 36" offset="8">
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</middle>
+			<bottom origin=" 144, 68" offset="8">
+				<picture ref="{vhbi_009-pcon-C000-0000-4C8B212DD67q}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+			
+
+
+
+
+
+</plug-in>
+	
