@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+
+<!ENTITY crSilver '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="190,190,190"/>
+	</spriteType>
+'>
+<!ENTITY crCyan '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="166,189,203"/>
+	</spriteType>
+'>
+<!ENTITY crDkGray '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="90,90,90"/>
+	</spriteType>
+'>
+<!ENTITY crKhaki '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="188,174,144"/>
+	</spriteType>
+'>
+
+]>
+<plug-in>
+	<depend on="org.kohsuke.freetrain.structure.c477"/>
+
+	<title>汎用プラグイン</title>
+	<author>C477@2両目</author>
+	<homepage>http://chiname.at.infoseek.co.jp/</homepage>
+
+	<contribution type="menu" id="{2E1EE15E-101A-43E5-C477-95363F8E8AF0}">
+		<class name="freetrain.framework.plugin.generic.MenuContributionImpl"
+			codebase="bin/Debug/FreeTrain.ContribEx.dll" />
+	</contribution>
+	
+	<contribution type="contribution" id="{F9C26336-8D20-44FE-C477-453A270EC37D}">
+		<name>GenericStructure</name>
+		<class name="freetrain.framework.plugin.FixedClassContributionFactory"/>
+		<implementation name="freetrain.framework.plugin.generic.GenericStructureContribution"
+			codebase="bin/Debug/FreeTrain.ContribEx.dll" />
+	</contribution>
+	<contribution type="picture" id = "qqq">
+		<picture src = "store_m01.bmp">
+				<override when="night" src="store_m01_n.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="dockingContent" id="{C7E08038-DADA-46FD-C477-AEB5A4112B1C}">
+		<name>建物類別一覧</name>
+		<menu name="建物類別一覧" location="view" />
+		<class name="freetrain.framework.plugin.generic.CategoryTreeWnd" codebase="bin/Debug/FreeTrain.ContribEx.dll" />
+	</contribution>
+	
+	<contribution type="GenericStructure" id="{2C3ED0DA-FBA1-4586-9999-67DC93B851C9}">
+		<name>老舗百貨店</name>
+		<structure>
+			<category byname="デパート"/>
+		</structure>
+		<price>2800</price>
+		<size>2,2</size>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>600</base>
+		</population>
+		<sprite origin="0,0" offset="49" >
+			<picture ref="qqq"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{B99FA2F7-F138-46a1-9999-34AE23A157F6}-0">
+		<name>雑居ビル</name>
+		<structure>
+			<category byid="11"/>
+			<category byid="40" hide="true"/>
+		</structure>
+		<design>中型</design>
+		<price>1600</price>
+		<size>2,2</size>
+		<height>3</height>
+		<location>
+			<roads front="1" anyside="1" anotherside="0" back="0" />
+			<!--roads front="1" eachside="0" back="0" /-->
+			<!--roads front="1" leftside="0" rightside="0" back="0" /-->			
+		</location>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>300</base>
+		</population>
+		<color type="hueTransform">
+			<map from="*,0,0" to="190,190,190"/>
+		</color>
+		&crCyan;
+		&crDkGray;
+		<sprite origin="0,0" offset="48">
+			<direction front="north" />
+			<direction front="south" mirror="true"/>
+			<picture ref="{B99FA2F7-F138-46a1-99F7-34AE23A157F6}"/>
+		</sprite>
+		<sprite origin="64,0" offset="48">
+			<direction front="east" />
+			<direction front="west" mirror="true"/>
+			<picture ref="{B99FA2F7-F138-46a1-99F7-34AE23A157F6}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{5FACC378-154D-4FAE-9998-3C2DA1BAB635}">
+		<name>雑居ビル</name>
+		<structure>
+			<category byname="オフィス"/>
+			<category byname="店舗"/>
+		</structure>
+		<design>小型A</design>
+		<price>250</price>
+		<size>1,1</size>
+		<minHeight>2</minHeight>
+		<maxHeight>3</maxHeight>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>80</base>
+		</population>
+		<pictures>
+			<top    origin="32, 14" offset="2">
+				<picture ref="{0E9D085D-056B-4057-8C64-74952C003256}"/>
+			</top>
+			<middle origin="32, 40" offset="8">
+				<picture ref="{0E9D085D-056B-4057-8C64-74952C003256}"/>
+			</middle>
+			<bottom origin="32, 72" offset="8">
+				<picture ref="{0E9D085D-056B-4057-8C64-74952C003256}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{5FACC378-154D-4FAE-9997-3C2DA1BAB635}">
+		<name>雑居ビル</name>
+		<structure>
+			<category byname="オフィス"/>
+			<category byname="店舗" hide="true"/>
+		</structure>
+		<design>小型B</design>
+		<price>250</price>
+		<size>1,1</size>
+		<minHeight>2</minHeight>
+		<maxHeight>3</maxHeight>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>80</base>
+		</population>
+		<pictures>
+			<top    origin="32, 14" offset="2">
+				<picture ref="{FE37C123-F23E-448A-872A-E05F0E82B070}"/>
+			</top>
+			<middle origin="32, 40" offset="8">
+				<picture ref="{FE37C123-F23E-448A-872A-E05F0E82B070}"/>
+			</middle>
+			<bottom origin="32, 72" offset="8">
+				<picture ref="{FE37C123-F23E-448A-872A-E05F0E82B070}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	
+	<contribution type="GenericStructure" id="{615FF4AA-898E-466f-9999-1855F82C0002}">
+		<name>貸しビル(A)</name>
+		<structure>
+			<category byname="オフィス"/>
+		</structure>
+		<price>3900</price>
+		<size>2,3</size>
+		<minHeight>2</minHeight>
+		<maxHeight>10</maxHeight>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>250</base>
+		</population>
+		&crSilver;
+		&crCyan;
+		&crDkGray;
+		<pictures opposite="true">
+			<top    origin="160,  0" offset="24">
+				<picture ref="{2E8E24AC-4242-4801-A4DD-2947A0800794}"/>
+			</top>
+			<middle origin="160, 48" offset="24">
+				<picture ref="{2E8E24AC-4242-4801-A4DD-2947A0800794}"/>
+			</middle>
+			<bottom origin="160, 96" offset="24">
+				<picture ref="{2E8E24AC-4242-4801-A4DD-2947A0800794}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="240,  0" offset="16">
+				<picture ref="{2E8E24AC-4242-4801-A4DD-2947A0800794}"/>
+			</top>
+			<middle origin="240, 48" offset="16">
+				<picture ref="{2E8E24AC-4242-4801-A4DD-2947A0800794}"/>
+			</middle>
+			<bottom origin="240, 96" offset="16">
+				<picture ref="{2E8E24AC-4242-4801-A4DD-2947A0800794}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{A9E3F58D-5DB9-4CEF-9999-26DDBDD356C1}-a">
+		<group>新宿住友ビル</group>
+		<structure>
+			<category byname="オフィス"/>
+		</structure>
+		<price>30000</price>
+		<size>5,5</size>
+		<minHeight>3</minHeight>
+		<maxHeight>10</maxHeight>
+		<population>
+			<class name="freetrain.contributions.population.CombinationPopulation"/>
+			<population>
+				<class name="freetrain.contributions.population.OfficePopulation"/>
+				<base>1000</base>
+			</population>
+			<population>
+				<class name="freetrain.contributions.population.ShopperPopulation"/>
+				<base>200</base>
+			</population>
+		</population>
+		&crSilver;
+		&crKhaki;
+		&crCyan;
+		<pictures>
+			<top    origin="  0,  8" offset="40" height="80">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</top>
+			<middle origin="  0,192" offset="32">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</middle>
+			<bottom origin="  0,352" offset="32">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="160,  8" offset="40" height="80">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</top>
+			<middle origin="160,192" offset="32">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</middle>
+			<bottom origin="160,352" offset="32">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="  0, 88" offset="40">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</top>
+			<middle origin="  0,272" offset="32">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</middle>
+			<bottom origin="  0,432" offset="32">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="160, 88" offset="40">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</top>
+			<middle origin="160,272" offset="32">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</middle>
+			<bottom origin="160,432" offset="32">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+</plug-in>

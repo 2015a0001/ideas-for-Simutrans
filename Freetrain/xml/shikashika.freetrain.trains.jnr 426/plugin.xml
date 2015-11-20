@@ -1,0 +1,3346 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>FreeTrain本家</title>
+ 	<homepage>http://www.kohsuke.org/freetrain/</homepage>
+
+	<title>蒸気機関車</title>
+ 	<!-- イメージ画像定義 -->
+	<!-- 蒸気機関車 C622機関車 -->
+	<contribution type="picture" id="{FreeTrain-Shika-SteamLocomotive-picture-C622}">
+		<picture src="C622.bmp" />
+	</contribution>
+	<!-- 蒸気機関車 C571機関車山口号タイプ -->
+	<contribution type="picture" id="{FreeTrain-Shika-SteamLocomotive-picture-C571}">
+		<picture src="C571.bmp" />
+	</contribution>
+	<!-- 蒸気機関車 C572機関車 -->
+	<contribution type="picture" id="{FreeTrain-Shika-SteamLocomotive-picture-C572}">
+		<picture src="C572.bmp" />
+	</contribution>
+	<!-- 蒸気機関車 C581機関車 -->
+	<contribution type="picture" id="{FreeTrain-Shika-SteamLocomotive-picture-C581}">
+		<picture src="C581.bmp" />
+	</contribution>
+	<!-- 蒸気機関車 D511115機関車 -->
+	<contribution type="picture" id="{FreeTrain-Shika-SteamLocomotive-picture-D511115}">
+		<picture src="D511115.bmp" />
+	</contribution>
+	<!-- 蒸気機関車 D51100機関車なめくじドーム -->
+	<contribution type="picture" id="{FreeTrain-Shika-SteamLocomotive-picture-D51100}">
+		<picture src="D51100.bmp" />
+	</contribution>
+
+ 	<!-- 車両定義 -->
+	<!-- 蒸気機関車 C622機関車 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-SteamLocomotive-TrainCar-C622}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-SteamLocomotive-picture-C622}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 蒸気機関車 C622機関車 向き：逆 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-SteamLocomotive-TrainCar-C622-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-SteamLocomotive-TrainCar-C622}"/>
+	</contribution>
+	<!-- 蒸気機関車 C571機関車山口号タイプ -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-SteamLocomotive-TrainCar-C571}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-SteamLocomotive-picture-C571}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 蒸気機関車 C571機関車山口号タイプ 向き：逆 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-SteamLocomotive-TrainCar-C571-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-SteamLocomotive-TrainCar-C571}"/>
+	</contribution>
+	<!-- 蒸気機関車 C572機関車 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-SteamLocomotive-TrainCar-C572}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-SteamLocomotive-picture-C572}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 蒸気機関車 C572機関車 向き：逆-->
+	<contribution type="trainCar" id="{FreeTrain-SteamLocomotive-TrainCar-C572-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-SteamLocomotive-TrainCar-C572}"/>
+	</contribution>
+	<!-- 蒸気機関車 C581機関車 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-SteamLocomotive-TrainCar-C581}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-SteamLocomotive-picture-C581}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 蒸気機関車 C581機関車 向き：逆-->
+	<contribution type="trainCar" id="{FreeTrain-Shika-SteamLocomotive-TrainCar-C581-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-SteamLocomotive-TrainCar-C581}"/>
+	</contribution>
+	<!-- 蒸気機関車 D511115機関車 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-SteamLocomotive-TrainCar-D511115}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-SteamLocomotive-picture-D511115}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 蒸気機関車 D511115機関車 向き：逆-->
+	<contribution type="trainCar" id="{FreeTrain-Shika-SteamLocomotive-TrainCar-D511115-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-SteamLocomotive-TrainCar-D511115}"/>
+	</contribution>
+	<!-- 蒸気機関車 D51100機関車(なめくじドーム) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-SteamLocomotive-TrainCar-D51100}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-SteamLocomotive-picture-D51100}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 蒸気機関車 D51100機関車(なめくじドーム) 向き：逆-->
+	<contribution type="trainCar" id="{FreeTrain-Shika-SteamLocomotive-TrainCar-D51100-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-SteamLocomotive-TrainCar-D51100}"/>
+	</contribution>
+
+	<title>電気機関車</title>
+ 	<!-- イメージ画像定義 -->
+	<!-- 電気機関車 EF58機関車(デッキ付き) -->
+	<contribution type="picture" id="{FreeTrain-Shika-ElectricLocomotive-picture-EF58a}">
+		<picture src="EF58a.bmp" />
+	</contribution>
+	<!-- 電気機関車 EF58機関車(流線型) -->
+	<contribution type="picture" id="{FreeTrain-Shika-ElectricLocomotive-picture-EF58b}">
+		<picture src="EF58b.bmp" />
+	</contribution>
+	<!-- 電気機関車 EF66機関車 -->
+	<contribution type="picture" id="{FreeTrain-Shika-ElectricLocomotive-picture-EF66a}">
+		<picture src="EF66a.bmp" />
+	</contribution>
+	<!-- 電気機関車 EH10機関車 -->
+	<contribution type="picture" id="{FreeTrain-Shika-ElectricLocomotive-picture-EH10}">
+		<picture src="EH10.bmp" />
+	</contribution>
+
+	<!-- 車両定義 -->
+	<!-- 電気機関車 EF58機関車 (デッキ付き)-->
+	<contribution type="trainCar" id="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58-Deck}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-ElectricLocomotive-picture-EF58a}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 電気機関車 EF58機関車 (流線型)茶-->
+	<contribution type="trainCar" id="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-ElectricLocomotive-picture-EF58b}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+
+	<!-- 電気機関車 EF58機関車 青一般色 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58-B}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-ElectricLocomotive-picture-EF58b}" />
+		<spriteType name="colorMapped">
+			<map from="135,86,86" to="75,75,145"/>
+			<map from="125,77,77" to="69,69,135"/>
+			<map from="115,71,71" to="64,64,125"/>
+			<map from="105,65,65" to="59,59,115"/>
+			<map from="120,73,73" to="200,174,121"/>
+			<map from="120,72,72" to="73,73,140"/>
+			<map from="120,71,71" to="73,73,140"/>
+			<map from="80,48,48" to="51,51,100"/>
+			<map from="100,61,61" to="180,156,109"/>
+			<map from="100,60,60" to="62,62,120"/>
+			<map from="120,59,59" to="62,62,120"/>
+			<map from="70,42,42" to="45,45,90"/>
+			<map from="138,84,84" to="70,70,135"/>
+			<map from="95,58,58" to="53,53,105"/>
+			<map from="85,52,52" to="48,48,95"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 電気機関車 EF58機関車 青特急色 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58-B-ex}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-ElectricLocomotive-picture-EF58b}" />
+		<spriteType name="colorMapped">
+			<map from="135,86,86" to="75,75,145"/>
+			<map from="125,77,77" to="69,69,135"/>
+			<map from="115,71,71" to="64,64,125"/>
+			<map from="105,65,65" to="59,59,115"/>
+			<map from="120,73,73" to="73,73,140"/>
+			<map from="120,72,72" to="73,73,140"/>
+			<map from="120,71,71" to="130,130,130"/>
+			<map from="80,48,48" to="51,51,100"/>
+			<map from="100,61,61" to="62,62,120"/>
+			<map from="100,60,60" to="62,62,120"/>
+			<map from="120,59,59" to="120,120,120"/>
+			<map from="70,42,42" to="45,45,90"/>
+			<map from="138,84,84" to="70,70,135"/>
+			<map from="95,58,58" to="53,53,105"/>
+			<map from="85,52,52" to="48,48,95"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 電気機関車 EF58機関車 青大将色 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58-A}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-ElectricLocomotive-picture-EF58b}" />
+		<spriteType name="colorMapped">
+			<map from="135,86,86" to="105,145,111"/>
+			<map from="125,77,77" to="99,165,104"/>
+			<map from="115,71,71" to="93,155,97"/>
+			<map from="105,65,65" to="87,145,90"/>
+			<map from="120,73,73" to="102,170,108"/>
+			<map from="120,72,72" to="102,170,108"/>
+			<map from="120,71,71" to="180,180,74"/>
+			<map from="80,48,48" to="72,120,75"/>
+			<map from="100,61,61" to="90,150,90"/>
+			<map from="100,60,60" to="90,150,90"/>
+			<map from="120,59,59" to="170,170,70"/>
+			<map from="70,42,42" to="62,110,65"/>
+			<map from="138,84,84" to="93,155,96"/>
+			<map from="95,58,58" to="81,135,84"/>
+			<map from="85,52,52" to="75,125,77"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 電気機関車 EH10機関車 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EH10}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-ElectricLocomotive-picture-EH10}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 電気機関車 EF66機関車 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF66}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-ElectricLocomotive-picture-EF66a}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+
+
+
+	<title>客車</title>
+ 	<!-- イメージ画像定義 --> 
+
+	<!-- スハ44系特急形客車 スハニ35(3等荷物合造車) -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-shuhani35}">
+		<picture src="shuhani35.bmp" />
+	</contribution>
+	<!-- スハ44系特急形客車 スハ44(3等車) -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-shuha44}">
+		<picture src="shuha44.bmp" />
+	</contribution>
+	<!-- スハ44系特急形客車 スロ60(特別2等車) -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-shuro60}">
+		<picture src="shuro60.bmp" />
+	</contribution>
+	<!-- スハ44系特急形客車 マシ35(食堂車) -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-mashi35}">
+		<picture src="mashi35.bmp" />
+	</contribution>
+	<!-- スハ44系特急形客車 マイテ49(1等展望車) -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-maite49}">
+		<picture src="maite49.bmp" />
+	</contribution>
+
+	<!-- スハ43系一般形客車 スハ43(急行用3等車) -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-shuha43}">
+		<picture src="shuha43.bmp" />
+	</contribution>
+	<!-- スハ43系一般形客車 スハフ42(急行用3等車) -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-shuhahu42}">
+		<picture src="shuhahu42.bmp" />
+	</contribution>
+
+
+	<!-- 荷物車 マニ60 -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-mani60}">
+		<picture src="mani60.bmp" />
+	</contribution>
+	<!-- 郵便車 オユ10 -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-oyu10}">
+		<picture src="oyu10.bmp" />
+	</contribution>
+
+
+	<!-- 12系急行形客車 オハフ13(スハフ12) -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-ohahu13}">
+		<picture src="ohahu13.bmp" />
+	</contribution>
+	<!-- 12系急行形客車 オハ12 -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-oha12}">
+		<picture src="oha12.bmp" />
+	</contribution>
+
+	<!-- 14系特急形寝台客車 スハネフ14 -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-suhanehu14}">
+		<picture src="suhanehu14.bmp" />
+	</contribution>
+	<!-- 14系特急形寝台客車 オハネ14 -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-ohane14}">
+		<picture src="ohane14.bmp" />
+	</contribution>
+	<!-- 14系特急形寝台客車 オロネ14 -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-orone14}">
+		<picture src="orone14.bmp" />
+	</contribution>
+	<!-- 14系特急形寝台客車 オシ14 -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-oshi14}">
+		<picture src="oshi14.bmp" />
+	</contribution>
+	<!-- 14系特急形客車 オハフ15(スハフ14) -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-ohahu15}">
+		<picture src="ohahu15.bmp" />
+	</contribution>
+	<!-- 14系特急形客車 オハ14 -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-oha14}">
+		<picture src="oha14.bmp" />
+	</contribution>
+
+	<!-- 24系25形特急形寝台客車 オハネフ25 -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-ohanehu25}">
+		<picture src="ohanehu25.bmp" />
+	</contribution>
+	<!-- 24系25形特急形寝台客車 オハネ25 -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-ohane25}">
+		<picture src="ohane25.bmp" />
+	</contribution>
+	<!-- 24系25形特急形寝台客車 オハ24-700 -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-oha24}">
+		<picture src="oha24.bmp" />
+	</contribution>
+	<!-- 24系25形特急形寝台客車 オシ24 -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-oshi24}">
+		<picture src="oshi24.bmp" />
+	</contribution>
+	<!-- 24系25形特急形寝台客車 オロネ25 -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-orone25}">
+		<picture src="orone25.bmp" />
+	</contribution>
+	<!-- 24系25形特急形寝台客車 カニ24 -->
+	<contribution type="picture" id="{FreeTrain-Shika-PassengerCar-picture-kani24}">
+		<picture src="kani24.bmp" />
+	</contribution>
+
+ 	<!-- 車両定義 -->
+	<!-- スハ44系特急形客車 スハニ35(3等荷物合造車)ぶどう色 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-shuhani35}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-shuhani35}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- スハ44系特急形客車 スハ44(3等車)ぶどう色 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-shuha44}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-shuha44}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- スハ44系特急形客車 スロ60(特別2等車)ぶどう色 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-shuro60}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-shuro60}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- スハ44系特急形客車 マシ35(食堂車)ぶどう色 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-mashi35}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-mashi35}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- スハ44系特急形客車 マイテ49(1等展望車)ぶどう色 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-maite49}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-maite49}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+
+	<!-- スハ43系一般形客車 スハ43(急行用3等車)ぶどう色 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-shuha43}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-shuha43}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- スハ43系一般形客車 スハフ42(急行用3等車)ぶどう色 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-shuhahu42}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- スハ43系一般形客車 スハフ42(急行用3等車)ぶどう色　向き：逆-->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42}"/>
+	</contribution>
+
+	<!-- 荷物車 マニ60ぶどう色 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-mani60}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-mani60}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- 郵便車 オユ10青 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-oyu10-B}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-oyu10}" />
+		<spriteType name="colorMapped">
+			<map from="80,48,48" to="51,51,100"/>
+			<map from="95,57,57" to="59,59,115"/>
+			<map from="90,54,54" to="57,57,90"/>
+			<map from="100,60,60" to="62,62,120"/>
+			<map from="110,66,66" to="67,67,130"/>
+			<map from="120,72,72" to="73,73,140"/>
+		</spriteType>
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+
+
+	<!-- スハ44系特急形客車 スハニ35(3等荷物合造車)青 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-shuhani35-B}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-shuhani35}" />
+		<spriteType name="colorMapped">
+			<map from="80,48,48" to="51,51,100"/>
+			<map from="95,57,57" to="59,59,115"/>
+			<map from="90,54,54" to="57,57,90"/>
+			<map from="100,60,60" to="62,62,120"/>
+			<map from="110,66,66" to="67,67,130"/>
+			<map from="120,72,72" to="73,73,140"/>
+		</spriteType>
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- スハ44系特急形客車 スハ44(3等車)青 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-shuha44-B}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-shuha44}" />
+		<spriteType name="colorMapped">
+			<map from="80,48,48" to="51,51,100"/>
+			<map from="95,57,57" to="59,59,115"/>
+			<map from="90,54,54" to="57,57,90"/>
+			<map from="100,60,60" to="62,62,120"/>
+			<map from="110,66,66" to="67,67,130"/>
+			<map from="120,72,72" to="73,73,140"/>
+		</spriteType>
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- スハ44系特急形客車 スロ60(特別2等車)青 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-shuro60-B}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-shuro60}" />
+		<spriteType name="colorMapped">
+			<map from="80,48,48" to="51,51,100"/>
+			<map from="95,57,57" to="59,59,115"/>
+			<map from="90,54,54" to="57,57,90"/>
+			<map from="100,60,60" to="62,62,120"/>
+			<map from="110,66,66" to="67,67,130"/>
+			<map from="120,72,72" to="73,73,140"/>
+			<map from="63,63,130" to="67,67,130"/>
+		</spriteType>
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- スハ44系特急形客車 マシ35(食堂車)青 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-mashi35-B}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-mashi35}" />
+		<spriteType name="colorMapped">
+			<map from="80,48,48" to="51,51,100"/>
+			<map from="95,57,57" to="59,59,115"/>
+			<map from="90,54,54" to="57,57,90"/>
+			<map from="100,60,60" to="62,62,120"/>
+			<map from="110,66,66" to="67,67,130"/>
+			<map from="120,72,72" to="73,73,140"/>
+		</spriteType>
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- スハ44系特急形客車 マイテ49(1等展望車)青 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-maite49-B}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-maite49}" />
+		<spriteType name="colorMapped">
+			<map from="80,48,48" to="51,51,100"/>
+			<map from="95,57,57" to="59,59,115"/>
+			<map from="90,54,54" to="57,57,90"/>
+			<map from="100,60,60" to="62,62,120"/>
+			<map from="110,66,66" to="67,67,130"/>
+			<map from="120,72,72" to="73,73,140"/>
+			<map from="150,150,150" to="67,67,130"/>
+		</spriteType>
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+
+	<!-- スハ43系一般形客車 スハ43(急行用3等車)青 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-shuha43-B}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-shuha43}" />
+		<spriteType name="colorMapped">
+			<map from="80,48,48" to="51,51,100"/>
+			<map from="95,57,57" to="59,59,115"/>
+			<map from="90,54,54" to="57,57,90"/>
+			<map from="100,60,60" to="62,62,120"/>
+			<map from="110,66,66" to="67,67,130"/>
+			<map from="120,72,72" to="73,73,140"/>
+			<map from="150,150,150" to="67,67,130"/>
+		</spriteType>
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- スハ43系一般形客車 スハフ42(急行用3等車)青 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-B}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-shuhahu42}" />
+		<spriteType name="colorMapped">
+			<map from="80,48,48" to="51,51,100"/>
+			<map from="95,57,57" to="59,59,115"/>
+			<map from="90,54,54" to="57,57,90"/>
+			<map from="100,60,60" to="62,62,120"/>
+			<map from="110,66,66" to="67,67,130"/>
+			<map from="120,72,72" to="73,73,140"/>
+			<map from="150,150,150" to="67,67,130"/>
+		</spriteType>
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- スハ43系一般形客車 スハフ42(急行用3等車)青　向き：逆-->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-B-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-B}"/>
+	</contribution>
+
+	<!-- スハ44系特急形客車 スハニ35(3等荷物合造車)青大将 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-shuhani35-A}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-shuhani35}" />
+		<spriteType name="colorMapped">
+			<map from="80,48,48" to="78,130,81"/>
+			<map from="95,57,57" to="87,145,90"/>
+			<map from="90,54,54" to="84,140,88"/>
+			<map from="100,60,60" to="90,150,95"/>
+			<map from="110,66,66" to="96,160,101"/>
+			<map from="120,72,72" to="102,170,108"/>
+			<map from="152,152,190" to="190,190,190"/>
+			<map from="144,144,180" to="180,180,180"/>
+			<map from="136,136,170" to="170,170,170"/>
+			<map from="128,128,160" to="160,160,160"/>
+			<map from="104,104,130" to="130,130,130"/>
+			<map from="67,67,80" to="80,80,80"/>
+			<map from="240,51,200" to="200,200,200"/>
+		</spriteType>
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- スハ44系特急形客車 スハ44(3等車)青大将 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-shuha44-A}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-shuha44}" />
+		<spriteType name="colorMapped">
+			<map from="80,48,48" to="78,130,81"/>
+			<map from="95,57,57" to="87,145,90"/>
+			<map from="90,54,54" to="84,140,88"/>
+			<map from="100,60,60" to="90,150,95"/>
+			<map from="110,66,66" to="96,160,101"/>
+			<map from="120,72,72" to="102,170,108"/>
+			<map from="152,152,190" to="190,190,190"/>
+			<map from="144,144,180" to="180,180,180"/>
+			<map from="136,136,170" to="170,170,170"/>
+			<map from="128,128,160" to="160,160,160"/>
+			<map from="104,104,130" to="130,130,130"/>
+			<map from="67,67,80" to="80,80,80"/>
+			<map from="240,51,200" to="200,200,200"/>
+		</spriteType>
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- スハ44系特急形客車 スロ60(特別2等車)青大将 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-shuro60-A}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-shuro60}" />
+		<spriteType name="colorMapped">
+			<map from="80,48,48" to="78,130,81"/>
+			<map from="95,57,57" to="87,145,90"/>
+			<map from="90,54,54" to="84,140,88"/>
+			<map from="100,60,60" to="90,150,95"/>
+			<map from="110,66,66" to="96,160,101"/>
+			<map from="120,72,72" to="102,170,108"/>
+			<map from="152,152,190" to="190,190,190"/>
+			<map from="144,144,180" to="180,180,180"/>
+			<map from="136,136,170" to="170,170,170"/>
+			<map from="128,128,160" to="160,160,160"/>
+			<map from="104,104,130" to="130,130,130"/>
+			<map from="67,67,80" to="80,80,80"/>
+			<map from="240,51,200" to="200,200,200"/>
+			<map from="63,63,130" to="96,160,101"/>
+		</spriteType>
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- スハ44系特急形客車 マシ35(食堂車)青大将 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-mashi35-A}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-mashi35}" />
+		<spriteType name="colorMapped">
+			<map from="80,48,48" to="78,130,81"/>
+			<map from="95,57,57" to="87,145,90"/>
+			<map from="90,54,54" to="84,140,88"/>
+			<map from="100,60,60" to="90,150,95"/>
+			<map from="110,66,66" to="96,160,101"/>
+			<map from="120,72,72" to="102,170,108"/>
+			<map from="152,152,190" to="190,190,190"/>
+			<map from="144,144,180" to="180,180,180"/>
+			<map from="136,136,170" to="170,170,170"/>
+			<map from="128,128,160" to="160,160,160"/>
+			<map from="104,104,130" to="130,130,130"/>
+			<map from="67,67,80" to="80,80,80"/>
+			<map from="240,51,200" to="200,200,200"/>
+		</spriteType>
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- スハ44系特急形客車 マイテ49(1等展望車)青大将 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-maite49-A}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-maite49}" />
+		<spriteType name="colorMapped">
+			<map from="80,48,48" to="78,130,81"/>
+			<map from="95,57,57" to="87,145,90"/>
+			<map from="90,54,54" to="84,140,88"/>
+			<map from="100,60,60" to="90,150,95"/>
+			<map from="110,66,66" to="96,160,101"/>
+			<map from="120,72,72" to="102,170,108"/>
+			<map from="152,152,190" to="190,190,190"/>
+			<map from="144,144,180" to="180,180,180"/>
+			<map from="136,136,170" to="170,170,170"/>
+			<map from="128,128,160" to="160,160,160"/>
+			<map from="104,104,130" to="130,130,130"/>
+			<map from="67,67,80" to="80,80,80"/>
+			<map from="240,51,200" to="200,200,200"/>
+			<map from="150,150,150" to="96,160,101"/>
+			<map from="125,125,125" to="93,155,97"/>
+			<map from="95,95,95" to="69,115,71"/>
+		</spriteType>
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+
+	<!-- 12系急行形客車 オハフ13 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-ohahu13}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-ohahu13}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- 12系急行形客車 オハ12 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-oha12}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-oha12}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- 12系急行形客車 スハフ12 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu12}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-PassengerCar-TrainCar-ohahu13}"/>
+	</contribution>
+
+	<!-- 14系特急形寝台客車 スハネフ14(B寝台緩急車(発電機)：3段式45台) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-suhanehu14}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-suhanehu14}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- 14系特急形寝台客車 スハネフ14(B寝台緩急車(発電機)：3段式45台) 向き：逆 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-suhanehu14-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-PassengerCar-TrainCar-suhanehu14}"/>
+	</contribution>
+
+	<!-- 14系特急形寝台客車 オハネ14(B寝台車：3段式48台) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-ohane14}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-ohane14}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- 14系特急形寝台客車 オロネ14(A寝台車：2段式28台) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-orone14}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-orone14}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- 14系特急形寝台客車 オシ14(食堂車：10テーブル) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-oshi14}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-oshi14}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- 14系特急形客車 オハフ15(緩急車) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-ohahu15}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-ohahu15}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- 14系特急形客車 オハ14 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-oha14}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-oha14}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- 14系特急形客車 スハフ14(緩急車(発電機)) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu14}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-PassengerCar-TrainCar-ohahu15}"/>
+	</contribution>
+
+	<!-- 24系25形特急形寝台客車 オハネフ25(B寝台緩急車) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-ohanehu25}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-ohanehu25}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- 24系25形特急形寝台客車 オハネフ25(B寝台緩急車) 向き：逆-->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-ohanehu25-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-PassengerCar-TrainCar-ohanehu25}"/>
+	</contribution>
+	<!-- 24系25形特急形寝台客車 オハネ25(B寝台緩急車：2段式) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-ohane25}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-ohane25}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- 24系25形特急形寝台客車 オハ24-700 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-oha24}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-oha24}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- 24系25形特急形寝台客車 オシ24(ロビーカー) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-oshi24}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-oshi24}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- 24系25形特急形寝台客車 オロネ25(A寝台車：一人用個室14室) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-orone25}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-orone25}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- 24系25形特急形寝台客車 カニ24(電源荷物車) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-kani24}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-kani24}" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	<!-- 24系25形特急形寝台客車 カニ24(電源荷物車) 向き：逆 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-PassengerCar-TrainCar-kani24-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-PassengerCar-TrainCar-kani24}"/>
+	</contribution>
+
+	<title>貨車</title>
+ 	<!-- イメージ画像定義 --> 
+
+	<!-- 貨車 ワキ1000 -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-waki1000}">
+		<picture src="waki1000.bmp" />
+	</contribution>
+	<!-- 貨車 ワムフ100 -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-wamuhu100}">
+		<picture src="wamuhu100.bmp" />
+	</contribution>
+	<!-- 貨車 ワキ5000 -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-waki5000}">
+		<picture src="waki5000.bmp" />
+	</contribution>
+	<!-- 貨車 ワキ8000 -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-waki8000}">
+		<picture src="waki8000.bmp" />
+	</contribution>
+	<!-- 貨車 ワキ10000 -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-waki10000}">
+		<picture src="waki10000.bmp" />
+	</contribution>
+	<!-- 貨車 ワサフ8000 -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-washahu8000}">
+		<picture src="wasahu8000.bmp" />
+	</contribution>
+	<!-- 貨車 トキ25000 -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-toki25000}">
+		<picture src="toki25000.bmp" />
+	</contribution>
+	<!-- 貨車 レサ5000 -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-resha5000}">
+		<picture src="resha5000.bmp" />
+	</contribution>
+	<!-- 貨車 レムフ10000 -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-remuhu10000}">
+		<picture src="remuhu10000.bmp" />
+	</contribution>
+	<!-- 貨車 チキ7000 -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-chiki7000}">
+		<picture src="chiki7000.bmp" />
+	</contribution>
+	<!-- 貨車 タキ43000 -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-taki43000}">
+		<picture src="taki43000.bmp" />
+	</contribution>
+	<!-- 貨車 ヨ5000 -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-yo5000}">
+		<picture src="yo5000.bmp" />
+	</contribution>
+	<!-- 貨車 ヨ6000 -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-yo6000}">
+		<picture src="yo6000.bmp" />
+	</contribution>
+	<!-- 貨車 ヨ8000 -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-yo8000}">
+		<picture src="yo8000.bmp" />
+	</contribution>
+	<!-- 貨車 ヨ9000 -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-yo9000}">
+		<picture src="yo9000.bmp" />
+	</contribution>
+
+	<!-- 貨車 コキ10000(コンテナ5t5個緑) -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-koki10000-5t5g}">
+		<picture src="koki10000-5t5g.bmp" />
+	</contribution>
+	<!-- 貨車 コキ10000(コンテナ5t5個ＪＲ) -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-koki10000-5t5JRa}">
+		<picture src="koki10000-5t5JRa.bmp" />
+	</contribution>
+	<!-- 貨車 コキ10000(コンテナ5t5個ＪＲ) -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-koki10000-5t5JRb}">
+		<picture src="koki10000-5t5JRb.bmp" />
+	</contribution>
+	<!-- 貨車 コキ10000(コンテナ5t5個国鉄) -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-koki10000-5t5JNR}">
+		<picture src="koki10000-5t5JNR.bmp" />
+	</contribution>
+	<!-- 貨車 コキ10000(コンテナ5t3個国鉄) -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-koki10000-5t3JNR}">
+		<picture src="koki10000-5t3JNR.bmp" />
+	</contribution>
+	<!-- 貨車 コキ10000(コンテナ5t2個国鉄) -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-koki10000-5t2JNR}">
+		<picture src="koki10000-5t2JNR.bmp" />
+	</contribution>
+	<!-- 貨車 コキフ10000(コンテナ5t4個緑) -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-kokihu10000-5t4g}">
+		<picture src="kokihu10000-5t4g.bmp" />
+	</contribution>
+	<!-- 貨車 コキフ10000(コンテナ5t4個国鉄) -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-kokihu10000-5t4JNR}">
+		<picture src="kokihu10000-5t4JNR.bmp" />
+	</contribution>	
+
+	<!-- 車両定義 -->
+	<!-- 貨車 ワキ1000 戦後初の有蓋貨車-->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-waki1000}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-waki1000}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 ワムフ100 大型緩急車-->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-wamuhu100}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-wamuhu100}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 ワキ5000 有蓋貨車-->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-waki5000}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-waki5000}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 ワキ8000 荷客共用有蓋貨車-->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-waki8000}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-waki8000}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 ワキ10000 有蓋貨車-->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-waki10000}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-waki10000}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 ワサフ8000 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-washahu8000}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-washahu8000}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 ワサフ8000 向き：逆 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-washahu8000-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-FreightCar-TrainCar-washahu8000}"/>
+	</contribution>
+
+	<!-- 貨車 トキ25000 全鋼製無蓋車-->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-toki25000}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-toki25000}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 トキ15000 木製無蓋車 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-toki15000}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-toki25000}" />
+		<spriteType name="colorMapped">
+			<map from="125,50,50" to="57,57,65"/>
+			<map from="145,58,58" to="76,74,85"/>
+			<map from="110,44,44" to="44,44,50"/>
+			<map from="130,52,52" to="63,61,70"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 タキ43000 タンク車青-->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-taki43000b}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-taki43000}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 タキ43000 タンク車黒-->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-taki43000k}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-taki43000}" />
+		<spriteType name="colorMapped">
+			<map from="117,117,194" to="75,75,94"/>
+			<map from="124,124,204" to="83,83,104"/>
+			<map from="130,130,214" to="91,91,114"/>
+			<map from="142,142,234" to="107,107,134"/>
+			<map from="100,100,166" to="53,53,66"/>
+			<map from="76,76,126" to="20,20,26"/>
+			<map from="94,94,156" to="45,45,56"/>
+			<map from="106,106,176" to="61,61,76"/>
+			<map from="155,155,255" to="148,148,185"/>
+			<map from="89,89,148" to="38,38,48"/>
+			<map from="65,65,108" to="6,6,8"/>
+			<map from="83,83,138" to="30,30,38"/>
+			<map from="96,96,158" to="46,46,58"/>
+			<map from="150,150,248" to="118,118,148"/>
+			<map from="54,77,89" to="71,83,89"/>
+			<map from="66,93,109" to="87,100,109"/>
+			<map from="72,103,119" to="95,111,119"/>
+			<map from="84,119,139" to="111,129,139"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 タキ43000 タンク車エメラルドグリーン-->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-taki43000g}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-taki43000}" />
+		<spriteType name="colorMapped">
+			<map from="117,117,194" to="117,194,117"/>
+			<map from="124,124,204" to="124,204,124"/>
+			<map from="130,130,214" to="130,214,130"/>
+			<map from="142,142,234" to="142,234,142"/>
+			<map from="100,100,166" to="136,136,136"/>
+			<map from="76,76,126" to="96,96,96"/>
+			<map from="94,94,156" to="126,126,126"/>
+			<map from="106,106,176" to="106,176,106"/>
+			<map from="155,155,255" to="155,255,155"/>
+			<map from="89,89,148" to="118,118,118"/>
+			<map from="65,65,108" to="78,78,78"/>
+			<map from="83,83,138" to="108,108,108"/>
+			<map from="96,96,158" to="96,158,96"/>
+			<map from="150,150,248" to="150,248,150"/>
+			<map from="54,77,89" to="54,89,54"/>
+			<map from="66,93,109" to="66,109,68"/>
+			<map from="72,103,119" to="72,119,73"/>
+			<map from="84,119,139" to="84,139,86"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+
+	<!-- 貨車 レサ5000 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-resha5000}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-resha5000}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 レムフ10000 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-remuhu10000}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-remuhu10000}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 レムフ10000 向き：逆 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-remuhu10000-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-FreightCar-TrainCar-remuhu10000}"/>
+	</contribution>
+	<!-- 貨車 チキ7000 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-chiki7000}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-chiki7000}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+
+	<!-- 貨車 ヨ5000 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-yo5000}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-yo5000}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 ヨ5000 コンテナ特急貨物たから-->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-yo5000takara}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-yo5000}" />
+		<spriteType name="colorMapped">
+			<map from="34,31,45" to="63,85,51"/>
+			<map from="50,46,65" to="77,105,63"/>
+			<map from="65,61,85" to="106,145,88"/>
+			<map from="79,76,105" to="144,195,118"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 ヨ6000 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-yo6000}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 ヨ8000 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-yo8000}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-yo8000}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 ヨ9000 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-yo9000}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-yo9000}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+
+	<!-- 貨車 コキ5500 コンテナ車(コンテナ5t5個緑) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t5g}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-koki10000-5t5g}" />
+		<spriteType name="colorMapped">
+			<map from="80,80,155" to="155,80,80"/>
+			<map from="73,73,145" to="145,73,73"/>
+			<map from="62,62,115" to="115,62,62"/>
+			<map from="58,58,105" to="105,58,58"/>
+			<map from="107,107,208" to="208,107,107"/>
+			<map from="102,102,198" to="198,102,102"/>
+			<map from="97,97,188" to="188,97,97"/>
+			<map from="92,92,178" to="178,92,92"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキ5500 コンテナ車(コンテナ5t2個緑) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t2g}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-koki10000-5t2JNR}" />
+		<spriteType name="colorMapped">
+			<map from="80,80,155" to="155,80,80"/>
+			<map from="73,73,145" to="145,73,73"/>
+			<map from="62,62,115" to="115,62,62"/>
+			<map from="58,58,105" to="105,58,58"/>
+			<map from="107,107,208" to="208,107,107"/>
+			<map from="102,102,198" to="198,102,102"/>
+			<map from="97,97,188" to="188,97,97"/>
+			<map from="92,92,178" to="178,92,92"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+
+
+	<!-- 貨車 コキ10000 高速コンテナ車(コンテナ5t5個国鉄) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5JNR}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-koki10000-5t5JNR}" />
+		<spriteType name="colorMapped">
+			<map from="121,228,230" to="157,230,121"/>
+			<map from="105,200,200" to="137,200,105"/>
+			<map from="100,190,190" to="130,190,100"/>
+			<map from="84,160,160" to="109,160,84"/>
+			<map from="117,221,225" to="152,225,119"/>
+			<map from="112,213,215" to="145,215,112"/>
+			<map from="102,195,195" to="133,195,102"/>
+			<map from="92,175,175" to="120,175,92"/>
+			<map from="87,165,165" to="113,165,87"/>
+			<map from="70,135,135" to="92,135,70"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキ10000 高速コンテナ車(コンテナ5t2個国鉄) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t2JNR}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-koki10000-5t2JNR}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキ10000 高速コンテナ車(コンテナ5t3個国鉄) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t3JNR}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-koki10000-5t3JNR}" />
+		<spriteType name="colorMapped">
+			<map from="121,228,230" to="157,230,121"/>
+			<map from="105,200,200" to="137,200,105"/>
+			<map from="100,190,190" to="130,190,100"/>
+			<map from="84,160,160" to="109,160,84"/>
+			<map from="117,221,225" to="152,225,119"/>
+			<map from="112,213,215" to="145,215,112"/>
+			<map from="102,195,195" to="133,195,102"/>
+			<map from="92,175,175" to="120,175,92"/>
+			<map from="87,165,165" to="113,165,87"/>
+			<map from="70,135,135" to="92,135,70"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキフ10000 高速コンテナ緩急車(コンテナ5t4個国鉄) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4JNR}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-kokihu10000-5t4JNR}" />
+		<spriteType name="colorMapped">
+			<map from="121,228,230" to="157,230,121"/>
+			<map from="105,200,200" to="137,200,105"/>
+			<map from="100,190,190" to="130,190,100"/>
+			<map from="84,160,160" to="109,160,84"/>
+			<map from="117,221,225" to="152,225,119"/>
+			<map from="112,213,215" to="145,215,112"/>
+			<map from="102,195,195" to="133,195,102"/>
+			<map from="92,175,175" to="120,175,92"/>
+			<map from="87,165,165" to="113,165,87"/>
+			<map from="70,135,135" to="92,135,70"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキフ10000 高速コンテナ緩急車(コンテナ5t4個国鉄) 向き：逆 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4JNR-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4JNR}"/>
+	</contribution>
+
+	<!-- 貨車 コキ10000 高速コンテナ車(コンテナ5t5個緑) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5g}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-koki10000-5t5g}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキフ10000 高速コンテナ緩急車(コンテナ5t4個緑) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4g}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-kokihu10000-5t4g}" />
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキフ10000 高速コンテナ緩急車(コンテナ5t4個緑) 向き：逆 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4g-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4g}"/>
+	</contribution>
+
+	<!-- 貨車 コキ10000 高速コンテナ緩急車(コンテナ5t5個白) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5w}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-koki10000-5t5g}" />
+		<spriteType name="colorMapped">
+			<map from="157,230,121" to="239,250,250"/>
+			<map from="137,200,105" to="209,220,220"/>
+			<map from="130,190,100" to="200,210,210"/>
+			<map from="109,160,84" to="172,180,180"/>
+			<map from="152,225,119" to="235,245,245"/>
+			<map from="145,215,112" to="225,235,235"/>
+			<map from="133,195,102" to="206,215,215"/>
+			<map from="120,175,92" to="187,195,195"/>
+			<map from="113,165,87" to="177,185,185"/>
+			<map from="92,135,70" to="148,155,155"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキ10000 高速コンテナ車(コンテナ5t3個白) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t3w}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-koki10000-5t3JNR}" />
+		<spriteType name="colorMapped">
+			<map from="157,230,121" to="239,250,250"/>
+			<map from="137,200,105" to="209,220,220"/>
+			<map from="130,190,100" to="200,210,210"/>
+			<map from="109,160,84" to="172,180,180"/>
+			<map from="152,225,119" to="235,245,245"/>
+			<map from="145,215,112" to="225,235,235"/>
+			<map from="133,195,102" to="206,215,215"/>
+			<map from="120,175,92" to="187,195,195"/>
+			<map from="113,165,87" to="177,185,185"/>
+			<map from="92,135,70" to="148,155,155"/>
+			<map from="121,228,230" to="239,250,250"/>
+			<map from="105,200,200" to="209,220,220"/>
+			<map from="100,190,190" to="200,210,210"/>
+			<map from="84,160,160" to="172,180,180"/>
+			<map from="117,221,225" to="235,245,245"/>
+			<map from="112,213,215" to="225,235,235"/>
+			<map from="102,195,195" to="206,215,215"/>
+			<map from="92,175,175" to="187,195,195"/>
+			<map from="87,165,165" to="177,185,185"/>
+			<map from="70,135,135" to="148,155,155"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキ10000 高速コンテナ車(コンテナ5t2個白) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t2w}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-koki10000-5t2JNR}" />
+		<spriteType name="colorMapped">
+			<map from="157,230,121" to="239,250,250"/>
+			<map from="137,200,105" to="209,220,220"/>
+			<map from="130,190,100" to="200,210,210"/>
+			<map from="109,160,84" to="172,180,180"/>
+			<map from="152,225,119" to="235,245,245"/>
+			<map from="145,215,112" to="225,235,235"/>
+			<map from="133,195,102" to="206,215,215"/>
+			<map from="120,175,92" to="187,195,195"/>
+			<map from="113,165,87" to="177,185,185"/>
+			<map from="92,135,70" to="148,155,155"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキフ10000 高速コンテナ緩急車(コンテナ5t4個白) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4w}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-kokihu10000-5t4g}" />
+		<spriteType name="colorMapped">
+			<map from="157,230,121" to="239,250,250"/>
+			<map from="137,200,105" to="209,220,220"/>
+			<map from="130,190,100" to="200,210,210"/>
+			<map from="109,160,84" to="172,180,180"/>
+			<map from="152,225,119" to="235,245,245"/>
+			<map from="145,215,112" to="225,235,235"/>
+			<map from="133,195,102" to="206,215,215"/>
+			<map from="120,175,92" to="187,195,195"/>
+			<map from="113,165,87" to="177,185,185"/>
+			<map from="92,135,70" to="148,155,155"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキフ10000 高速コンテナ緩急車(コンテナ5t4個白) 向き：逆 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4w-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4w}"/>
+	</contribution>
+
+	<!-- 貨車 コキ50000 高速コンテナ車(コンテナ5t5個ＪＲその１) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t5JRa}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-koki10000-5t5JRa}" />
+		<spriteType name="colorMapped">
+			<map from="80,80,155" to="155,80,80"/>
+			<map from="73,73,145" to="145,73,73"/>
+			<map from="62,62,115" to="115,62,62"/>
+			<map from="58,58,105" to="105,58,58"/>
+			<map from="107,107,208" to="208,107,107"/>
+			<map from="102,102,198" to="198,102,102"/>
+			<map from="97,97,188" to="188,97,97"/>
+			<map from="92,92,178" to="178,92,92"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキ50000 高速コンテナ車(コンテナ5t5個ＪＲその２) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t5JRb}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-koki10000-5t5JRb}" />
+		<spriteType name="colorMapped">
+			<map from="80,80,155" to="155,80,80"/>
+			<map from="73,73,145" to="145,73,73"/>
+			<map from="62,62,115" to="115,62,62"/>
+			<map from="58,58,105" to="105,58,58"/>
+			<map from="107,107,208" to="208,107,107"/>
+			<map from="102,102,198" to="198,102,102"/>
+			<map from="97,97,188" to="188,97,97"/>
+			<map from="92,92,178" to="178,92,92"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキ50000 高速コンテナ車(コンテナ5t2個ＪＲ) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t2JR}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-koki10000-5t2JNR}" />
+		<spriteType name="colorMapped">
+			<map from="157,230,121" to="121,228,231"/>
+			<map from="137,200,105" to="105,200,200"/>
+			<map from="130,190,100" to="106,190,190"/>
+			<map from="109,160,84" to="84,160,160"/>
+			<map from="152,225,119" to="117,221,225"/>
+			<map from="145,215,112" to="112,213,215"/>
+			<map from="133,195,102" to="102,195,195"/>
+			<map from="120,175,92" to="92,175,175"/>
+			<map from="113,165,87" to="87,165,165"/>
+			<map from="92,135,70" to="70,135,135"/>
+			<map from="80,80,155" to="155,80,80"/>
+			<map from="73,73,145" to="145,73,73"/>
+			<map from="62,62,115" to="115,62,62"/>
+			<map from="58,58,105" to="105,58,58"/>
+			<map from="107,107,208" to="208,107,107"/>
+			<map from="102,102,198" to="198,102,102"/>
+			<map from="97,97,188" to="188,97,97"/>
+			<map from="92,92,178" to="178,92,92"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキ50000 高速コンテナ車(コンテナ5t3個ＪＲ) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t3JR}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-koki10000-5t3JNR}" />
+		<spriteType name="colorMapped">
+			<map from="157,230,121" to="239,250,250"/>
+			<map from="137,200,105" to="209,220,220"/>
+			<map from="130,190,100" to="200,210,210"/>
+			<map from="109,160,84" to="172,180,180"/>
+			<map from="152,225,119" to="235,245,245"/>
+			<map from="145,215,112" to="225,235,235"/>
+			<map from="133,195,102" to="206,215,215"/>
+			<map from="120,175,92" to="187,195,195"/>
+			<map from="113,165,87" to="177,185,185"/>
+			<map from="92,135,70" to="148,155,155"/>
+			<map from="80,80,155" to="155,80,80"/>
+			<map from="73,73,145" to="145,73,73"/>
+			<map from="62,62,115" to="115,62,62"/>
+			<map from="58,58,105" to="105,58,58"/>
+			<map from="107,107,208" to="208,107,107"/>
+			<map from="102,102,198" to="198,102,102"/>
+			<map from="97,97,188" to="188,97,97"/>
+			<map from="92,92,178" to="178,92,92"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキフ50000 高速コンテナ緩急車(コンテナ5t4個ＪＲ) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4JR}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-kokihu10000-5t4JNR}" />
+		<spriteType name="colorMapped">
+			<map from="157,230,121" to="121,228,231"/>
+			<map from="137,200,105" to="105,200,200"/>
+			<map from="130,190,100" to="106,190,190"/>
+			<map from="109,160,84" to="84,160,160"/>
+			<map from="152,225,119" to="117,221,225"/>
+			<map from="145,215,112" to="112,213,215"/>
+			<map from="133,195,102" to="102,195,195"/>
+			<map from="120,175,92" to="92,175,175"/>
+			<map from="113,165,87" to="87,165,165"/>
+			<map from="92,135,70" to="70,135,135"/>
+			<map from="80,80,155" to="155,80,80"/>
+			<map from="73,73,145" to="145,73,73"/>
+			<map from="62,62,115" to="115,62,62"/>
+			<map from="58,58,105" to="105,58,58"/>
+			<map from="107,107,208" to="208,107,107"/>
+			<map from="102,102,198" to="198,102,102"/>
+			<map from="97,97,188" to="188,97,97"/>
+			<map from="92,92,178" to="178,92,92"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキフ50000 高速コンテナ緩急車(コンテナ5t4個ＪＲ) 向き：逆 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4JR-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4JR}"/>
+	</contribution>
+
+	<!-- 貨車 コキ50000 高速コンテナ緩急車(コンテナ5t5個青) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t5b}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-koki10000-5t5g}" />
+		<spriteType name="colorMapped">
+			<map from="80,80,155" to="155,80,80"/>
+			<map from="73,73,145" to="145,73,73"/>
+			<map from="62,62,115" to="115,62,62"/>
+			<map from="58,58,105" to="105,58,58"/>
+			<map from="107,107,208" to="208,107,107"/>
+			<map from="102,102,198" to="198,102,102"/>
+			<map from="97,97,188" to="188,97,97"/>
+			<map from="92,92,178" to="178,92,92"/>
+			<map from="157,230,121" to="121,228,231"/>
+			<map from="137,200,105" to="105,200,200"/>
+			<map from="130,190,100" to="106,190,190"/>
+			<map from="109,160,84" to="84,160,160"/>
+			<map from="152,225,119" to="117,221,225"/>
+			<map from="145,215,112" to="112,213,215"/>
+			<map from="133,195,102" to="102,195,195"/>
+			<map from="120,175,92" to="92,175,175"/>
+			<map from="113,165,87" to="87,165,165"/>
+			<map from="92,135,70" to="70,135,135"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキフ50000 高速コンテナ緩急車(コンテナ5t4個青) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4b}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-kokihu10000-5t4g}" />
+		<spriteType name="colorMapped">
+			<map from="80,80,155" to="155,80,80"/>
+			<map from="73,73,145" to="145,73,73"/>
+			<map from="62,62,115" to="115,62,62"/>
+			<map from="58,58,105" to="105,58,58"/>
+			<map from="107,107,208" to="208,107,107"/>
+			<map from="102,102,198" to="198,102,102"/>
+			<map from="97,97,188" to="188,97,97"/>
+			<map from="92,92,178" to="178,92,92"/>
+			<map from="157,230,121" to="121,228,231"/>
+			<map from="137,200,105" to="105,200,200"/>
+			<map from="130,190,100" to="106,190,190"/>
+			<map from="109,160,84" to="84,160,160"/>
+			<map from="152,225,119" to="117,221,225"/>
+			<map from="145,215,112" to="112,213,215"/>
+			<map from="133,195,102" to="102,195,195"/>
+			<map from="120,175,92" to="92,175,175"/>
+			<map from="113,165,87" to="87,165,165"/>
+			<map from="92,135,70" to="70,135,135"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキフ50000 高速コンテナ緩急車(コンテナ5t4個青) 向き：逆 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4b-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4b}"/>
+	</contribution>
+	<!-- 貨車 コキ50000 高速コンテナ緩急車(コンテナ5t5個白) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t5w}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-koki10000-5t5g}" />
+		<spriteType name="colorMapped">
+			<map from="80,80,155" to="155,80,80"/>
+			<map from="73,73,145" to="145,73,73"/>
+			<map from="62,62,115" to="115,62,62"/>
+			<map from="58,58,105" to="105,58,58"/>
+			<map from="107,107,208" to="208,107,107"/>
+			<map from="102,102,198" to="198,102,102"/>
+			<map from="97,97,188" to="188,97,97"/>
+			<map from="92,92,178" to="178,92,92"/>
+			<map from="157,230,121" to="239,250,250"/>
+			<map from="137,200,105" to="209,220,220"/>
+			<map from="130,190,100" to="200,210,210"/>
+			<map from="109,160,84" to="172,180,180"/>
+			<map from="152,225,119" to="235,245,245"/>
+			<map from="145,215,112" to="225,235,235"/>
+			<map from="133,195,102" to="206,215,215"/>
+			<map from="120,175,92" to="187,195,195"/>
+			<map from="113,165,87" to="177,185,185"/>
+			<map from="92,135,70" to="148,155,155"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキ50000 高速コンテナ車(コンテナ5t2個白) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t2w}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-koki10000-5t2JNR}" />
+		<spriteType name="colorMapped">
+			<map from="80,80,155" to="155,80,80"/>
+			<map from="73,73,145" to="145,73,73"/>
+			<map from="62,62,115" to="115,62,62"/>
+			<map from="58,58,105" to="105,58,58"/>
+			<map from="107,107,208" to="208,107,107"/>
+			<map from="102,102,198" to="198,102,102"/>
+			<map from="97,97,188" to="188,97,97"/>
+			<map from="92,92,178" to="178,92,92"/>
+			<map from="157,230,121" to="239,250,250"/>
+			<map from="137,200,105" to="209,220,220"/>
+			<map from="130,190,100" to="200,210,210"/>
+			<map from="109,160,84" to="172,180,180"/>
+			<map from="152,225,119" to="235,245,245"/>
+			<map from="145,215,112" to="225,235,235"/>
+			<map from="133,195,102" to="206,215,215"/>
+			<map from="120,175,92" to="187,195,195"/>
+			<map from="113,165,87" to="177,185,185"/>
+			<map from="92,135,70" to="148,155,155"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキ50000 高速コンテナ車(コンテナ5t3個白) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t3w}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-koki10000-5t3JNR}" />
+		<spriteType name="colorMapped">
+			<map from="80,80,155" to="155,80,80"/>
+			<map from="73,73,145" to="145,73,73"/>
+			<map from="62,62,115" to="115,62,62"/>
+			<map from="58,58,105" to="105,58,58"/>
+			<map from="107,107,208" to="208,107,107"/>
+			<map from="102,102,198" to="198,102,102"/>
+			<map from="97,97,188" to="188,97,97"/>
+			<map from="92,92,178" to="178,92,92"/>
+			<map from="157,230,121" to="239,250,250"/>
+			<map from="137,200,105" to="209,220,220"/>
+			<map from="130,190,100" to="200,210,210"/>
+			<map from="109,160,84" to="172,180,180"/>
+			<map from="152,225,119" to="235,245,245"/>
+			<map from="145,215,112" to="225,235,235"/>
+			<map from="133,195,102" to="206,215,215"/>
+			<map from="120,175,92" to="187,195,195"/>
+			<map from="113,165,87" to="177,185,185"/>
+			<map from="92,135,70" to="148,155,155"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキフ50000 高速コンテナ緩急車(コンテナ5t4個白) -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4w}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-kokihu10000-5t4JNR}" />
+		<spriteType name="colorMapped">
+			<map from="80,80,155" to="155,80,80"/>
+			<map from="73,73,145" to="145,73,73"/>
+			<map from="62,62,115" to="115,62,62"/>
+			<map from="58,58,105" to="105,58,58"/>
+			<map from="107,107,208" to="208,107,107"/>
+			<map from="102,102,198" to="198,102,102"/>
+			<map from="97,97,188" to="188,97,97"/>
+			<map from="92,92,178" to="178,92,92"/>
+			<map from="157,230,121" to="239,250,250"/>
+			<map from="137,200,105" to="209,220,220"/>
+			<map from="130,190,100" to="200,210,210"/>
+			<map from="109,160,84" to="172,180,180"/>
+			<map from="152,225,119" to="235,245,245"/>
+			<map from="145,215,112" to="225,235,235"/>
+			<map from="133,195,102" to="206,215,215"/>
+			<map from="120,175,92" to="187,195,195"/>
+			<map from="113,165,87" to="177,185,185"/>
+			<map from="92,135,70" to="148,155,155"/>
+		</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+	</contribution>
+	<!-- 貨車 コキフ50000 高速コンテナ緩急車(コンテナ5t4個白) 向き：逆 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4w-R}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4w}"/>
+	</contribution>
+
+
+
+	<!-- 旅客列車の定義 -->
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-C622-LimitedExpressTrain-swallowangel}">
+		<company>旧日本国有鉄道</company>
+		<type>C 62</type>
+		<name>特急つばめ</name>
+		<author>しかしか</author>
+		<description>国鉄最大最後の旅客用機関車C62が牽引する、特急つばめです。客車はスハ44系で、最後尾には1等展望車を連結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="蒸" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-C622}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhani35}"/>
+			<car char="参" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuha44}"/>
+			<car char="弐" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuro60}"/>
+			<car char="食" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mashi35}"/>
+			<car char="展" ref="{FreeTrain-Shika-PassengerCar-TrainCar-maite49}"/>
+			
+			<composition>蒸</composition>
+			<composition>蒸展</composition>
+			<composition>蒸荷展</composition>
+			<composition>蒸荷食展</composition>
+			<composition>蒸荷食弐展</composition>
+			<composition>蒸荷参食弐展</composition>
+			<composition>蒸荷参参食弐展</composition>
+			<composition>蒸荷参参参食弐展</composition>
+			<composition>蒸荷参参参食弐弐展</composition>
+			<composition>蒸荷参参参食弐弐弐展</composition>
+			<composition>蒸荷参参参弐食弐弐弐展</composition>
+			<composition>蒸荷参参参弐弐食弐弐弐展</composition>
+			<composition>蒸蒸荷参参参弐弐食弐弐弐展</composition>
+		</config>
+	</contribution>
+
+
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-C622-LimitedExpressTrain-hatukari-B}">
+		<company>旧日本国有鉄道</company>
+		<type>C 62</type>
+		<name>特急はつかり</name>
+		<author>しかしか</author>
+		<description>国鉄最大最後の旅客用機関車C62が牽引する、特急はつかりです。客車は客車はスハ44系で、昭和39年以降の青に塗り替えられたものです。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="蒸" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-C622}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhani35-B}"/>
+			<car char="参" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuha44-B}"/>
+			<car char="弐" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuro60-B}"/>
+			<car char="食" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mashi35-B}"/>
+			<car char="展" ref="{FreeTrain-Shika-PassengerCar-TrainCar-maite49-B}"/>
+			<car char="掌" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-B}"/>
+			
+			<composition>蒸</composition>
+			<composition>蒸掌</composition>
+			<composition>蒸荷掌</composition>
+			<composition>蒸荷食掌</composition>
+			<composition>蒸荷食弐掌</composition>
+			<composition>蒸荷参食弐掌</composition>
+			<composition>蒸荷参参食弐掌</composition>
+			<composition>蒸荷参参参食弐掌</composition>
+			<composition>蒸荷参参参食弐弐掌</composition>
+			<composition>蒸荷参参参食弐弐弐掌</composition>
+			<composition>蒸荷参参参弐食弐弐弐掌</composition>
+			<composition>蒸荷参参参弐弐食弐弐弐掌</composition>
+			<composition>蒸荷参参参参弐弐食弐弐弐掌</composition>
+			<composition>蒸蒸荷参参参参弐弐食弐弐弐掌</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-C622-LocalTrein}">
+		<company>旧日本国有鉄道</company>
+		<type>C 62</type>
+		<name>旧普通列車(茶)</name>
+		<author>しかしか</author>
+		<description>国鉄最大最後の旅客用機関車C62が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、郵便車を併結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="蒸" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-C622}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mani60}"/>
+			<car char="郵" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oyu10-B}"/>
+			<car char="参" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuha43}"/>
+			<car char="急" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42}"/>
+			<car char="緩" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-R}"/>
+			
+			<composition>蒸</composition>
+			<composition>蒸急</composition>
+			<composition>蒸緩急</composition>
+			<composition>蒸郵緩急</composition>
+			<composition>蒸郵緩参急</composition>
+			<composition>蒸郵緩参参急</composition>
+			<composition>蒸郵緩参急緩急</composition>
+			<composition>蒸郵緩参参緩参急</composition>
+			<composition>蒸郵緩参参緩参参急</composition>
+			<composition>蒸郵緩参参緩参参参急</composition>
+		</config>
+	</contribution>
+
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B}">
+		<company>旧日本国有鉄道</company>
+		<type>C 62</type>
+		<name>旧普通列車(青)</name>
+		<author>しかしか</author>
+		<description>国鉄最大最後の旅客用機関車C62が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。最後尾に荷物車を併結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="蒸" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-C622}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mani60}"/>
+			<car char="郵" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oyu10-B}"/>
+			<car char="参" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuha43-B}"/>
+			<car char="急" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-B}"/>
+			<car char="緩" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-B-R}"/>
+			
+			<composition>蒸</composition>
+			<composition>蒸急</composition>
+			<composition>蒸緩急</composition>
+			<composition>蒸緩急荷</composition>
+			<composition>蒸緩参急荷</composition>
+			<composition>蒸緩参参急荷</composition>
+			<composition>蒸緩参急緩急荷</composition>
+			<composition>蒸緩参参緩参急荷</composition>
+			<composition>蒸緩参参緩参参急荷</composition>
+			<composition>蒸緩参参緩参参参急荷</composition>
+		</config>
+	</contribution>
+
+
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-C57-ExpressTrain-yamagutigou}">
+		<company>旧日本国有鉄道</company>
+		<type>C 57</type>
+		<name>ＳＬ山口号(青)</name>
+		<author>しかしか</author>
+		<description>貴婦人と呼ばれたC57が牽引するSL山口号です。C571号機には、白いラインが引かれ集煙装置が付けられています。客車は昭和44年に登場した12系の急行形客車を牽引しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="貴" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-C571}"/>
+			<car char="８" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-C581}"/>
+			<car char="掌" ref="{FreeTrain-Shika-PassengerCar-TrainCar-ohahu13}"/>
+			<car char="客" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oha12}"/>
+			<car char="発" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu12}"/>
+			
+			<composition>貴</composition>
+			<composition>貴発</composition>
+			<composition>貴掌発</composition>
+			<composition>貴掌客発</composition>
+			<composition>貴掌客客発</composition>
+			<composition>貴掌客客客発</composition>
+			<composition>貴８掌客客客発</composition>
+
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-C57-LocalTrein}">
+		<company>旧日本国有鉄道</company>
+		<type>C 57</type>
+		<name>旧普通列車(茶)</name>
+		<author>しかしか</author>
+		<description>貴婦人と呼ばれたC57が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、郵便車を併結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="蒸" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-C572}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mani60}"/>
+			<car char="郵" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oyu10-B}"/>
+			<car char="参" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuha43}"/>
+			<car char="急" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42}"/>
+			<car char="緩" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-R}"/>
+			
+			<composition>蒸</composition>
+			<composition>蒸急</composition>
+			<composition>蒸緩急</composition>
+			<composition>蒸郵緩急</composition>
+			<composition>蒸郵緩参急</composition>
+			<composition>蒸郵緩参参急</composition>
+			<composition>蒸郵緩参急緩急</composition>
+			<composition>蒸郵緩参参緩参急</composition>
+			<composition>蒸郵緩参参緩参参急</composition>
+			<composition>蒸郵緩参参緩参参参急</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B}">
+		<company>旧日本国有鉄道</company>
+		<type>C 57</type>
+		<name>旧普通列車(青)</name>
+		<author>しかしか</author>
+		<description>貴婦人と呼ばれたC57が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。最後尾に荷物車を併結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="蒸" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-C572}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mani60}"/>
+			<car char="郵" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oyu10-B}"/>
+			<car char="参" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuha43-B}"/>
+			<car char="急" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-B}"/>
+			<car char="緩" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-B-R}"/>
+			
+			<composition>蒸</composition>
+			<composition>蒸急</composition>
+			<composition>蒸緩急</composition>
+			<composition>蒸緩急荷</composition>
+			<composition>蒸緩参急荷</composition>
+			<composition>蒸緩参参急荷</composition>
+			<composition>蒸緩参急緩急荷</composition>
+			<composition>蒸緩参参緩参急荷</composition>
+			<composition>蒸緩参参緩参参急荷</composition>
+			<composition>蒸緩参参緩参参参急荷</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-C58-LocalTrein}">
+		<company>旧日本国有鉄道</company>
+		<type>C 58</type>
+		<name>旧普通列車(茶)</name>
+		<author>しかしか</author>
+		<description>客貨両用機関車のC58が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、郵便車を併結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="蒸" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-C581}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mani60}"/>
+			<car char="郵" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oyu10-B}"/>
+			<car char="参" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuha43}"/>
+			<car char="急" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42}"/>
+			<car char="緩" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-R}"/>
+			
+			<composition>蒸</composition>
+			<composition>蒸急</composition>
+			<composition>蒸緩急</composition>
+			<composition>蒸郵緩急</composition>
+			<composition>蒸郵緩参急</composition>
+			<composition>蒸郵緩参参急</composition>
+			<composition>蒸郵緩参急緩急</composition>
+			<composition>蒸郵緩参参緩参急</composition>
+			<composition>蒸郵緩参参緩参参急</composition>
+			<composition>蒸郵緩参参緩参参参急</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B}">
+		<company>旧日本国有鉄道</company>
+		<type>C 58</type>
+		<name>旧普通列車(青)</name>
+		<author>しかしか</author>
+		<description>客貨両用機関車のC58が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。最後尾に荷物車を併結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="蒸" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-C581}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mani60}"/>
+			<car char="郵" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oyu10-B}"/>
+			<car char="参" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuha43-B}"/>
+			<car char="急" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-B}"/>
+			<car char="緩" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-B-R}"/>
+			
+			<composition>蒸</composition>
+			<composition>蒸急</composition>
+			<composition>蒸緩急</composition>
+			<composition>蒸緩急荷</composition>
+			<composition>蒸緩参急荷</composition>
+			<composition>蒸緩参参急荷</composition>
+			<composition>蒸緩参急緩急荷</composition>
+			<composition>蒸緩参参緩参急荷</composition>
+			<composition>蒸緩参参緩参参急荷</composition>
+			<composition>蒸緩参参緩参参参急荷</composition>
+		</config>
+	</contribution>
+
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-swallowangel}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 58</type>
+		<name>特急つばめ</name>
+		<author>しかしか</author>
+		<description>昭和26年から製造された戦後初の急行旅客用機関車EF58が牽引する、特急つばめです。塗装はかつての電気機関車の標準色であったぶどう色です。客車はスハ44系で、最後尾には1等展望車を連結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhani35}"/>
+			<car char="参" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuha44}"/>
+			<car char="弐" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuro60}"/>
+			<car char="食" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mashi35}"/>
+			<car char="展" ref="{FreeTrain-Shika-PassengerCar-TrainCar-maite49}"/>
+
+			<composition>電</composition>
+			<composition>電展</composition>
+			<composition>電荷展</composition>
+			<composition>電荷食展</composition>
+			<composition>電荷食弐展</composition>
+			<composition>電荷参食弐展</composition>
+			<composition>電荷参参食弐展</composition>
+			<composition>電荷参参参食弐展</composition>
+			<composition>電荷参参参食弐弐展</composition>
+			<composition>電荷参参参食弐弐弐展</composition>
+			<composition>電荷参参参弐食弐弐弐展</composition>
+			<composition>電荷参参参弐弐食弐弐弐展</composition>
+			<composition>電荷参参参参弐弐食弐弐弐展</composition>
+			<composition>電荷参参参参参弐弐食弐弐弐展</composition>
+			<composition>電荷参参参参参弐弐弐食弐弐弐展</composition>
+			<composition>電荷参参参参参参弐弐弐食弐弐弐展</composition>
+			<composition>電荷参参参参参参参弐弐弐食弐弐弐展</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-Pigeon-A}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 58</type>
+		<name>特急はと</name>
+		<author>しかしか</author>
+		<description>EF58(青大将色)が牽引する、特急はとです。客車はスハ44系で、青大将と呼ばれた淡緑色に塗装されています。昭和31年東海道全線電化に伴い新設されました。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58-A}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhani35-A}"/>
+			<car char="参" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuha44-A}"/>
+			<car char="弐" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuro60-A}"/>
+			<car char="食" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mashi35-A}"/>
+			<car char="展" ref="{FreeTrain-Shika-PassengerCar-TrainCar-maite49-A}"/>
+
+			<composition>電</composition>
+			<composition>電展</composition>
+			<composition>電荷展</composition>
+			<composition>電荷食展</composition>
+			<composition>電荷食弐展</composition>
+			<composition>電荷参食弐展</composition>
+			<composition>電荷参参食弐展</composition>
+			<composition>電荷参参参食弐展</composition>
+			<composition>電荷参参参食弐弐展</composition>
+			<composition>電荷参参参食弐弐弐展</composition>
+			<composition>電荷参参参弐食弐弐弐展</composition>
+			<composition>電荷参参参弐弐食弐弐弐展</composition>
+			<composition>電荷参参参参弐弐食弐弐弐展</composition>
+			<composition>電荷参参参参参弐弐食弐弐弐展</composition>
+			<composition>電荷参参参参参弐弐弐食弐弐弐展</composition>
+			<composition>電荷参参参参参参弐弐弐食弐弐弐展</composition>
+			<composition>電荷参参参参参参参弐弐弐食弐弐弐展</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-hatukari-B}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 58</type>
+		<name>特急はつかり</name>
+		<author>しかしか</author>
+		<description>EF58(特急色)が牽引する、特急はつかりです。客車はスハ44系で、昭和39年以降の青に塗り替えられたものです。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58-B-ex}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhani35-B}"/>
+			<car char="参" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuha44-B}"/>
+			<car char="弐" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuro60-B}"/>
+			<car char="食" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mashi35-B}"/>
+			<car char="展" ref="{FreeTrain-Shika-PassengerCar-TrainCar-maite49-B}"/>
+			<car char="掌" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-B}"/>
+	
+			<composition>電</composition>
+			<composition>電掌</composition>
+			<composition>電荷掌</composition>
+			<composition>電荷食掌</composition>
+			<composition>電荷食弐掌</composition>
+			<composition>電荷参食弐掌</composition>
+			<composition>電荷参参食弐掌</composition>
+			<composition>電荷参参参食弐掌</composition>
+			<composition>電荷参参参食弐弐掌</composition>
+			<composition>電荷参参参食弐弐弐掌</composition>
+			<composition>電荷参参参弐食弐弐弐掌</composition>
+			<composition>電荷参参参弐弐食弐弐弐掌</composition>
+			<composition>電荷参参参参弐弐食弐弐弐掌</composition>
+			<composition>電荷参参参参参弐弐食弐弐弐掌</composition>
+			<composition>電荷参参参参参弐弐弐食弐弐弐掌</composition>
+			<composition>電荷参参参参参参弐弐弐食弐弐弐掌</composition>
+			<composition>電荷参参参参参参参弐弐弐食弐弐弐掌</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Railroad-Train-EF58-LocalTrein}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 58</type>
+		<name>旧普通列車(茶)</name>
+		<author>しかしか</author>
+		<description>EF58(ぶどう色)が牽引する、客車普通列車です。客車はスハ43系で、昔のぶどう色のものです。郵便車を併結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mani60}"/>
+			<car char="郵" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oyu10-B}"/>
+			<car char="参" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuha43}"/>
+			<car char="急" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42}"/>
+			<car char="緩" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-R}"/>
+			
+			<composition>電</composition>
+			<composition>電急</composition>
+			<composition>電緩急</composition>
+			<composition>電郵緩急</composition>
+			<composition>電郵緩参急</composition>
+			<composition>電郵緩参参急</composition>
+			<composition>電郵緩参急緩急</composition>
+			<composition>電郵緩参参緩参急</composition>
+			<composition>電郵緩参参緩参参急</composition>
+			<composition>電郵緩参参緩参参参急</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Railroad-Train-EF58-LocalTrein-B}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 58</type>
+		<name>旧普通列車(青)</name>
+		<author>しかしか</author>
+		<description>EF58(一般色)が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。荷物車を併結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58-B}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mani60}"/>
+			<car char="郵" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oyu10-B}"/>
+			<car char="参" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuha43-B}"/>
+			<car char="急" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-B}"/>
+			<car char="緩" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-B-R}"/>
+			
+			<composition>電</composition>
+			<composition>電急</composition>
+			<composition>電緩急</composition>
+			<composition>電荷緩急</composition>
+			<composition>電荷緩参急</composition>
+			<composition>電荷緩参参急</composition>
+			<composition>電荷緩参急緩急</composition>
+			<composition>電荷緩参参緩参急</composition>
+			<composition>電荷緩参参緩参参急</composition>
+			<composition>電荷緩参参緩参参参急</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EF58-B-ex-LimitedExpressTrain-tugaru}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 58</type>
+		<name>特急津軽</name>
+		<author>しかしか</author>
+		<description>EF58(一般色)が牽引する、特急津軽です。客車は14系特急形寝台客車と14系特急形客車の併結です。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58-B-ex}"/>
+			<car char="緩" ref="{FreeTrain-Shika-PassengerCar-TrainCar-suhanehu14}"/>
+			<car char="急" ref="{FreeTrain-Shika-PassengerCar-TrainCar-suhanehu14-R}"/>
+			<car char="Ｂ" ref="{FreeTrain-Shika-PassengerCar-TrainCar-ohane14}"/>
+			<car char="Ａ" ref="{FreeTrain-Shika-PassengerCar-TrainCar-orone14}"/>
+			<car char="食" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oshi14}"/>
+			<car char="掌" ref="{FreeTrain-Shika-PassengerCar-TrainCar-ohahu15}"/>
+			<car char="座" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oha14}"/>
+			<car char="発" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu14}"/>
+
+			<composition>電</composition>
+			<composition>電掌</composition>
+			<composition>電急掌</composition>
+			<composition>電急Ｂ掌</composition>
+			<composition>電急Ｂ座掌</composition>
+			<composition>電急ＢＢ座掌</composition>
+			<composition>電急ＢＢ座座掌</composition>
+			<composition>電急ＢＢ座座座掌</composition>
+			<composition>電急ＢＢＢ座座座掌</composition>
+			<composition>電急ＢＢＢ座座座座掌</composition>
+			<composition>電急ＢＢＢ座座座座座掌</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EF66-LimitedExpressTrain-sakura}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 66</type>
+		<name>特急さくら</name>
+		<author>しかしか</author>
+		<description>高速貨車用大型電気機関車EF66が牽引する、特急さくらです。客車は14系特急形寝台客車です。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF66}"/>
+			<car char="緩" ref="{FreeTrain-Shika-PassengerCar-TrainCar-suhanehu14}"/>
+			<car char="急" ref="{FreeTrain-Shika-PassengerCar-TrainCar-suhanehu14-R}"/>
+			<car char="Ｂ" ref="{FreeTrain-Shika-PassengerCar-TrainCar-ohane14}"/>
+			<car char="Ａ" ref="{FreeTrain-Shika-PassengerCar-TrainCar-orone14}"/>
+			<car char="食" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oshi14}"/>
+			<car char="掌" ref="{FreeTrain-Shika-PassengerCar-TrainCar-ohahu15}"/>
+			<car char="座" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oha14}"/>
+			<car char="発" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu14}"/>
+
+			<composition>電</composition>
+			<composition>電緩</composition>
+			<composition>電急緩</composition>
+			<composition>電急食緩</composition>
+			<composition>電急Ａ食緩</composition>
+			<composition>電急ＡＢ食緩</composition>
+			<composition>電急ＡＢ食Ｂ緩</composition>
+			<composition>電急ＡＢＢ食Ｂ緩</composition>
+			<composition>電急ＡＢＢＢ食Ｂ緩</composition>
+			<composition>電急ＡＢＢ食Ｂ緩急緩</composition>
+			<composition>電急ＡＢＢＢ食Ｂ緩急緩</composition>
+			<composition>電急ＡＢＢＢ食Ｂ緩急Ｂ緩</composition>
+			<composition>電急ＡＢＢＢ食Ｂ緩急ＢＢ緩</composition>
+			<composition>電急ＡＢＢＢ食Ｂ緩急ＢＢＢ緩</composition>
+			<composition>電急ＡＢＢＢ食Ｂ緩急ＢＢＢＢ緩</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EF66-LimitedExpressTrain-hayabusa}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 66</type>
+		<name>特急はやぶさ</name>
+		<author>しかしか</author>
+		<description>高速貨車用大型電気機関車EF66が牽引する、特急はやぶさです。客車は24系25形特急形寝台客車で、中間にロビーカーを連結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF66}"/>
+			<car char="緩" ref="{FreeTrain-Shika-PassengerCar-TrainCar-ohanehu25}"/>
+			<car char="急" ref="{FreeTrain-Shika-PassengerCar-TrainCar-ohanehu25-R}"/>
+			<car char="Ｂ" ref="{FreeTrain-Shika-PassengerCar-TrainCar-ohane25}"/>
+			<car char="ロ" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oha24}"/>
+			<car char="Ａ" ref="{FreeTrain-Shika-PassengerCar-TrainCar-orone25}"/>
+			<car char="食" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oshi24}"/>
+			<car char="発" ref="{FreeTrain-Shika-PassengerCar-TrainCar-kani24}"/>
+			<car char="源" ref="{FreeTrain-Shika-PassengerCar-TrainCar-kani24-R}"/>
+
+			<composition>電</composition>
+			<composition>電緩</composition>
+			<composition>電源緩</composition>
+			<composition>電源食緩</composition>
+			<composition>電源Ａ食緩</composition>
+			<composition>電源ＡＢ食緩</composition>
+			<composition>電源ＡＢ食ロ緩</composition>
+			<composition>電源ＡＢ食ロＢ緩</composition>
+			<composition>電源ＡＢＢ食ロＢ緩</composition>
+			<composition>電源ＡＢＢＢ食ロＢ緩</composition>
+			<composition>電源ＡＢＢＢＢ食ロＢ緩</composition>
+			<composition>電源ＡＢＢＢＢ食ロＢＢ緩</composition>
+			<composition>電源ＡＢＢＢ緩急食ロＢＢ緩</composition>
+			<composition>電源ＡＢＢＢＢ緩急食ロＢＢ緩</composition>
+			<composition>電源ＡＢＢＢＢ緩急食ロＢＢＢ緩</composition>
+			<composition>電源ＡＢＢＢＢ緩急食ロＢＢ緩Ｂ緩</composition>
+		</config>
+	</contribution>
+
+
+	<!-- 貨物列車の定義 -->
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EH10-Freight-takara}">
+		<company>旧日本国有鉄道</company>
+		<type>EH 10</type>
+		<name>コンテナ特急貨物たから</name>
+		<author>しかしか</author>
+		<description>重貨物用電気機関車EH10が牽引する、コンテナ特急貨物列車たからです。コンテナと同じ色に塗られた車掌車を牽引しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EH10}"/>
+			<car char="宝" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo5000takara}"/>
+
+			<car char="せ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t5g}"/>
+			<car char="そ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t2g}"/>
+
+			<composition>電</composition>
+			<composition>電宝</composition>
+			<composition>電せ宝</composition>
+			<composition>電せそ宝</composition>
+			<composition>電せせそ宝</composition>
+			<composition>電せせせそ宝</composition>
+			<composition>電せせせせそ宝</composition>
+			<composition>電そせせせせそ宝</composition>
+			<composition>電そせせせそせそ宝</composition>
+			<composition>電そせせせせそせそ宝</composition>
+			<composition>電そせせせせせそせそ宝</composition>
+			<composition>電そせせせせせそせせそ宝</composition>
+			<composition>電そせせせせせせそせせそ宝</composition>
+			<composition>電そせせせそせせせそせせそ宝</composition>
+			<composition>電そせせせそせせせせそせせそ宝</composition>
+			<composition>電そせせせそせせせせそせせせそ宝</composition>
+			<composition>電そせせせせそせせせせそせせせそ宝</composition>
+			<composition>電そせせせそせそせせせせそせせせそ宝</composition>
+			<composition>電そせせせそせそそせせせせそせせせそ宝</composition>
+			<composition>電そせせせせそせそそせせせせそせせせそ宝</composition>
+			<composition>電そせせせせそせそそせせせそせそせせせそ宝</composition>
+			<composition>電そせせせせそせそそせせせそそせそせせせそ宝</composition>
+			<composition>電そせせせせそせそそせせせせそそせそせせせそ宝</composition>
+			<composition>電そせせせせそせそそせせせせそそせせそせせせそ宝</composition>
+			<composition>電そせせせせそせせそそせせせせそそせせそせせせそ宝</composition>
+			<composition>電そせせせせそせせそそせせせせそそせせそせせせせそ宝</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EH10-Freight-Local}">
+		<company>旧日本国有鉄道</company>
+		<type>EH 10</type>
+		<name>荷物列車</name>
+		<author>しかしか</author>
+		<description>重貨物用電気機関車EH10が牽引する、荷物列車です。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EH10}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mani60}"/>
+			<car char="郵" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oyu10-B}"/>
+			<car char="急" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki1000}"/>
+			<car char="行" ref="{FreeTrain-Shika-FreightCar-TrainCar-wamuhu100}"/>
+			<car char="ワ" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki5000}"/>
+			<car char="高" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki8000}"/>
+			<car char="共" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki10000}"/>
+			<car char="室" ref="{FreeTrain-Shika-FreightCar-TrainCar-washahu8000}"/>
+			<car char="部" ref="{FreeTrain-Shika-FreightCar-TrainCar-washahu8000-R}"/>
+			<car char="ト" ref="{FreeTrain-Shika-FreightCar-TrainCar-toki15000}"/>
+			<car char="ド" ref="{FreeTrain-Shika-FreightCar-TrainCar-toki25000}"/>
+			<car char="冷" ref="{FreeTrain-Shika-FreightCar-TrainCar-resha5000}"/>
+			<car char="凍" ref="{FreeTrain-Shika-FreightCar-TrainCar-remuhu10000}"/>
+			<car char="蔵" ref="{FreeTrain-Shika-FreightCar-TrainCar-remuhu10000-R}"/>
+			<car char="長" ref="{FreeTrain-Shika-FreightCar-TrainCar-chiki7000}"/>
+			<car char="容" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000b}"/>
+			<car char="器" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000k}"/>
+			<car char="液" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000g}"/>
+			<car char="掌" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo5000}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+			<car char="ヨ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo8000}"/>
+			<car char="用" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo9000}"/>
+
+			<composition>電</composition>
+			<composition>電よ</composition>
+			<composition>電高よ</composition>
+			<composition>電郵高よ</composition>
+			<composition>電郵高高よ</composition>
+			<composition>電郵共高高よ</composition>
+			<composition>電郵共高高器よ</composition>
+			<composition>電郵共高高器器よ</composition>
+			<composition>電郵共室高高器器よ</composition>
+			<composition>電郵共室高高器器ワよ</composition>
+			<composition>電郵共室高高ド器器ワよ</composition>
+			<composition>電郵共室高高ドド器器ワよ</composition>
+			<composition>電郵共室荷高高ドド器器ワよ</composition>
+			<composition>電郵共室荷高高ドドド器器ワよ</composition>
+			<composition>電郵共室荷急高高ドドド器器ワよ</composition>
+			<composition>電郵共室荷急急高高ドドド器器ワよ</composition>
+			<composition>電郵共室荷急急高高ドドド器器ワワよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EH10-Freight-FreightLiner-Tank}">
+		<company>旧日本国有鉄道</company>
+		<type>EH 10</type>
+		<name>タンカー列車</name>
+		<author>しかしか</author>
+		<description>重貨物用電気機関車EH10が牽引する、タンク貨物です。最後尾に昭和34年に最高許容速度が85km/hに改造された車掌車を連結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EH10}"/>
+			<car char="容" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000b}"/>
+			<car char="器" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000k}"/>
+			<car char="液" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000g}"/>
+			<car char="掌" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo5000}"/>
+			<car char="宝" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo5000takara}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+			<car char="ヨ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo8000}"/>
+			<car char="用" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo9000}"/>
+
+			<composition>電</composition>
+			<composition>電掌</composition>
+			<composition>電器掌</composition>
+			<composition>電器容掌</composition>
+			<composition>電器器容掌</composition>
+			<composition>電器器器容掌</composition>
+			<composition>電器器器器容掌</composition>
+			<composition>電器器器器器容掌</composition>
+			<composition>電器器器器器器容掌</composition>
+			<composition>電器器器器器器器容掌</composition>
+			<composition>電器器器器器器器容容掌</composition>
+			<composition>電器器器器器器器容容容掌</composition>
+			<composition>電器器器器器器器器容容容掌</composition>
+			<composition>電器器器器器器器器容容容液掌</composition>
+			<composition>電器器器器器器器器容容容容液掌</composition>
+			<composition>電器器器器器器器器器容容容容液掌</composition>
+			<composition>電器器器器器器器器器容容容容液液掌</composition>
+			<composition>電器器器器器器器器器容容容容容液液掌</composition>
+			<composition>電器器器器器器器器器器容容容容容液液掌</composition>
+			<composition>電器器器器器器器器器器容容容容容液液液掌</composition>
+			<composition>電器器器器器器器器器器容容容容容容液液液掌</composition>
+			<composition>電器器器器器器器器器器器容容容容容容液液液掌</composition>
+			<composition>電器器器器器器器器器器器容容容容容容液液液液掌</composition>
+			<composition>電器器器器器器器器器器器容容容容容容容液液液液掌</composition>
+			<composition>電器器器器器器器器器器器器容容容容容容容液液液液掌</composition>
+			<composition>電器器器器器器器器器器器器容容容容容容容液液液液液掌</composition>
+			<composition>電器器器器器器器器器器器器容容容容容容容容液液液液液掌</composition>
+			<composition>電器器器器器器器器器器器器容容容容容容容容容液液液液液掌</composition>
+		</config>
+	</contribution>
+
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EF66-Freight-Freshfish}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 66</type>
+		<name>鮮魚特急貨物(とびうお号)</name>
+		<author>しかしか</author>
+		<description>高速貨車用大型電気機関車EF66が牽引する、鮮魚特急貨物(通称とびうお号)です。冷凍魚や鮮魚輸送用の大型冷蔵車の編成で、前後に緩急車を連結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF66}"/>
+			<car char="冷" ref="{FreeTrain-Shika-FreightCar-TrainCar-resha5000}"/>
+			<car char="凍" ref="{FreeTrain-Shika-FreightCar-TrainCar-remuhu10000}"/>
+			<car char="蔵" ref="{FreeTrain-Shika-FreightCar-TrainCar-remuhu10000-R}"/>
+
+			<composition>電</composition>
+			<composition>電凍</composition>
+			<composition>電蔵凍</composition>
+			<composition>電蔵冷凍</composition>
+			<composition>電蔵冷冷凍</composition>
+			<composition>電蔵冷冷冷凍</composition>
+			<composition>電蔵冷冷冷冷凍</composition>
+			<composition>電蔵冷冷冷冷冷凍</composition>
+			<composition>電蔵冷冷冷冷冷冷凍</composition>
+			<composition>電蔵冷冷冷冷冷冷冷凍</composition>
+			<composition>電蔵冷冷冷冷冷冷冷冷凍</composition>
+			<composition>電蔵冷冷冷冷冷冷冷冷冷凍</composition>
+			<composition>電蔵冷冷冷冷冷冷冷冷冷冷凍</composition>
+			<composition>電蔵冷冷冷冷冷冷冷冷冷冷冷凍</composition>
+			<composition>電蔵冷冷冷冷冷冷冷冷冷冷冷冷凍</composition>
+			<composition>電蔵冷冷冷冷冷冷冷冷冷冷冷冷冷凍</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EF66-Freight-FreightLiner-Tank}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 66</type>
+		<name>タンカー列車</name>
+		<author>しかしか</author>
+		<description>高速貨車用大型電気機関車EF66が牽引する、タンク貨物です。最後尾に昭和50年に登場した車掌車を連結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF66}"/>
+			<car char="容" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000b}"/>
+			<car char="器" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000k}"/>
+			<car char="液" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000g}"/>
+			<car char="掌" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo5000}"/>
+			<car char="宝" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo5000takara}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+			<car char="ヨ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo8000}"/>
+			<car char="用" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo9000}"/>
+
+			<composition>電</composition>
+			<composition>電ヨ</composition>
+			<composition>電器ヨ</composition>
+			<composition>電器容ヨ</composition>
+			<composition>電器器容ヨ</composition>
+			<composition>電器器器容ヨ</composition>
+			<composition>電器器器器容ヨ</composition>
+			<composition>電器器器器器容ヨ</composition>
+			<composition>電器器器器器器容ヨ</composition>
+			<composition>電器器器器器器器容ヨ</composition>
+			<composition>電器器器器器器器容容ヨ</composition>
+			<composition>電器器器器器器器容容容ヨ</composition>
+			<composition>電器器器器器器器器容容容ヨ</composition>
+			<composition>電器器器器器器器器容容容液ヨ</composition>
+			<composition>電器器器器器器器器容容容容液ヨ</composition>
+			<composition>電器器器器器器器器器容容容容液ヨ</composition>
+			<composition>電器器器器器器器器器容容容容液液ヨ</composition>
+			<composition>電器器器器器器器器器容容容容容液液ヨ</composition>
+			<composition>電器器器器器器器器器器容容容容容液液ヨ</composition>
+			<composition>電器器器器器器器器器器容容容容容液液液ヨ</composition>
+			<composition>電器器器器器器器器器器容容容容容容液液液ヨ</composition>
+			<composition>電器器器器器器器器器器器容容容容容容液液液ヨ</composition>
+			<composition>電器器器器器器器器器器器容容容容容容液液液液ヨ</composition>
+			<composition>電器器器器器器器器器器器容容容容容容容液液液液ヨ</composition>
+			<composition>電器器器器器器器器器器器器容容容容容容容液液液液ヨ</composition>
+			<composition>電器器器器器器器器器器器器容容容容容容容液液液液液ヨ</composition>
+			<composition>電器器器器器器器器器器器器容容容容容容容容液液液液液ヨ</composition>
+			<composition>電器器器器器器器器器器器器容容容容容容容容容液液液液液ヨ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EF66-Freight-FreightLiner}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 66</type>
+		<name>フレートライナー</name>
+		<author>しかしか</author>
+		<description>高速貨車用大型電気機関車EF66が牽引する、コンテナ貨物列車です。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF66}"/>
+			<car char="共" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki10000}"/>
+
+			<car char="か" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4JNR}"/>
+			<car char="き" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4JNR-R}"/>
+			<car char="く" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5JNR}"/>
+			<car char="け" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t3JNR}"/>
+			<car char="こ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t2JNR}"/>
+			<car char="さ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4g}"/>
+			<car char="し" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4g-R}"/>
+			<car char="す" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5g}"/>
+			<car char="た" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4w}"/>
+			<car char="ち" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4w-R}"/>
+			<car char="つ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5w}"/>
+			<car char="て" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t3w}"/>
+			<car char="と" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t2w}"/>
+
+			<composition>電</composition>
+			<composition>電か</composition>
+			<composition>電共か</composition>
+			<composition>電共くか</composition>
+			<composition>電共くつか</composition>
+			<composition>電共くつすか</composition>
+			<composition>電共しくつすか</composition>
+			<composition>電共しくつすてか</composition>
+			<composition>電共しくてすとてか</composition>
+			<composition>電共しくてたすとてか</composition>
+			<composition>電共共しくてたすとけか</composition>
+			<composition>電共共しくてたこすとけか</composition>
+			<composition>電共共しくてたこくすとけか</composition>
+			<composition>電共共しくてたこくすつとけか</composition>
+			<composition>電共共しくてたこくすつとくけか</composition>
+			<composition>電共共しくてたこくすつことくけか</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EF66-Freight-Container-JR}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 66</type>
+		<name>コンテナ(JR)貨物列車</name>
+		<author>しかしか</author>
+		<description>高速貨車用大型電気機関車EF66が牽引する、コンテナ貨物列車(ＪＲ風コンテナ)です。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF66}"/>
+
+			<car char="が" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4JR}"/>
+			<car char="ぎ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4JR-R}"/>
+			<car char="ぐ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t5JRa}"/>
+			<car char="ぶ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t5JRb}"/>
+			<car char="げ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t3JR}"/>
+			<car char="ご" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t2JR}"/>
+			<car char="ざ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4b}"/>
+			<car char="じ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4b-R}"/>
+			<car char="ず" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t5b}"/>
+			<car char="だ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4w}"/>
+			<car char="ぢ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4w-R}"/>
+			<car char="づ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t5w}"/>
+			<car char="で" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t3w}"/>
+			<car char="ど" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t2w}"/>
+
+			<composition>電</composition>
+			<composition>電が</composition>
+			<composition>電ぐが</composition>
+			<composition>電ぐぶが</composition>
+			<composition>電ぐずぶが</composition>
+			<composition>電ぐずでぶが</composition>
+			<composition>電ぐげずでぶが</composition>
+			<composition>電ぢぐげずでぶが</composition>
+			<composition>電ぢぐげざずでぶが</composition>
+			<composition>電ぢぐげざずげでぶが</composition>
+			<composition>電ぢぐげざずげでぶごが</composition>
+			<composition>電ぢぐげざずげどでぶごが</composition>
+			<composition>電ぢぐげざずげどでぐぶごが</composition>
+			<composition>電電ぢぐげざずげどでぐぶごが</composition>
+			<composition>電電ぢぐげざずげぶどでぐぶごが</composition>
+			<composition>電電ぢぐげざずげぶずどでぐぶごが</composition>
+			<composition>電電ぢぐげざずげぶずどづでぐぶごが</composition>
+			<composition>電電ぢぐげざずげぶずどづでげぐぶごが</composition>
+			<composition>電電ぢぐげざずげぶずどづでげぐぶごずが</composition>
+			<composition>電電ぢぐげざずげぶずどづでげぐぶごでずが</composition>
+			<composition>電電ぢぐげざずげぶずどづでげぐぶごでぐずが</composition>
+			<composition>電電ぢぐげざずげぶずどづでげぐぶごでぐずどが</composition>
+		</config>
+	</contribution>
+
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-Local}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 58</type>
+		<name>荷物列車(デッキ付)</name>
+		<author>しかしか</author>
+		<description>電気機関車EF58(デッキ付)が牽引する、荷物列車です。最後尾に緩急車を連結しています。貨物ならFE18かもしれませんが…。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58-Deck}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mani60}"/>
+			<car char="郵" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oyu10-B}"/>
+			<car char="急" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki1000}"/>
+			<car char="行" ref="{FreeTrain-Shika-FreightCar-TrainCar-wamuhu100}"/>
+			<car char="ワ" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki5000}"/>
+			<car char="高" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki8000}"/>
+			<car char="共" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki10000}"/>
+			<car char="室" ref="{FreeTrain-Shika-FreightCar-TrainCar-washahu8000}"/>
+			<car char="部" ref="{FreeTrain-Shika-FreightCar-TrainCar-washahu8000-R}"/>
+			<car char="冷" ref="{FreeTrain-Shika-FreightCar-TrainCar-resha5000}"/>
+
+			<composition>電</composition>
+			<composition>電行</composition>
+			<composition>電荷行</composition>
+			<composition>電荷郵行</composition>
+			<composition>電荷ワ郵行</composition>
+			<composition>電荷ワ郵荷行</composition>
+			<composition>電荷荷ワ郵荷行</composition>
+			<composition>電荷荷ワ郵荷荷行</composition>
+			<composition>電荷荷荷ワ郵荷荷行</composition>
+			<composition>電荷荷荷急ワ郵荷荷行</composition>
+			<composition>電部荷荷荷急ワ郵急荷荷行</composition>
+			<composition>電部ワ荷荷荷急ワ郵急荷荷行</composition>
+			<composition>電部ワワ荷荷荷急ワ郵急荷荷行</composition>
+			<composition>電部ワワワ荷荷荷急ワ郵急荷荷行</composition>
+			<composition>電部ワワワ荷荷荷急ワ郵急荷荷荷行</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EF58-Freight-Local}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 58</type>
+		<name>荷物列車(茶)</name>
+		<author>しかしか</author>
+		<description>電気機関車EF58(ぶどう色)が牽引する、荷物列車です。最後尾に緩急車を連結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mani60}"/>
+			<car char="郵" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oyu10-B}"/>
+			<car char="急" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki1000}"/>
+			<car char="行" ref="{FreeTrain-Shika-FreightCar-TrainCar-wamuhu100}"/>
+			<car char="ワ" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki5000}"/>
+			<car char="高" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki8000}"/>
+			<car char="共" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki10000}"/>
+			<car char="室" ref="{FreeTrain-Shika-FreightCar-TrainCar-washahu8000}"/>
+			<car char="部" ref="{FreeTrain-Shika-FreightCar-TrainCar-washahu8000-R}"/>
+			<car char="冷" ref="{FreeTrain-Shika-FreightCar-TrainCar-resha5000}"/>
+
+			<composition>電</composition>
+			<composition>電行</composition>
+			<composition>電荷行</composition>
+			<composition>電荷郵行</composition>
+			<composition>電荷高郵行</composition>
+			<composition>電荷高郵荷行</composition>
+			<composition>電荷荷高郵荷行</composition>
+			<composition>電荷荷高郵荷荷行</composition>
+			<composition>電荷荷荷高郵荷荷行</composition>
+			<composition>電荷荷荷荷高郵荷荷行</composition>
+			<composition>電部荷荷荷荷高郵荷荷荷行</composition>
+			<composition>電部高荷荷荷荷高郵荷荷荷行</composition>
+			<composition>電部高高荷荷荷荷高郵荷荷荷行</composition>
+			<composition>電部高高高荷荷荷荷高郵荷荷荷行</composition>
+			<composition>電部高高高荷荷荷荷高郵荷荷荷荷行</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-express}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 58</type>
+		<name>急行荷物列車(青)</name>
+		<author>しかしか</author>
+		<description>電気機関車EF58(一般色)が牽引する、急行荷物列車です。最後尾に緩急車を連結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58-B}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mani60}"/>
+			<car char="郵" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oyu10-B}"/>
+			<car char="急" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki1000}"/>
+			<car char="行" ref="{FreeTrain-Shika-FreightCar-TrainCar-wamuhu100}"/>
+			<car char="ワ" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki5000}"/>
+			<car char="高" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki8000}"/>
+			<car char="共" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki10000}"/>
+			<car char="室" ref="{FreeTrain-Shika-FreightCar-TrainCar-washahu8000}"/>
+			<car char="部" ref="{FreeTrain-Shika-FreightCar-TrainCar-washahu8000-R}"/>
+			<car char="冷" ref="{FreeTrain-Shika-FreightCar-TrainCar-resha5000}"/>
+
+			<composition>電</composition>
+			<composition>電室</composition>
+			<composition>電部室</composition>
+			<composition>電部高室</composition>
+			<composition>電部高郵室</composition>
+			<composition>電部高郵荷室</composition>
+			<composition>電部高高郵荷室</composition>
+			<composition>電部高高郵荷荷室</composition>
+			<composition>電部高高郵郵荷荷室</composition>
+			<composition>電部高高郵郵荷荷荷室</composition>
+			<composition>電部高高荷郵郵荷荷荷室</composition>
+			<composition>電部高高荷荷郵郵荷荷荷室</composition>
+			<composition>電部高高荷荷荷郵郵荷荷荷室</composition>
+			<composition>電部高高荷荷荷荷郵郵荷荷荷室</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-FreightLiner}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 58</type>
+		<name>フレートライナー</name>
+		<author>しかしか</author>
+		<description>電気機関車EF58(デッキ付)が牽引する、コンテナ貨物列車です。貨物ならFE18かもしれませんが…。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58-Deck}"/>
+			<car char="共" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki10000}"/>
+
+			<car char="か" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4JNR}"/>
+			<car char="き" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4JNR-R}"/>
+			<car char="く" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5JNR}"/>
+			<car char="け" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t3JNR}"/>
+			<car char="こ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t2JNR}"/>
+			<car char="さ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4g}"/>
+			<car char="し" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4g-R}"/>
+			<car char="す" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5g}"/>
+			<car char="た" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4w}"/>
+			<car char="ち" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4w-R}"/>
+			<car char="つ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5w}"/>
+			<car char="て" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t3w}"/>
+			<car char="と" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t2w}"/>
+
+			<composition>電</composition>
+			<composition>電か</composition>
+			<composition>電共か</composition>
+			<composition>電共くか</composition>
+			<composition>電共くつか</composition>
+			<composition>電共くつすか</composition>
+			<composition>電共しくつすか</composition>
+			<composition>電共しくつすてか</composition>
+			<composition>電共しくてすとてか</composition>
+			<composition>電共しくてたすとてか</composition>
+			<composition>電共共しくてたすとけか</composition>
+			<composition>電共共しくてたこすとけか</composition>
+			<composition>電共共しくてたこくすとけか</composition>
+			<composition>電共共しくてたこくすつとけか</composition>
+			<composition>電共共しくてたこくすつとくけか</composition>
+			<composition>電共共しくてたこくすつことくけか</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-Container-JR}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 58</type>
+		<name>コンテナ(JR)貨物列車</name>
+		<author>しかしか</author>
+		<description>電気機関車EF58(一般色)が牽引する、コンテナ貨物列車(ＪＲ風コンテナ)です。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58-B}"/>
+
+			<car char="が" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4JR}"/>
+			<car char="ぎ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4JR-R}"/>
+			<car char="ぐ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t5JRa}"/>
+			<car char="ぶ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t5JRb}"/>
+			<car char="げ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t3JR}"/>
+			<car char="ご" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t2JR}"/>
+			<car char="ざ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4b}"/>
+			<car char="じ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4b-R}"/>
+			<car char="ず" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t5b}"/>
+			<car char="だ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4w}"/>
+			<car char="ぢ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4w-R}"/>
+			<car char="づ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t5w}"/>
+			<car char="で" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t3w}"/>
+			<car char="ど" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t2w}"/>
+
+			<composition>電</composition>
+			<composition>電が</composition>
+			<composition>電ぐが</composition>
+			<composition>電ぐぶが</composition>
+			<composition>電ぐずぶが</composition>
+			<composition>電ぐずでぶが</composition>
+			<composition>電ぐげずでぶが</composition>
+			<composition>電ぢぐげずでぶが</composition>
+			<composition>電ぢぐげざずでぶが</composition>
+			<composition>電ぢぐげざずげでぶが</composition>
+			<composition>電ぢぐげざずげでぶごが</composition>
+			<composition>電ぢぐげざずげどでぶごが</composition>
+			<composition>電ぢぐげざずげどでぐぶごが</composition>
+			<composition>電電ぢぐげざずげどでぐぶごが</composition>
+			<composition>電電ぢぐげざずげぶどでぐぶごが</composition>
+			<composition>電電ぢぐげざずげぶずどでぐぶごが</composition>
+			<composition>電電ぢぐげざずげぶずどづでぐぶごが</composition>
+			<composition>電電ぢぐげざずげぶずどづでげぐぶごが</composition>
+			<composition>電電ぢぐげざずげぶずどづでげぐぶごずが</composition>
+			<composition>電電ぢぐげざずげぶずどづでげぐぶごでずが</composition>
+			<composition>電電ぢぐげざずげぶずどづでげぐぶごでぐずが</composition>
+			<composition>電電ぢぐげざずげぶずどづでげぐぶごでぐずどが</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-D511115-Freight-Container}">
+		<company>旧日本国有鉄道</company>
+		<type>D 51</type>
+		<name>コンテナ貨物列車</name>
+		<author>しかしか</author>
+		<description>国鉄貨物用標準型機関車D51が牽引する、コンテナ貨物列車です。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="ナ" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-D51100}"/>
+			<car char="蒸" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-D511115}"/>
+
+			<car char="か" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4JNR}"/>
+			<car char="き" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4JNR-R}"/>
+			<car char="く" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5JNR}"/>
+			<car char="け" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t3JNR}"/>
+			<car char="こ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t2JNR}"/>
+			<car char="さ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4g}"/>
+			<car char="し" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4g-R}"/>
+			<car char="す" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5g}"/>
+			<car char="た" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4w}"/>
+			<car char="ち" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4w-R}"/>
+			<car char="つ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5w}"/>
+			<car char="て" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t3w}"/>
+			<car char="と" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t2w}"/>
+
+			<composition>蒸</composition>
+			<composition>蒸か</composition>
+			<composition>蒸くか</composition>
+			<composition>蒸くすか</composition>
+			<composition>蒸くすてか</composition>
+			<composition>蒸くすけてか</composition>
+			<composition>蒸くすけてくか</composition>
+			<composition>蒸くすけてくこか</composition>
+			<composition>蒸ちくすけてくこか</composition>
+			<composition>蒸ちくつすけてくこか</composition>
+			<composition>蒸ちくつたすけてくこか</composition>
+			<composition>蒸ちくつたすけてくとこか</composition>
+			<composition>蒸ちくつたすけてくとこくか</composition>
+			<composition>蒸ナちくつたすけてくとこくか</composition>
+			<composition>蒸ナちくつたすけてくとこけくか</composition>
+			<composition>蒸ナちくつたすけてくとこくけくか</composition>
+			<composition>蒸ナちくつたすけてすくとこくけくか</composition>
+			<composition>蒸ナちくつたすけてすくつとこくけくか</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-D511115-Freight}">
+		<company>旧日本国有鉄道</company>
+		<type>D 51</type>
+		<name>貨物列車</name>
+		<author>しかしか</author>
+		<description>国鉄貨物用標準型機関車D51が牽引する、貨物列車です。最後尾に昭和50年に登場した車掌車を連結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="ナ" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-D51100}"/>
+			<car char="蒸" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-D511115}"/>
+			<car char="急" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki1000}"/>
+			<car char="行" ref="{FreeTrain-Shika-FreightCar-TrainCar-wamuhu100}"/>
+			<car char="ワ" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki5000}"/>
+			<car char="高" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki8000}"/>
+			<car char="共" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki10000}"/>
+			<car char="室" ref="{FreeTrain-Shika-FreightCar-TrainCar-washahu8000}"/>
+			<car char="ト" ref="{FreeTrain-Shika-FreightCar-TrainCar-toki15000}"/>
+			<car char="ド" ref="{FreeTrain-Shika-FreightCar-TrainCar-toki25000}"/>
+			<car char="冷" ref="{FreeTrain-Shika-FreightCar-TrainCar-resha5000}"/>
+			<car char="凍" ref="{FreeTrain-Shika-FreightCar-TrainCar-remuhu10000}"/>
+			<car char="蔵" ref="{FreeTrain-Shika-FreightCar-TrainCar-remuhu10000-R}"/>
+			<car char="長" ref="{FreeTrain-Shika-FreightCar-TrainCar-chiki7000}"/>
+			<car char="容" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000b}"/>
+			<car char="器" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000k}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+			<car char="ヨ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo8000}"/>
+			<car char="く" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5JNR}"/>
+			<car char="け" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t3JNR}"/>
+			<car char="こ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t2JNR}"/>
+			<car char="す" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5g}"/>
+			<car char="つ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5w}"/>
+			<car char="て" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t3w}"/>
+			<car char="と" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t2w}"/>
+
+			<composition>蒸</composition>
+			<composition>蒸ヨ</composition>
+			<composition>蒸ワヨ</composition>
+			<composition>蒸ワ容ヨ</composition>
+			<composition>蒸ワワ容ヨ</composition>
+			<composition>蒸トワワ容ヨ</composition>
+			<composition>蒸トくワワ容ヨ</composition>
+			<composition>蒸トくワワ冷容ヨ</composition>
+			<composition>蒸トくワワ冷容共ヨ</composition>
+			<composition>蒸トくワワ冷冷容共ヨ</composition>
+			<composition>蒸トくワワ冷冷高容共ヨ</composition>
+			<composition>蒸トトくワワ冷冷高容共ヨ</composition>
+			<composition>蒸トトくワワ冷凍高容共高ヨ</composition>
+			<composition>蒸トトくワワ冷凍高容容共高ヨ</composition>
+			<composition>蒸ナトトくワワ冷凍高容容共高ヨ</composition>
+			<composition>蒸ナトトくワワ冷凍高容容共共高ヨ</composition>
+			<composition>蒸ナトトトくワワ冷凍高容容共共高ヨ</composition>
+			<composition>蒸ナトトトくワワ冷凍高容容容共共高ヨ</composition>
+			<composition>蒸ナトトトくけワワ冷凍高容容容共共高ヨ</composition>
+			<composition>蒸ナトトトくけワワ冷凍高高容容容共共高ヨ</composition>
+			<composition>蒸ナトトトつくけワワ冷凍高高容容容共共高ヨ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-D51-Freight-Tank}">
+		<company>旧日本国有鉄道</company>
+		<type>D 51</type>
+		<name>タンカー列車</name>
+		<author>しかしか</author>
+		<description>国鉄貨物用標準型機関車D51が牽引する、タンク貨物です。最後尾に昭和50年に登場した車掌車を連結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="ナ" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-D51100}"/>
+			<car char="蒸" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-D511115}"/>
+			<car char="容" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000b}"/>
+			<car char="器" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000k}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+			<car char="ヨ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo8000}"/>
+
+			<composition>蒸</composition>
+			<composition>蒸ヨ</composition>
+			<composition>蒸器ヨ</composition>
+			<composition>蒸器容ヨ</composition>
+			<composition>蒸器器容ヨ</composition>
+			<composition>蒸器器器容ヨ</composition>
+			<composition>蒸器器器器容ヨ</composition>
+			<composition>蒸器器器器器容ヨ</composition>
+			<composition>蒸器器器器器器容ヨ</composition>
+			<composition>蒸器器器器器器器容ヨ</composition>
+			<composition>蒸器器器器器器器容容ヨ</composition>
+			<composition>蒸器器器器器器器容容容ヨ</composition>
+			<composition>蒸器器器器器器器器容容容ヨ</composition>
+			<composition>蒸器器器器器器器器容容容容ヨ</composition>
+			<composition>蒸器器器器器器器器容容容容容ヨ</composition>
+			<composition>蒸器器器器器器器器器容容容容容ヨ</composition>
+			<composition>蒸器器器器器器器器器容容容容容容ヨ</composition>
+			<composition>蒸器器器器器器器器器容容容容容容容ヨ</composition>
+			<composition>蒸ナ器器器器器器器器器容容容容容容容ヨ</composition>
+			<composition>蒸ナ器器器器器器器器器容容容容容容容容ヨ</composition>
+			<composition>蒸ナ器器器器器器器器器器容容容容容容容容ヨ</composition>
+			<composition>蒸ナ器器器器器器器器器器容容容容容容容容容ヨ</composition>
+			<composition>蒸ナ器器器器器器器器器器容容容容容容容容容容ヨ</composition>
+			<composition>蒸ナ器器器器器器器器器器器容容容容容容容容容容ヨ</composition>
+			<composition>蒸ナ器器器器器器器器器器器容容容容容容容容容容容ヨ</composition>
+			<composition>蒸ナ器器器器器器器器器器器容容容容容容容容容容容容ヨ</composition>
+			<composition>蒸ナ器器器器器器器器器器器器容容容容容容容容容容容容ヨ</composition>
+			<composition>蒸ナ器器器器器器器器器器器器容容容容容容容容容容容容容ヨ</composition>
+			<composition>蒸ナ器器器器器器器器器器器器容容容容容容容容容容容容容容ヨ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-D51100-Freight}">
+		<company>旧日本国有鉄道</company>
+		<type>D 51</type>
+		<name>貨物列車(なめくじ)</name>
+		<author>しかしか</author>
+		<description>煙突からスチームドームまでカバーされたなめくじドームタイプのD51が牽引する貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="蒸" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-D51100}"/>
+			<car char="デ" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-D511115}"/>
+			<car char="急" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki1000}"/>
+			<car char="行" ref="{FreeTrain-Shika-FreightCar-TrainCar-wamuhu100}"/>
+			<car char="ワ" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki5000}"/>
+			<car char="高" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki8000}"/>
+			<car char="共" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki10000}"/>
+			<car char="室" ref="{FreeTrain-Shika-FreightCar-TrainCar-washahu8000}"/>
+			<car char="ト" ref="{FreeTrain-Shika-FreightCar-TrainCar-toki15000}"/>
+			<car char="ド" ref="{FreeTrain-Shika-FreightCar-TrainCar-toki25000}"/>
+			<car char="冷" ref="{FreeTrain-Shika-FreightCar-TrainCar-resha5000}"/>
+			<car char="凍" ref="{FreeTrain-Shika-FreightCar-TrainCar-remuhu10000}"/>
+			<car char="蔵" ref="{FreeTrain-Shika-FreightCar-TrainCar-remuhu10000-R}"/>
+			<car char="長" ref="{FreeTrain-Shika-FreightCar-TrainCar-chiki7000}"/>
+			<car char="容" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000b}"/>
+			<car char="器" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000k}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+			<car char="ヨ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo8000}"/>
+			<car char="く" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5JNR}"/>
+			<car char="け" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t3JNR}"/>
+			<car char="こ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t2JNR}"/>
+			<car char="す" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5g}"/>
+			<car char="つ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5w}"/>
+			<car char="て" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t3w}"/>
+			<car char="と" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t2w}"/>
+
+			<composition>蒸</composition>
+			<composition>蒸よ</composition>
+			<composition>蒸共よ</composition>
+			<composition>蒸共器よ</composition>
+			<composition>蒸共共器よ</composition>
+			<composition>蒸ド共共器よ</composition>
+			<composition>蒸ドけ共共器よ</composition>
+			<composition>蒸ドけ共共冷器よ</composition>
+			<composition>蒸ドけ共共冷器高よ</composition>
+			<composition>蒸ドけ共共冷冷器高よ</composition>
+			<composition>蒸ドけ共共冷冷ワ器高よ</composition>
+			<composition>蒸ドドけ共共冷冷ワ器高よ</composition>
+			<composition>蒸ドドけ共共冷凍ワ器高ワよ</composition>
+			<composition>蒸ドドけ共共冷凍ワ器器高ワよ</composition>
+			<composition>蒸デドドけ共共冷凍ワ器器高ワよ</composition>
+			<composition>蒸デドドけ共共冷凍ワ器器高高ワよ</composition>
+			<composition>蒸デドドドけ共共冷凍ワ器器高高ワよ</composition>
+			<composition>蒸デドドドけ共共冷凍ワ器器器高高ワよ</composition>
+			<composition>蒸デドドドけく共共冷凍ワ器器器高高ワよ</composition>
+			<composition>蒸デドドドけく共共冷凍ワワ器器器高高ワよ</composition>
+			<composition>蒸デドドドけくて共共冷凍ワワ器器器高高ワよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-C58-Freight-Local}">
+		<company>旧日本国有鉄道</company>
+		<type>C 58</type>
+		<name>荷物列車</name>
+		<author>しかしか</author>
+		<description>国鉄客貨両用機関車C58が牽引する貨物です。ワキで編成しています。最後尾に緩急車を連結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="蒸" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-C581}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mani60}"/>
+			<car char="郵" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oyu10-B}"/>
+			<car char="急" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki1000}"/>
+			<car char="行" ref="{FreeTrain-Shika-FreightCar-TrainCar-wamuhu100}"/>
+			<car char="ワ" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki5000}"/>
+			<car char="高" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki8000}"/>
+			<car char="共" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki10000}"/>
+			<car char="室" ref="{FreeTrain-Shika-FreightCar-TrainCar-washahu8000}"/>
+			<car char="部" ref="{FreeTrain-Shika-FreightCar-TrainCar-washahu8000-R}"/>
+			<car char="冷" ref="{FreeTrain-Shika-FreightCar-TrainCar-resha5000}"/>
+
+			<composition>蒸</composition>
+			<composition>蒸行</composition>
+			<composition>蒸急行</composition>
+			<composition>蒸ワ急行</composition>
+			<composition>蒸ワ郵急行</composition>
+			<composition>蒸荷ワ郵急行</composition>
+			<composition>蒸荷急ワ郵急行</composition>
+			<composition>蒸荷急ワ郵急ワ行</composition>
+			<composition>蒸荷急ワ郵急急ワ行</composition>
+			<composition>蒸荷急ワワ郵急急ワ行</composition>
+			<composition>蒸荷急ワワ郵急急急ワ行</composition>
+			<composition>蒸荷急ワワ郵急急急ワワ行</composition>
+			<composition>蒸荷急ワワ郵急急急急ワワ行</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-C58-Freight-m}">
+		<company>旧日本国有鉄道</company>
+		<type>C 58</type>
+		<name>無蓋貨物列車</name>
+		<author>しかしか</author>
+		<description>国鉄客貨両用機関車C58が牽引する、無蓋貨車です。最後尾には昭和34年に最高許容速度が85km/hに改造された車掌車を連結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="蒸" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-C581}"/>
+			<car char="ト" ref="{FreeTrain-Shika-FreightCar-TrainCar-toki15000}"/>
+			<car char="ド" ref="{FreeTrain-Shika-FreightCar-TrainCar-toki25000}"/>
+			<car char="掌" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo5000}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+			<car char="ヨ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo8000}"/>
+			<car char="用" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo9000}"/>
+
+			<composition>蒸</composition>
+			<composition>蒸掌</composition>
+			<composition>蒸ト掌</composition>
+			<composition>蒸トド掌</composition>
+			<composition>蒸トトド掌</composition>
+			<composition>蒸トトトド掌</composition>
+			<composition>蒸トトトドド掌</composition>
+			<composition>蒸トトトドドド掌</composition>
+			<composition>蒸トトトトドドド掌</composition>
+			<composition>蒸トトトトドドドド掌</composition>
+			<composition>蒸トトトトトドドドド掌</composition>
+			<composition>蒸トトトトトドドドドド掌</composition>
+			<composition>蒸トトトトトドドドドドド掌</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-C58-Freight-long}">
+		<company>旧日本国有鉄道</company>
+		<type>C 58</type>
+		<name>長物輸送列車</name>
+		<author>しかしか</author>
+		<description>客貨両用機関車C58が牽引する、長物輸送貨車(積荷は制作中の為、空荷)です。最後尾に昭和37年から製造された車掌車を連結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="蒸" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-C581}"/>
+			<car char="長" ref="{FreeTrain-Shika-FreightCar-TrainCar-chiki7000}"/>
+			<car char="掌" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo5000}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+			<car char="ヨ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo8000}"/>
+			<car char="用" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo9000}"/>
+
+			<composition>蒸</composition>
+			<composition>蒸よ</composition>
+			<composition>蒸長よ</composition>
+			<composition>蒸長長よ</composition>
+			<composition>蒸長長長よ</composition>
+			<composition>蒸長長長長よ</composition>
+			<composition>蒸長長長長長よ</composition>
+			<composition>蒸長長長長長長よ</composition>
+			<composition>蒸長長長長長長長よ</composition>
+			<composition>蒸長長長長長長長長よ</composition>
+			<composition>蒸長長長長長長長長長よ</composition>
+			<composition>蒸長長長長長長長長長長よ</composition>
+			<composition>蒸長長長長長長長長長長長よ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-C58-Freight}">
+		<company>旧日本国有鉄道</company>
+		<type>C 58</type>
+		<name>貨物列車</name>
+		<author>しかしか</author>
+		<description>客貨両用機関車C58が牽引する貨物です。最後尾に昭和50年に登場した車掌車を連結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="蒸" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-C581}"/>
+			<car char="急" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki1000}"/>
+			<car char="行" ref="{FreeTrain-Shika-FreightCar-TrainCar-wamuhu100}"/>
+			<car char="ワ" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki5000}"/>
+			<car char="高" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki8000}"/>
+			<car char="共" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki10000}"/>
+			<car char="室" ref="{FreeTrain-Shika-FreightCar-TrainCar-washahu8000}"/>
+			<car char="ト" ref="{FreeTrain-Shika-FreightCar-TrainCar-toki15000}"/>
+			<car char="ド" ref="{FreeTrain-Shika-FreightCar-TrainCar-toki25000}"/>
+			<car char="冷" ref="{FreeTrain-Shika-FreightCar-TrainCar-resha5000}"/>
+			<car char="凍" ref="{FreeTrain-Shika-FreightCar-TrainCar-remuhu10000}"/>
+			<car char="蔵" ref="{FreeTrain-Shika-FreightCar-TrainCar-remuhu10000-R}"/>
+			<car char="長" ref="{FreeTrain-Shika-FreightCar-TrainCar-chiki7000}"/>
+			<car char="容" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000b}"/>
+			<car char="器" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000k}"/>
+			<car char="掌" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo5000}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+			<car char="ヨ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo8000}"/>
+			<car char="用" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo9000}"/>
+			<car char="く" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5JNR}"/>
+			<car char="け" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t3JNR}"/>
+			<car char="こ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t2JNR}"/>
+			<car char="す" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5g}"/>
+			<car char="つ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5w}"/>
+			<car char="て" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t3w}"/>
+			<car char="と" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t2w}"/>
+
+			<composition>蒸</composition>
+			<composition>蒸ヨ</composition>
+			<composition>蒸高ヨ</composition>
+			<composition>蒸高器ヨ</composition>
+			<composition>蒸高ワ器ヨ</composition>
+			<composition>蒸ド高ワ器ヨ</composition>
+			<composition>蒸ドく高ワ器ヨ</composition>
+			<composition>蒸ドく高冷ワ器ヨ</composition>
+			<composition>蒸ドく高冷ワ器共ヨ</composition>
+			<composition>蒸ドく高冷冷ワ器共ヨ</composition>
+			<composition>蒸ドく高高冷冷ワ器共ヨ</composition>
+			<composition>蒸ドトく高高冷冷ワ器共ヨ</composition>
+			<composition>蒸ドトく高高冷凍ワ器共ワヨ</composition>
+			<composition>蒸ドトく高高冷凍ワ容器共ワヨ</composition>
+			<composition>蒸蒸ドトく高高冷凍ワ容器共ワヨ</composition>
+			<composition>蒸蒸ドトく高高冷凍ワ容器共共ワヨ</composition>
+			<composition>蒸蒸ドトトく高高冷凍ワ容器共共ワヨ</composition>
+			<composition>蒸蒸ドトトく高高冷凍ワ容器器共共ワヨ</composition>
+			<composition>蒸蒸ドトトけく高高冷凍ワ容器器共共ワヨ</composition>
+			<composition>蒸蒸ドトトけく高高冷凍ワワ容器器共共ワヨ</composition>
+			<composition>蒸蒸ドトトけくと高高冷凍ワワ容器器共共ワヨ</composition>
+
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-C58-Freight-Tank}">
+		<company>旧日本国有鉄道</company>
+		<type>C 58</type>
+		<name>タンカー列車</name>
+		<author>しかしか</author>
+		<description>客貨両用機関車C58が牽引する、タンク貨物です。最後尾に昭和37年から製造された車掌車を連結しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="蒸" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-C581}"/>
+			<car char="容" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000b}"/>
+			<car char="器" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000k}"/>
+			<car char="液" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000g}"/>
+			<car char="掌" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo5000}"/>
+			<car char="宝" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo5000takara}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+			<car char="ヨ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo8000}"/>
+			<car char="用" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo9000}"/>
+
+			<composition>蒸</composition>
+			<composition>蒸よ</composition>
+			<composition>蒸容よ</composition>
+			<composition>蒸容器よ</composition>
+			<composition>蒸容容器よ</composition>
+			<composition>蒸容容容器よ</composition>
+			<composition>蒸容容容容器よ</composition>
+			<composition>蒸容容容容容器よ</composition>
+			<composition>蒸容容容容容容器よ</composition>
+			<composition>蒸容容容容容容容器よ</composition>
+			<composition>蒸容容容容容容容器器よ</composition>
+			<composition>蒸容容容容容容容器器器よ</composition>
+			<composition>蒸容容容容容容容器器器器よ</composition>
+			<composition>蒸容容容容容容容器器器器器よ</composition>
+			<composition>蒸容容容容容容容容器器器器器よ</composition>
+			<composition>蒸容容容容容容容容器器器器器器よ</composition>
+			<composition>蒸蒸容容容容容容容容器器器器器器よ</composition>
+			<composition>蒸蒸容容容容容容容容器器器器器器器よ</composition>
+			<composition>蒸蒸容容容容容容容容容器器器器器器器よ</composition>
+			<composition>蒸蒸容容容容容容容容容器器器器器器器器よ</composition>
+			<composition>蒸蒸容容容容容容容容容器器器器器器器器器よ</composition>
+			<composition>蒸蒸容容容容容容容容容容器器器器器器器器器よ</composition>
+			<composition>蒸蒸容容容容容容容容容容器器器器器器器器器器よ</composition>
+			<composition>蒸蒸容容容容容容容容容容器器器器器器器器器器器よ</composition>
+			<composition>蒸蒸容容容容容容容容容容容器器器器器器器器器器器よ</composition>
+			<composition>蒸蒸容容容容容容容容容容容器器器器器器器器器器器器よ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-C58-Freight-Test}">
+		<company>旧日本国有鉄道</company>
+		<type>C 58</type>
+		<name>テスト貨物</name>
+		<author>しかしか</author>
+		<description>客貨両用機関車C58が牽引する、貨車製作用テスト列車です。制作中の貨車のテスト走行に使用しています。
+		</description>
+		<price>100</price>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="蒸" ref="{FreeTrain-Shika-SteamLocomotive-TrainCar-C581}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mani60}"/>
+			<car char="郵" ref="{FreeTrain-Shika-PassengerCar-TrainCar-oyu10-B}"/>
+			<car char="急" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki1000}"/>
+			<car char="行" ref="{FreeTrain-Shika-FreightCar-TrainCar-wamuhu100}"/>
+			<car char="ワ" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki5000}"/>
+			<car char="高" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki8000}"/>
+			<car char="共" ref="{FreeTrain-Shika-FreightCar-TrainCar-waki10000}"/>
+			<car char="室" ref="{FreeTrain-Shika-FreightCar-TrainCar-washahu8000}"/>
+			<car char="部" ref="{FreeTrain-Shika-FreightCar-TrainCar-washahu8000-R}"/>
+			<car char="冷" ref="{FreeTrain-Shika-FreightCar-TrainCar-resha5000}"/>
+			<car char="凍" ref="{FreeTrain-Shika-FreightCar-TrainCar-remuhu10000}"/>
+			<car char="蔵" ref="{FreeTrain-Shika-FreightCar-TrainCar-remuhu10000-R}"/>
+			<car char="ト" ref="{FreeTrain-Shika-FreightCar-TrainCar-toki15000}"/>
+			<car char="ド" ref="{FreeTrain-Shika-FreightCar-TrainCar-toki25000}"/>
+			<car char="長" ref="{FreeTrain-Shika-FreightCar-TrainCar-chiki7000}"/>
+			<car char="容" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000b}"/>
+			<car char="器" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000k}"/>
+			<car char="液" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000g}"/>
+			<car char="掌" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo5000}"/>
+			<car char="宝" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo5000takara}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+			<car char="ヨ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo8000}"/>
+			<car char="用" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo9000}"/>
+
+			<car char="せ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t5g}"/>
+			<car char="そ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t2g}"/>
+
+			<car char="か" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4JNR}"/>
+			<car char="き" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4JNR-R}"/>
+			<car char="く" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5JNR}"/>
+			<car char="け" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t3JNR}"/>
+			<car char="こ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t2JNR}"/>
+			<car char="さ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4g}"/>
+			<car char="し" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4g-R}"/>
+			<car char="す" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5g}"/>
+			<car char="た" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4w}"/>
+			<car char="ち" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu10000-5t4w-R}"/>
+			<car char="つ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t5w}"/>
+			<car char="て" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t3w}"/>
+			<car char="と" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki10000-5t2w}"/>
+
+			<car char="が" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4JR}"/>
+			<car char="ぎ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4JR-R}"/>
+			<car char="ぐ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t5JRa}"/>
+			<car char="ぶ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t5JRb}"/>
+			<car char="げ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t3JR}"/>
+			<car char="ご" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t2JR}"/>
+			<car char="ざ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4b}"/>
+			<car char="じ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4b-R}"/>
+			<car char="ず" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t5b}"/>
+			<car char="だ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4w}"/>
+			<car char="ぢ" ref="{FreeTrain-Shika-FreightCar-TrainCar-kokihu50000-5t4w-R}"/>
+			<car char="づ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t5w}"/>
+			<car char="で" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t3w}"/>
+			<car char="ど" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki50000-5t2w}"/>
+
+			<composition>蒸せそ</composition>
+			<composition>蒸トド長</composition>
+			<composition>蒸荷郵急行</composition>
+			<composition>蒸掌宝よヨ用</composition>
+			<composition>蒸容容器器液液</composition>
+			<composition>蒸部ワ高共室蔵冷凍</composition>
+			<composition>蒸かくけこきさすしたつてとち</composition>
+			<composition>蒸がぐぶげごぎざずしだづでどぢ</composition>
+			<composition>蒸荷郵急行ワ高共室トド冷凍蔵長容器液掌宝よヨ用せそかきくけこさしすたちつてとがぎぐぶげござじずだぢづでど</composition>
+		</config>
+	</contribution>
+
+</plug-in>

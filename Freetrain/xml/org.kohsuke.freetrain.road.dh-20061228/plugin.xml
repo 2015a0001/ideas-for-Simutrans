@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<plug-in>
+	<title>Two lane roads (15 pictures)</title>
+	<author>romulanWarbird</author>
+	<homepage>None Available</homepage>
+	
+	<contribution type="road" id="{7254CD19-38B1-42DB-84E3-88F9A5C88E42}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>Dual Carraigeway</name>
+		<description>The road of the Y form road and the [ni] lane which includes the corner and the like </description>
+		<picture src="road-2-15.bmp" size="32,16" offset="0" />
+	</contribution>
+</plug-in>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+
+<plug-in>
+
+<title>道路(石畳･高架下道路)</title>
+<author>しかしか</author>
+<homepage>http://shikashika.hp.infoseek.co.jp/</homepage>
+
+<!-- 軌道用石畳 -->
+<contribution type="road" id="{FreeTrain-Shika-Road-stonepaved}">
+<class name="freetrain.contributions.road.A3RoadContribution" />
+<name>軌道用石畳</name>
+<description>軌道用石畳</description>
+<picture src="road_stonepaved.bmp" size="32,32" offset="16" />
+</contribution>
+
+<!-- 軌道用石畳(灰) -->
+<contribution type="road" id="{FreeTrain-Shika-Road-stonepaved-grey}">
+<class name="freetrain.contributions.road.A3RoadContribution" />
+<name>軌道用石畳(灰)</name>
+<description>軌道用石畳(灰)</description>
+<picture src="road_stonepaved_grey.bmp" size="32,32" offset="16" />
+</contribution>
+
+
+
+
+<!-- 林道 -->
+<contribution type="road" id="{FreeTrain-Shika-Road-woodlandpath-001}">
+<class name="freetrain.contributions.road.StandardRoadContribution" />
+<name>林道(未舗装)</name>
+<style name="footpath"/>
+<description>林道(未舗装)</description>
+<picture src="road_woodlandpath_spring.bmp" size="32,32" offset="16">
+	<override when="spring" src="road_woodlandpath_spring.bmp"/>
+	<override when="summer" src="road_woodlandpath_summer.bmp"/>
+	<override when="autumn" src="road_woodlandpath_autumn.bmp"/>
+	<override when="winter" src="road_woodlandpath_winter.bmp"/>
+</picture>
+</contribution>
+
+<!-- 高架下道路 -->
+<contribution type="road" id="{FreeTrain-Shika-Road-pier}">
+<class name="freetrain.contributions.road.StandardRoadContribution" />
+<name>高架下道路</name>
+<style name="street" sidewalk="none" lanes="2"/>
+<description>高架下道路</description>
+<picture src="road_pier.bmp" size="32,32" offset="16" />
+</contribution>
+
+<!-- 高架下道路 -->
+<contribution type="road" id="{FreeTrain-Shika-Road-pier-right}">
+<class name="freetrain.contributions.road.StandardRoadContribution" />
+<name>高架下道路(右車線用)</name>
+<style name="street" sidewalk="none" lanes="2"/>
+<description>高架下道路</description>
+<picture src="road_pier_r.bmp" size="32,32" offset="16">
+	<override when="night" src="road_pier_rn.bmp"/>
+</picture>
+</contribution>
+
+<contribution type="road" id="{FreeTrain-Shika-Road-pier-left}">
+<class name="freetrain.contributions.road.StandardRoadContribution" />
+<name>高架下道路(左車線用)</name>
+<style name="street" sidewalk="none" lanes="2"/>
+<description>高架下道路</description>
+<picture src="road_pier_l.bmp" size="32,32" offset="16">
+	<override when="night" src="road_pier_ln.bmp"/>
+</picture>
+</contribution>
+
+<!-- モノレール下道路 -->
+<contribution type="road" id="{FreeTrain-Shika-Road-monorail-right}">
+<class name="freetrain.contributions.road.StandardRoadContribution" />
+<name>モノレール下道路1(右車線用)</name>
+<description>モノレール下道路1</description>
+<picture src="road_monorail_r.bmp" size="32,32" offset="16">
+	<override when="night" src="road_monorail_rn.bmp"/>
+</picture>
+</contribution>
+
+<contribution type="road" id="{FreeTrain-Shika-Road-monorail-left}">
+<class name="freetrain.contributions.road.StandardRoadContribution" />
+<name>モノレール下道路1(左車線用)</name>
+<description>モノレール下道路1</description>
+<picture src="road_monorail_l.bmp" size="32,32" offset="16">
+	<override when="night" src="road_monorail_ln.bmp"/>
+</picture>
+</contribution>
+
+<!-- モノレール下道路 -->
+<contribution type="road" id="{FreeTrain-Shika-Road-monorail2-right}">
+<class name="freetrain.contributions.road.StandardRoadContribution" />
+<name>モノレール下道路2(右車線用)</name>
+<description>モノレール下道路2</description>
+<picture src="road_monorail2_r.bmp" size="32,48" offset="32">
+	<override when="night" src="road_monorail2_rn.bmp"/>
+</picture>
+</contribution>
+
+<contribution type="road" id="{FreeTrain-Shika-Road-monorail2-left}">
+<class name="freetrain.contributions.road.StandardRoadContribution" />
+<name>モノレール下道路2(左車線用)</name>
+<description>モノレール下道路2</description>
+<picture src="road_monorail2_l.bmp" size="32,48" offset="32">
+	<override when="night" src="road_monorail2_ln.bmp"/>
+</picture>
+</contribution>
+
+</plug-in>

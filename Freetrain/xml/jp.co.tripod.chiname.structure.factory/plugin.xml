@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY NormalFactory '
+	<price>1000</price>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>40</base>
+	</population>
+	<height>1</height>
+	<computerCannotBuild/>
+'>
+<!ENTITY OldFactory '
+	<price>800</price>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>40</base>
+	</population>
+	<height>1</height>
+	<computerCannotBuild/>
+'>
+<!ENTITY crSkyBlue '
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="25,185,218"/>
+	</spriteType>	
+'>
+<!ENTITY crWineRed '
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="196,38,67"/>
+	</spriteType>	
+'>
+<!ENTITY crGray '
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="128,128,128"/>
+	</spriteType>	
+'>
+<!ENTITY crDirtyBrown '
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="152,120,128"/>
+	</spriteType>	
+'>
+<!ENTITY crDirtyYellow '
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="142,154,118"/>
+	</spriteType>	
+'>
+
+]>
+<plug-in>
+
+	<title>工場</title>
+	<author>C477@2両目</author>
+	<homepage>http://chiname.tripod.co.jp/</homepage>
+		
+	<contribution type="picture" id="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}">
+		<picture src="factory01.bmp">
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{7CE3EF05-B33B-4E9F-8F53-587BEF668EED}">
+		<picture src="factory02.bmp">
+		</picture>
+	</contribution>
+
+	<!--SkyBlue-->		
+	<contribution type="commercial" id="{2A14C189-6FDF-49AB-C477-05E02E9BA3C7}-00">
+		<group>工場(山型屋根)</group>
+		&NormalFactory;
+		<size>1,2</size>
+		<sprite origin="0,0" offset="16">
+			&crSkyBlue;
+			<picture ref="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{2A14C189-6FDF-49AB-C477-05E02E9BA3C7}-01">
+		<group>工場(山型屋根)</group>
+		&NormalFactory;
+		<size>1,2</size>
+		<sprite origin="0,48" offset="16">
+			&crSkyBlue;
+			<picture ref="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{2A14C189-6FDF-49AB-C477-05E02E9BA3C7}-02">
+		<group>工場(山型屋根)</group>
+		&NormalFactory;
+		<size>1,2</size>
+		<sprite origin="0,96" offset="16">
+			&crSkyBlue;
+			<picture ref="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{2A14C189-6FDF-49AB-C477-05E02E9BA3C7}-03">
+		<group>工場(山型屋根)</group>
+		&NormalFactory;
+		<size>2,1</size>
+		<sprite origin="48,0" offset="24">
+			&crSkyBlue;
+			<picture ref="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{2A14C189-6FDF-49AB-C477-05E02E9BA3C7}-04">
+		<group>工場(山型屋根)</group>
+		&NormalFactory;
+		<size>2,1</size>
+		<sprite origin="48,48" offset="24">
+			&crSkyBlue;
+			<picture ref="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{2A14C189-6FDF-49AB-C477-05E02E9BA3C7}-05">
+		<group>工場(山型屋根)</group>
+		&NormalFactory;
+		<size>2,1</size>
+		<sprite origin="48,96" offset="24">
+			&crSkyBlue;
+			<picture ref="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}"/>
+		</sprite>
+	</contribution>
+
+
+	<!--Gray-->		
+	<contribution type="commercial" id="{B92C3B85-BCA3-4835-9F97-221C341B8224}-00">
+		<group>工場(山型屋根)</group>
+		&NormalFactory;
+		<size>1,2</size>
+		<sprite origin="0,0" offset="16">
+			&crGray;
+			<picture ref="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{B92C3B85-BCA3-4835-9F97-221C341B8224}-01">
+		<group>工場(山型屋根)</group>
+		&NormalFactory;
+		<size>1,2</size>
+		<sprite origin="0,48" offset="16">
+			&crGray;
+			<picture ref="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{B92C3B85-BCA3-4835-9F97-221C341B8224}-02">
+		<group>工場(山型屋根)</group>
+		&NormalFactory;
+		<size>1,2</size>
+		<sprite origin="0,96" offset="16">
+			&crGray;
+			<picture ref="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{B92C3B85-BCA3-4835-9F97-221C341B8224}-03">
+		<group>工場(山型屋根)</group>
+		&NormalFactory;
+		<size>2,1</size>
+		<sprite origin="48,0" offset="24">
+			&crGray;
+			<picture ref="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{B92C3B85-BCA3-4835-9F97-221C341B8224}-04">
+		<group>工場(山型屋根)</group>
+		&NormalFactory;
+		<size>2,1</size>
+		<sprite origin="48,48" offset="24">
+			&crGray;
+			<picture ref="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{B92C3B85-BCA3-4835-9F97-221C341B8224}-05">
+		<group>工場(山型屋根)</group>
+		&NormalFactory;
+		<size>2,1</size>
+		<sprite origin="48,96" offset="24">
+			&crGray;
+			<picture ref="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}"/>
+		</sprite>
+	</contribution>
+
+
+	<!--WineRed-->		
+	<contribution type="commercial" id="{1B2ECF30-6DDD-4D50-C477-E986F8694A9C}-00">
+		<group>工場(山型屋根)</group>
+		&NormalFactory;
+		<size>1,2</size>
+		<sprite origin="0,0" offset="16">
+			&crWineRed;
+			<picture ref="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{1B2ECF30-6DDD-4D50-C477-E986F8694A9C}-01">
+		<group>工場(山型屋根)</group>
+		&NormalFactory;
+		<size>1,2</size>
+		<sprite origin="0,48" offset="16">
+			&crWineRed;
+			<picture ref="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{1B2ECF30-6DDD-4D50-C477-E986F8694A9C}-02">
+		<group>工場(山型屋根)</group>
+		&NormalFactory;
+		<size>1,2</size>
+		<sprite origin="0,96" offset="16">
+			&crWineRed;
+			<picture ref="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{1B2ECF30-6DDD-4D50-C477-E986F8694A9C}-03">
+		<group>工場(山型屋根)</group>
+		&NormalFactory;
+		<size>2,1</size>
+		<sprite origin="48,0" offset="24">
+			&crWineRed;
+			<picture ref="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{1B2ECF30-6DDD-4D50-C477-E986F8694A9C}-04">
+		<group>工場(山型屋根)</group>
+		&NormalFactory;
+		<size>2,1</size>
+		<sprite origin="48,48" offset="24">
+			&crWineRed;
+			<picture ref="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{1B2ECF30-6DDD-4D50-C477-E986F8694A9C}-05">
+		<group>工場(山型屋根)</group>
+		&NormalFactory;
+		<size>2,1</size>
+		<sprite origin="48,96" offset="24">
+			&crWineRed;
+			<picture ref="{C96F811A-5CB9-48E6-C477-1D7EEA9C5681}"/>
+		</sprite>
+	</contribution>
+
+	<!--DirtyBrown-->		
+	<contribution type="commercial" id="{C33F60C4-A1C6-4813-C477-4AE8D3B442D2}-00">
+		<group>工場(山型屋根)</group>
+		&OldFactory;
+		<size>1,2</size>
+		<sprite origin="0,0" offset="16">
+			&crDirtyBrown;
+			<picture ref="{7CE3EF05-B33B-4E9F-8F53-587BEF668EED}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C33F60C4-A1C6-4813-C477-4AE8D3B442D2}-01">
+		<group>工場(山型屋根)</group>
+		&OldFactory;
+		<size>1,2</size>
+		<sprite origin="0,48" offset="16">
+			&crDirtyBrown;
+			<picture ref="{7CE3EF05-B33B-4E9F-8F53-587BEF668EED}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C33F60C4-A1C6-4813-C477-4AE8D3B442D2}-02">
+		<group>工場(山型屋根)</group>
+		&OldFactory;
+		<size>1,2</size>
+		<sprite origin="0,96" offset="16">
+			&crDirtyBrown;
+			<picture ref="{7CE3EF05-B33B-4E9F-8F53-587BEF668EED}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C33F60C4-A1C6-4813-C477-4AE8D3B442D2}-03">
+		<group>工場(山型屋根)</group>
+		&OldFactory;
+		<size>2,1</size>
+		<sprite origin="48,0" offset="24">
+			&crDirtyBrown;
+			<picture ref="{7CE3EF05-B33B-4E9F-8F53-587BEF668EED}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C33F60C4-A1C6-4813-C477-4AE8D3B442D2}-04">
+		<group>工場(山型屋根)</group>
+		&OldFactory;
+		<size>2,1</size>
+		<sprite origin="48,48" offset="24">
+			&crDirtyBrown;
+			<picture ref="{7CE3EF05-B33B-4E9F-8F53-587BEF668EED}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C33F60C4-A1C6-4813-C477-4AE8D3B442D2}-05">
+		<group>工場(山型屋根)</group>
+		&OldFactory;
+		<size>2,1</size>
+		<sprite origin="48,96" offset="24">
+			&crDirtyBrown;
+			<picture ref="{7CE3EF05-B33B-4E9F-8F53-587BEF668EED}"/>
+		</sprite>
+	</contribution>
+	
+	<!--DirtyYellow-->		
+	<contribution type="commercial" id="{24F22EE3-0CE5-4843-C477-C5F782961FA8}-00">
+		<group>工場(山型屋根)</group>
+		&OldFactory;
+		<size>1,2</size>
+		<sprite origin="0,0" offset="16">
+			&crDirtyYellow;
+			<picture ref="{7CE3EF05-B33B-4E9F-8F53-587BEF668EED}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{24F22EE3-0CE5-4843-C477-C5F782961FA8}-01">
+		<group>工場(山型屋根)</group>
+		&OldFactory;
+		<size>1,2</size>
+		<sprite origin="0,48" offset="16">
+			&crDirtyYellow;
+			<picture ref="{7CE3EF05-B33B-4E9F-8F53-587BEF668EED}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{24F22EE3-0CE5-4843-C477-C5F782961FA8}-02">
+		<group>工場(山型屋根)</group>
+		&OldFactory;
+		<size>1,2</size>
+		<sprite origin="0,96" offset="16">
+			&crDirtyYellow;
+			<picture ref="{7CE3EF05-B33B-4E9F-8F53-587BEF668EED}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{24F22EE3-0CE5-4843-C477-C5F782961FA8}-03">
+		<group>工場(山型屋根)</group>
+		&OldFactory;
+		<size>2,1</size>
+		<sprite origin="48,0" offset="24">
+			&crDirtyYellow;
+			<picture ref="{7CE3EF05-B33B-4E9F-8F53-587BEF668EED}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{24F22EE3-0CE5-4843-C477-C5F782961FA8}-04">
+		<group>工場(山型屋根)</group>
+		&OldFactory;
+		<size>2,1</size>
+		<sprite origin="48,48" offset="24">
+			&crDirtyYellow;
+			<picture ref="{7CE3EF05-B33B-4E9F-8F53-587BEF668EED}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{24F22EE3-0CE5-4843-C477-C5F782961FA8}-05">
+		<group>工場(山型屋根)</group>
+		&OldFactory;
+		<size>2,1</size>
+		<sprite origin="48,96" offset="24">
+			&crDirtyYellow;
+			<picture ref="{7CE3EF05-B33B-4E9F-8F53-587BEF668EED}"/>
+		</sprite>
+	</contribution>
+
+</plug-in>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>架線柱</title>
+	<author>花菱烈火</author>
+	<homepage>http://www14.big.or.jp/~ayase/freetrain/</homepage>
+	
+	<depends on="org.kohsuke.freetrain.rail.electricPole" />
+
+	<contribution type="picture" id="{874B8BFD-1EF4-5008-9C5A-D0EA1049D28D}">
+		<picture src="keta00.bmp" />
+	</contribution>
+	<contribution type="picture" id="{874B8BFD-1EF4-5009-9C5A-D0EA1049D28D}">
+		<picture src="keta01.bmp" />
+	</contribution>
+	<contribution type="picture" id="{874B8BFD-1EF4-5007-9C5A-D0EA1049D28D}">
+		<picture src="keta02.bmp" />
+	</contribution>
+	<contribution type="picture" id="{874B8BFD-1EF4-5006-9C5A-D0EA1049D28D}">
+		<picture src="keta03.bmp" />
+	</contribution>
+
+	
+	<contribution type="electricPole" id="{874B8BFD-1EF4-5000-9C5A-D0EA1049D28D}">
+		<name>橋桁(下)</name>
+		<sprite>
+			<picture ref="{874B8BFD-1EF4-5008-9C5A-D0EA1049D28D}"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{874B8BFD-1EF4-5001-9C5A-D0EA1049D28D}">
+		<name>橋桁(上)</name>
+		<sprite>
+			<picture ref="{874B8BFD-1EF4-5009-9C5A-D0EA1049D28D}"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{874B8BFD-1EF4-5002-9C5A-D0EA1049D28D}">
+		<name>橋桁(無)</name>
+		<sprite>
+			<picture ref="{874B8BFD-1EF4-5007-9C5A-D0EA1049D28D}"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{874B8BFD-1EF4-5003-9C5A-D0EA1049D28D}">
+		<name>橋桁(土手)</name>
+		<sprite>
+			<picture ref="{874B8BFD-1EF4-5006-9C5A-D0EA1049D28D}"/>
+		</sprite>
+	</contribution>
+
+</plug-in>

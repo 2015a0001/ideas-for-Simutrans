@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+
+	<title>閉塞信号モジュール</title>
+	<author>nanashi</author>
+	<homepage></homepage>
+	<version>0.1.0.0</version>
+
+	
+	<!-- 閉塞区間図示用アイコン1 -->
+	<contribution type="picture" id="{88F6D577-805C-45BC-B34A-BE2C11AF1818}">
+		<picture src="BlockAreaIcon1.bmp" >
+			<override when="night" src="BlockAreaIcon1.bmp" />
+		</picture>		
+	</contribution>
+
+
+	<!-- 閉塞区間図示用アイコン2 -->
+	<contribution type="picture" id="{CFC7C99B-4EDE-493B-9DD1-268633902991}">
+		<picture src="BlockAreaIcon2.bmp" >
+			<override when="night" src="BlockAreaIcon2.bmp" />
+		</picture>		
+	</contribution>	
+	
+	
+	<!-- 鉄道メニューに「閉塞」を追加 -->
+	<contribution type="menu" id="{998985DC-5A8E-4C72-96B6-56EDC545305E}">
+		<class name="freetrain.world.rail.signal.blocksystem.MenuContributionImpl" 
+			codebase="bin/Debug/BlockSystem.dll" />
+	</contribution>
+
+
+	<!-- 閉塞信号の画像を外部から追加するためのコントリビューションを定義 -->
+	<contribution type="contribution" id="{D5C37A69-0EC4-45A0-B1D3-E896BD177ADF}">
+		<name>blockSystemSignal</name>
+		<class name="freetrain.world.rail.signal.blocksystem.BlockSystemSignalContributionFactory"
+			codebase="bin/Debug/BlockSystem.dll" />
+	</contribution>
+
+
+	<!-- デフォルトの閉塞信号機 -->
+	<contribution type="blockSystemSignal" id="{3FCB1229-C7F2-4CF4-A1E6-AC27636CAFA0}">
+		<name>閉塞信号１</name>
+		<side>left</side>
+		<picture src="BlockSystemSignal1.bmp"/>
+	</contribution>
+	
+
+
+ 	
+</plug-in>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+
+
+	<title>通過監視信号モジュール</title>
+	<author>nanashi</author>
+	<homepage></homepage>
+	<version>0.1.0.0</version>
+
+
+	<!-- 鉄道メニューに「通過監視信号」を追加 -->
+	<contribution type="menu" id="{5E9F9697-A1BE-47FB-9DDB-D411CC1D0179}">
+		<class name="freetrain.world.rail.signal.passmonitor.MenuContributionImpl" 
+			codebase="bin/FreeTrain.PassMonitorSignal.dll" />
+	</contribution>
+
+
+	<!-- 通過監視信号の画像を外部から追加するためのコントリビューションを定義 -->
+	<contribution type="contribution" id="{5EF6A035-64F8-4B0F-9767-8BEF02DAD0A8}">
+		<name>passMonitorSignal</name>
+		<class name="freetrain.world.rail.signal.passmonitor.PassMonitorSignalContributionFactory"
+			codebase="bin/FreeTrain.PassMonitorSignal.dll" />
+	</contribution>
+	
+
+	<!-- 監視ポイントの画像を外部から追加するためのコントリビューションを定義 -->
+	<contribution type="contribution" id="{2E1C6D56-116D-4E5F-9E57-A84880DE90D6}">
+		<name>monitoringPoint</name>
+		<class name="freetrain.world.rail.signal.passmonitor.MonitoringPointContributionFactory"
+			codebase="bin/FreeTrain.PassMonitorSignal.dll" />
+	</contribution>
+	
+
+	<!-- デフォルトの通過監視信号機 -->
+	<contribution type="passMonitorSignal" id="{39356D8C-87AB-479B-AD30-4F46892D6DFE}">
+		<name>通過監視信号１</name>
+		<side>left</side>
+		<picture src="PassMonitorSignal1.bmp"/>
+	</contribution>	
+	
+
+	<!-- デフォルトの監視ポイント -->
+	<contribution type="monitoringPoint" id="{6295C4D1-899D-4CB4-BCF6-BE9DFCA840BC}">
+		<name>監視ポイント１</name>
+		<side>left</side>
+		<picture src="MonitoringPoint1.bmp"/>
+	</contribution>	
+	
+
+</plug-in>

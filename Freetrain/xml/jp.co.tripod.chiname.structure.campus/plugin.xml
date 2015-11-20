@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY SchoolBldg '
+	<price>1200</price>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>180</base>
+	</population>
+	<height>2</height>
+	<computerCannotBuild/>
+'>
+<!ENTITY crWhite '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+	</spriteType>	
+'>
+<!ENTITY crGray '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="176,170,152"/>
+	</spriteType>	
+'>
+<!ENTITY crBrown '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="142,78,32"/>
+	</spriteType>	
+'>
+]>
+<plug-in>
+
+	<title>学園</title>
+	<author>C477@2両目</author>
+	<homepage>http://chiname.tripod.co.jp/</homepage>
+		
+	<contribution type="picture" id="{EDF3F851-F504-4D5D-C477-47E2B7598499}">
+		<picture src="bldg_school01.bmp">
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{16F37972-4CAF-427F-C477-599F3DB74602}">
+		<picture src="bldg_school02.bmp">
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{DE9E99DA-FDF7-4BA6-C477-25037F80ADA8}">
+		<picture src="bldg_school01d.bmp">
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{920813AE-1CC8-42B3-C477-48E87C808C7E}">
+		<picture src="bldg_school02d.bmp">
+		</picture>
+	</contribution>
+		
+<!-- white -->
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-00">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crWhite;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-01">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crWhite;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-02">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crWhite;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-03">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crWhite;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-04">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crWhite;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-05">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crWhite;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-06">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crWhite;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-07">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crWhite;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-08">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crWhite;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-09">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crWhite;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-10">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crWhite;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-11">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crWhite;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-12">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crWhite;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-13">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crWhite;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-14">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crWhite;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-15">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crWhite;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+<!--
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-20">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crWhite;
+			<picture ref="{DE9E99DA-FDF7-4BA6-C477-25037F80ADA8}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-21">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crWhite;
+			<picture ref="{DE9E99DA-FDF7-4BA6-C477-25037F80ADA8}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-22">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crWhite;
+			<picture ref="{DE9E99DA-FDF7-4BA6-C477-25037F80ADA8}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-23">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crWhite;
+			<picture ref="{DE9E99DA-FDF7-4BA6-C477-25037F80ADA8}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-24">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crWhite;
+			<picture ref="{DE9E99DA-FDF7-4BA6-C477-25037F80ADA8}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-25">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crWhite;
+			<picture ref="{DE9E99DA-FDF7-4BA6-C477-25037F80ADA8}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-26">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crWhite;
+			<picture ref="{DE9E99DA-FDF7-4BA6-C477-25037F80ADA8}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-27">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crWhite;
+			<picture ref="{DE9E99DA-FDF7-4BA6-C477-25037F80ADA8}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-28">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crWhite;
+			<picture ref="{920813AE-1CC8-42B3-C477-48E87C808C7E}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-29">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crWhite;
+			<picture ref="{920813AE-1CC8-42B3-C477-48E87C808C7E}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-30">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crWhite;
+			<picture ref="{920813AE-1CC8-42B3-C477-48E87C808C7E}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-31">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crWhite;
+			<picture ref="{920813AE-1CC8-42B3-C477-48E87C808C7E}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-32">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crWhite;
+			<picture ref="{920813AE-1CC8-42B3-C477-48E87C808C7E}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-33">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crWhite;
+			<picture ref="{920813AE-1CC8-42B3-C477-48E87C808C7E}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-34">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crWhite;
+			<picture ref="{920813AE-1CC8-42B3-C477-48E87C808C7E}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-35">
+		<group>校舎風建築(白)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crWhite;
+			<picture ref="{920813AE-1CC8-42B3-C477-48E87C808C7E}"/>
+		</sprite>
+	</contribution>
+-->
+<!-- gray -->
+<!--		
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-00">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crGray;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-01">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crGray;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-02">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crGray;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-03">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crGray;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-04">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crGray;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-05">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crGray;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-06">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crGray;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-07">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crGray;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-08">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crGray;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-09">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crGray;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-10">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crGray;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-11">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crGray;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-12">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crGray;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-13">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crGray;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-14">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crGray;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-15">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crGray;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+-->
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-20">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crGray;
+			<picture ref="{DE9E99DA-FDF7-4BA6-C477-25037F80ADA8}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-21">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crGray;
+			<picture ref="{DE9E99DA-FDF7-4BA6-C477-25037F80ADA8}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-22">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crGray;
+			<picture ref="{DE9E99DA-FDF7-4BA6-C477-25037F80ADA8}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-23">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crGray;
+			<picture ref="{DE9E99DA-FDF7-4BA6-C477-25037F80ADA8}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-24">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crGray;
+			<picture ref="{DE9E99DA-FDF7-4BA6-C477-25037F80ADA8}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-25">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crGray;
+			<picture ref="{DE9E99DA-FDF7-4BA6-C477-25037F80ADA8}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-26">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crGray;
+			<picture ref="{DE9E99DA-FDF7-4BA6-C477-25037F80ADA8}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-27">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crGray;
+			<picture ref="{DE9E99DA-FDF7-4BA6-C477-25037F80ADA8}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-28">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crGray;
+			<picture ref="{920813AE-1CC8-42B3-C477-48E87C808C7E}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-29">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crGray;
+			<picture ref="{920813AE-1CC8-42B3-C477-48E87C808C7E}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-30">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crGray;
+			<picture ref="{920813AE-1CC8-42B3-C477-48E87C808C7E}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-31">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crGray;
+			<picture ref="{920813AE-1CC8-42B3-C477-48E87C808C7E}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-32">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crGray;
+			<picture ref="{920813AE-1CC8-42B3-C477-48E87C808C7E}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-33">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crGray;
+			<picture ref="{920813AE-1CC8-42B3-C477-48E87C808C7E}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-34">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crGray;
+			<picture ref="{920813AE-1CC8-42B3-C477-48E87C808C7E}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E69A12C2-1599-420D-C477-4E2DE896A251}-35">
+		<group>校舎風建築(灰)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crGray;
+			<picture ref="{920813AE-1CC8-42B3-C477-48E87C808C7E}"/>
+		</sprite>
+	</contribution>
+
+<!-- brown -->
+		
+	<contribution type="commercial" id="{6037D2C3-64E8-4352-C477-CA97815BA56A}-00">
+		<group>校舎風建築(茶)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crBrown;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6037D2C3-64E8-4352-C477-CA97815BA56A}-01">
+		<group>校舎風建築(茶)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crBrown;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6037D2C3-64E8-4352-C477-CA97815BA56A}-02">
+		<group>校舎風建築(茶)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crBrown;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6037D2C3-64E8-4352-C477-CA97815BA56A}-03">
+		<group>校舎風建築(茶)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crBrown;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{6037D2C3-64E8-4352-C477-CA97815BA56A}-04">
+		<group>校舎風建築(茶)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crBrown;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6037D2C3-64E8-4352-C477-CA97815BA56A}-05">
+		<group>校舎風建築(茶)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crBrown;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6037D2C3-64E8-4352-C477-CA97815BA56A}-06">
+		<group>校舎風建築(茶)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crBrown;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6037D2C3-64E8-4352-C477-CA97815BA56A}-07">
+		<group>校舎風建築(茶)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crBrown;
+			<picture ref="{EDF3F851-F504-4D5D-C477-47E2B7598499}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{6037D2C3-64E8-4352-C477-CA97815BA56A}-08">
+		<group>校舎風建築(茶)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crBrown;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6037D2C3-64E8-4352-C477-CA97815BA56A}-09">
+		<group>校舎風建築(茶)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crBrown;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6037D2C3-64E8-4352-C477-CA97815BA56A}-10">
+		<group>校舎風建築(茶)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crBrown;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6037D2C3-64E8-4352-C477-CA97815BA56A}-11">
+		<group>校舎風建築(茶)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crBrown;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{6037D2C3-64E8-4352-C477-CA97815BA56A}-12">
+		<group>校舎風建築(茶)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crBrown;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6037D2C3-64E8-4352-C477-CA97815BA56A}-13">
+		<group>校舎風建築(茶)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crBrown;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6037D2C3-64E8-4352-C477-CA97815BA56A}-14">
+		<group>校舎風建築(茶)</group>
+		&SchoolBldg;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crBrown;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{6037D2C3-64E8-4352-C477-CA97815BA56A}-15">
+		<group>校舎風建築(茶)</group>
+		&SchoolBldg;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crBrown;
+			<picture ref="{16F37972-4CAF-427F-C477-599F3DB74602}"/>
+		</sprite>
+	</contribution>
+
+</plug-in>

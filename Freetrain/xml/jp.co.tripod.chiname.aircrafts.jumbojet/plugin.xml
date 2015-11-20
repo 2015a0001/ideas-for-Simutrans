@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY b747a '
+		<group>Boeing747(A)</group>
+		<price>1000</price>
+		<size>5,5</size>
+		<height>1</height>
+'>
+<!ENTITY b747b '
+		<group>Boeing747(B)</group>
+		<price>1000</price>
+		<size>5,5</size>
+		<height>1</height>
+'>
+<!ENTITY crRed '
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="255,0,0"/>
+	</spriteType>
+'>
+<!ENTITY crDeepBlue '
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="0,0,230"/>
+	</spriteType>
+'>
+<!ENTITY crDeepBlue '
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="0,161,202"/>
+	</spriteType>
+'>
+<!ENTITY crSkyBlue '
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="0,230,250"/>
+	</spriteType>
+'>
+<!ENTITY crWineRed '
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="250,0,140"/>
+	</spriteType>
+'>
+]>
+
+<plug-in>
+	<title>ジャンボ機</title>
+	<author>C477@2両目</author>
+	<homepage>http://chiname.tripod.co.jp/</homepage>
+
+	<contribution type="picture" id="{596DBDBE-FC80-413A-C477-94D33698BC6D}">
+		<picture src="Airplane.B747.a.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{A05298A3-54F7-4C4C-C477-20B59B987CF3}">
+		<picture src="Airplane.B747.b.bmp"/>
+	</contribution>
+		
+	<!--RedLine-->
+	<contribution type="commercial" id="{596DBDBE-FC80-413A-C477-94D33698BC6D}-00">
+		&b747a;
+		<sprite origin="0,0" offset="48">
+			&crRed;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{596DBDBE-FC80-413A-C477-94D33698BC6D}-01">
+		&b747a;
+		<sprite origin="160,0" offset="48">
+			&crRed;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{596DBDBE-FC80-413A-C477-94D33698BC6D}-02">
+		&b747a;
+		<sprite origin="320,0" offset="48">
+			&crRed;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{596DBDBE-FC80-413A-C477-94D33698BC6D}-03">
+		&b747a;
+		<sprite origin="480,0" offset="48">
+			&crRed;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{596DBDBE-FC80-413A-C477-94D33698BC6D}-10">
+		&b747a;
+		<sprite origin="0,96" offset="48">
+			&crRed;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{596DBDBE-FC80-413A-C477-94D33698BC6D}-11">
+		&b747a;
+		<sprite origin="160,96" offset="48">
+			&crRed;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{596DBDBE-FC80-413A-C477-94D33698BC6D}-12">
+		&b747a;
+		<sprite origin="320,96" offset="48">
+			&crRed;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{596DBDBE-FC80-413A-C477-94D33698BC6D}-13">
+		&b747a;
+		<sprite origin="480,96" offset="48">
+			&crRed;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{596DBDBE-FC80-413A-C477-94D33698BC6D}-20">
+		&b747a;
+		<sprite origin="0,192" offset="48">
+			&crRed;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{596DBDBE-FC80-413A-C477-94D33698BC6D}-21">
+		&b747a;
+		<sprite origin="160,192" offset="48">
+			&crRed;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{596DBDBE-FC80-413A-C477-94D33698BC6D}-22">
+		&b747a;
+		<sprite origin="320,192" offset="48">
+			&crRed;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{596DBDBE-FC80-413A-C477-94D33698BC6D}-23">
+		&b747a;
+		<sprite origin="480,192" offset="48">
+			&crRed;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{596DBDBE-FC80-413A-C477-94D33698BC6D}-30">
+		&b747a;
+		<sprite origin="0,288" offset="48">
+			&crRed;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{596DBDBE-FC80-413A-C477-94D33698BC6D}-31">
+		&b747a;
+		<sprite origin="160,288" offset="48">
+			&crRed;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{596DBDBE-FC80-413A-C477-94D33698BC6D}-32">
+		&b747a;
+		<sprite origin="320,288" offset="48">
+			&crRed;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{596DBDBE-FC80-413A-C477-94D33698BC6D}-33">
+		&b747a;
+		<sprite origin="480,288" offset="48">
+			&crRed;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<!--BlueLine-->
+	<contribution type="commercial" id="{14FD5D66-BE75-42DA-BE3B-B02C9925C0CF}-00">
+		&b747a;
+		<sprite origin="0,0" offset="48">
+			&crDeepBlue;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{14FD5D66-BE75-42DA-BE3B-B02C9925C0CF}-01">
+		&b747a;
+		<sprite origin="160,0" offset="48">
+			&crDeepBlue;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{14FD5D66-BE75-42DA-BE3B-B02C9925C0CF}-02">
+		&b747a;
+		<sprite origin="320,0" offset="48">
+			&crDeepBlue;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{14FD5D66-BE75-42DA-BE3B-B02C9925C0CF}-03">
+		&b747a;
+		<sprite origin="480,0" offset="48">
+			&crDeepBlue;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{14FD5D66-BE75-42DA-BE3B-B02C9925C0CF}-10">
+		&b747a;
+		<sprite origin="0,96" offset="48">
+			&crDeepBlue;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{14FD5D66-BE75-42DA-BE3B-B02C9925C0CF}-11">
+		&b747a;
+		<sprite origin="160,96" offset="48">
+			&crDeepBlue;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{14FD5D66-BE75-42DA-BE3B-B02C9925C0CF}-12">
+		&b747a;
+		<sprite origin="320,96" offset="48">
+			&crDeepBlue;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{14FD5D66-BE75-42DA-BE3B-B02C9925C0CF}-13">
+		&b747a;
+		<sprite origin="480,96" offset="48">
+			&crDeepBlue;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{14FD5D66-BE75-42DA-BE3B-B02C9925C0CF}-20">
+		&b747a;
+		<sprite origin="0,192" offset="48">
+			&crDeepBlue;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{14FD5D66-BE75-42DA-BE3B-B02C9925C0CF}-21">
+		&b747a;
+		<sprite origin="160,192" offset="48">
+			&crDeepBlue;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{14FD5D66-BE75-42DA-BE3B-B02C9925C0CF}-22">
+		&b747a;
+		<sprite origin="320,192" offset="48">
+			&crDeepBlue;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{14FD5D66-BE75-42DA-BE3B-B02C9925C0CF}-23">
+		&b747a;
+		<sprite origin="480,192" offset="48">
+			&crDeepBlue;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{14FD5D66-BE75-42DA-BE3B-B02C9925C0CF}-30">
+		&b747a;
+		<sprite origin="0,288" offset="48">
+			&crDeepBlue;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{14FD5D66-BE75-42DA-BE3B-B02C9925C0CF}-31">
+		&b747a;
+		<sprite origin="160,288" offset="48">
+			&crDeepBlue;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{14FD5D66-BE75-42DA-BE3B-B02C9925C0CF}-32">
+		&b747a;
+		<sprite origin="320,288" offset="48">
+			&crDeepBlue;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{14FD5D66-BE75-42DA-BE3B-B02C9925C0CF}-33">
+		&b747a;
+		<sprite origin="480,288" offset="48">
+			&crDeepBlue;
+			<picture ref="{596DBDBE-FC80-413A-C477-94D33698BC6D}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	
+	<!--SkiBlueBody-->
+	<contribution type="commercial" id="{A05298A3-54F7-4C4C-C477-20B59B987CF3}-00">
+		&b747b;
+		<sprite origin="0,0" offset="48">
+			&crSkyBlue;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{A05298A3-54F7-4C4C-C477-20B59B987CF3}-01">
+		&b747b;
+		<sprite origin="160,0" offset="48">
+			&crSkyBlue;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{A05298A3-54F7-4C4C-C477-20B59B987CF3}-02">
+		&b747b;
+		<sprite origin="320,0" offset="48">
+			&crSkyBlue;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{A05298A3-54F7-4C4C-C477-20B59B987CF3}-03">
+		&b747b;
+		<sprite origin="480,0" offset="48">
+			&crSkyBlue;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{A05298A3-54F7-4C4C-C477-20B59B987CF3}-10">
+		&b747b;
+		<sprite origin="0,96" offset="48">
+			&crSkyBlue;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{A05298A3-54F7-4C4C-C477-20B59B987CF3}-11">
+		&b747b;
+		<sprite origin="160,96" offset="48">
+			&crSkyBlue;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{A05298A3-54F7-4C4C-C477-20B59B987CF3}-12">
+		&b747b;
+		<sprite origin="320,96" offset="48">
+			&crSkyBlue;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{A05298A3-54F7-4C4C-C477-20B59B987CF3}-13">
+		&b747b;
+		<sprite origin="480,96" offset="48">
+			&crSkyBlue;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{A05298A3-54F7-4C4C-C477-20B59B987CF3}-20">
+		&b747b;
+		<sprite origin="0,192" offset="48">
+			&crSkyBlue;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{A05298A3-54F7-4C4C-C477-20B59B987CF3}-21">
+		&b747b;
+		<sprite origin="160,192" offset="48">
+			&crSkyBlue;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{A05298A3-54F7-4C4C-C477-20B59B987CF3}-22">
+		&b747b;
+		<sprite origin="320,192" offset="48">
+			&crSkyBlue;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{A05298A3-54F7-4C4C-C477-20B59B987CF3}-23">
+		&b747b;
+		<sprite origin="480,192" offset="48">
+			&crSkyBlue;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{A05298A3-54F7-4C4C-C477-20B59B987CF3}-30">
+		&b747b;
+		<sprite origin="0,288" offset="48">
+			&crSkyBlue;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{A05298A3-54F7-4C4C-C477-20B59B987CF3}-31">
+		&b747b;
+		<sprite origin="160,288" offset="48">
+			&crSkyBlue;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{A05298A3-54F7-4C4C-C477-20B59B987CF3}-32">
+		&b747b;
+		<sprite origin="320,288" offset="48">
+			&crSkyBlue;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{A05298A3-54F7-4C4C-C477-20B59B987CF3}-33">
+		&b747b;
+		<sprite origin="480,288" offset="48">
+			&crSkyBlue;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<!--WineRedBody-->
+	<contribution type="commercial" id="{9B0BC47E-AD3A-4834-B72D-57843334F235}-00">
+		&b747b;
+		<sprite origin="0,0" offset="48">
+			&crWineRed;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{9B0BC47E-AD3A-4834-B72D-57843334F235}-01">
+		&b747b;
+		<sprite origin="160,0" offset="48">
+			&crWineRed;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{9B0BC47E-AD3A-4834-B72D-57843334F235}-02">
+		&b747b;
+		<sprite origin="320,0" offset="48">
+			&crWineRed;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{9B0BC47E-AD3A-4834-B72D-57843334F235}-03">
+		&b747b;
+		<sprite origin="480,0" offset="48">
+			&crWineRed;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{9B0BC47E-AD3A-4834-B72D-57843334F235}-10">
+		&b747b;
+		<sprite origin="0,96" offset="48">
+			&crWineRed;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{9B0BC47E-AD3A-4834-B72D-57843334F235}-11">
+		&b747b;
+		<sprite origin="160,96" offset="48">
+			&crWineRed;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{9B0BC47E-AD3A-4834-B72D-57843334F235}-12">
+		&b747b;
+		<sprite origin="320,96" offset="48">
+			&crWineRed;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{9B0BC47E-AD3A-4834-B72D-57843334F235}-13">
+		&b747b;
+		<sprite origin="480,96" offset="48">
+			&crWineRed;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{9B0BC47E-AD3A-4834-B72D-57843334F235}-20">
+		&b747b;
+		<sprite origin="0,192" offset="48">
+			&crWineRed;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{9B0BC47E-AD3A-4834-B72D-57843334F235}-21">
+		&b747b;
+		<sprite origin="160,192" offset="48">
+			&crWineRed;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{9B0BC47E-AD3A-4834-B72D-57843334F235}-22">
+		&b747b;
+		<sprite origin="320,192" offset="48">
+			&crWineRed;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{9B0BC47E-AD3A-4834-B72D-57843334F235}-23">
+		&b747b;
+		<sprite origin="480,192" offset="48">
+			&crWineRed;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{9B0BC47E-AD3A-4834-B72D-57843334F235}-30">
+		&b747b;
+		<sprite origin="0,288" offset="48">
+			&crWineRed;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{9B0BC47E-AD3A-4834-B72D-57843334F235}-31">
+		&b747b;
+		<sprite origin="160,288" offset="48">
+			&crWineRed;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{9B0BC47E-AD3A-4834-B72D-57843334F235}-32">
+		&b747b;
+		<sprite origin="320,288" offset="48">
+			&crWineRed;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{9B0BC47E-AD3A-4834-B72D-57843334F235}-33">
+		&b747b;
+		<sprite origin="480,288" offset="48">
+			&crWineRed;
+			<picture ref="{A05298A3-54F7-4C4C-C477-20B59B987CF3}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+</plug-in>

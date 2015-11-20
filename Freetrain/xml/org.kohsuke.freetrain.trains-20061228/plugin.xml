@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<plug-in>
+	<title>Basic vehicle kit</title>
+	<author>477さん</author>
+	<homepage>http://www.kohsuke.org/freetrain/</homepage>
+	
+	
+	
+	
+	<!-- Intermediate vehicle of default FT model -->
+	<contribution type="trainCar" id="{9EE438DE-B766-4b37-A474-9CE6EE73FE75}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="train.bmp" />
+		</sprite>
+		<capacity>100</capacity>
+	</contribution>
+	
+	<contribution type="train" id="{F3604C61-D0D5-4c9c-ADD6-405610FA6250}">
+		<name>FT Type 1</name>
+		<price>1800</price>
+		<speed>fast</speed>
+		<author>川口耕介</author>
+		<type>FT</type>
+		<company>FreeTrain</company>
+		<description>Overhead Train</description>
+		
+		<composition>
+			<body carRef="{9EE438DE-B766-4b37-A474-9CE6EE73FE75}"/>
+		</composition>
+	</contribution>
+	
+	<contribution type="train" id="{2C6F6C72-FA4B-4941-84C1-57553C8A5C2A}">
+		<name>FT Type 2</name>
+		<price>1000</price>
+		<speed>medium</speed>
+		<author>川口耕介</author>
+		<type>FT</type>
+		<company>FreeTrain</company>
+		<description>Overhead Train</description>
+		
+		<composition>
+			<body carRef="{9EE438DE-B766-4b37-A474-9CE6EE73FE75}"/>
+		</composition>
+	</contribution>
+	
+	<contribution type="train" id="{F7134C8E-6B63-4780-AF16-90D33131CD07}">
+		<name>FT Type 3</name>
+		<price>500</price>
+		<speed>slow</speed>
+		<author>川口耕介</author>
+		<type>FT</type>
+		<company>FreeTrain</company>
+		<description>Overhead Train</description>
+		
+		<composition>
+			<body carRef="{9EE438DE-B766-4b37-A474-9CE6EE73FE75}"/>
+		</composition>
+	</contribution>
+	
+	
+	
+	
+	
+	<!-- 485 first vehicles-->
+	<contribution type="trainCar" id="{3983B298-ADB1-4905-94E5-03B7AAE5A221}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="train485a.bmp" />
+		</sprite>
+		<capacity>65</capacity>
+	</contribution>
+	
+	<!-- 485 intermediate vehicles -->
+	<contribution type="trainCar" id="{3983B298-ADB1-4905-94E5-03B7AAE5A221}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="train485b.bmp" />
+		</sprite>
+		<capacity>70</capacity>
+	</contribution>
+	
+	<!-- 485 trails  -->
+	<contribution type="trainCar" id="{3983B298-ADB1-4905-94E5-03B7AAE5A221}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{3983B298-ADB1-4905-94E5-03B7AAE5A221}-h"/>
+	</contribution>
+	
+	<contribution type="train" id="{3983B298-ADB1-4905-94E5-03B7AAE5A221}">
+		<name>Snow grouse</name>
+		<price>1</price>
+		<speed>fast</speed>
+		<author>477</author>
+		<type>485系</type>
+		<company>JR east Japan </company>
+		<description>Its a train</description>
+		
+		<composition>
+			<!-- If the first vehicle other things and simultaneous as for head abbreviation possibility  -->
+			<head carRef="{3983B298-ADB1-4905-94E5-03B7AAE5A221}-h"/>
+			<body carRef="{3983B298-ADB1-4905-94E5-03B7AAE5A221}-m"/>
+			<!-- If trail other things and simultaneous as for head abbreviation possibility  -->
+			<tail carRef="{3983B298-ADB1-4905-94E5-03B7AAE5A221}-t"/>
+		</composition>
+	</contribution>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- E3 first vehicle  -->
+	<contribution type="trainCar" id="{F4D54B1E-534E-47b0-9EA7-76CE075423E4}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="trainE3a.bmp" />
+		</sprite>
+		<capacity>56</capacity>
+	</contribution>
+	
+	<!-- E3 intermediate vehicle -->
+	<contribution type="trainCar" id="{F4D54B1E-534E-47b0-9EA7-76CE075423E4}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="trainE3b.bmp" />
+		</sprite>
+		<capacity>64</capacity>
+	</contribution>
+	
+	<!-- E3 trail  -->
+	<contribution type="trainCar" id="{F4D54B1E-534E-47b0-9EA7-76CE075423E4}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{F4D54B1E-534E-47b0-9EA7-76CE075423E4}-h"/>
+	</contribution>
+	
+	<contribution type="train" id="{F4D54B1E-534E-47b0-9EA7-76CE075423E4}">
+		<name>Bullet Train Maybe</name>
+		<price>100</price>
+		<speed>superb</speed>
+		<author>477</author>
+		<type>E3 system</type>
+		<company>JR east Japan</company>
+		<description>Bullet Train?</description>
+		
+		<composition>
+			<head carRef="{F4D54B1E-534E-47b0-9EA7-76CE075423E4}-h"/>
+			<body carRef="{F4D54B1E-534E-47b0-9EA7-76CE075423E4}-m"/>
+			<tail carRef="{F4D54B1E-534E-47b0-9EA7-76CE075423E4}-t"/>
+		</composition>
+	</contribution>
+	
+</plug-in>

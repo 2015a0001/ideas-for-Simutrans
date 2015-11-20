@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY Manshon2_2 '
+	<group>分譲マンション(2x2)</group>
+	<price>2400</price>
+	<size>2,2</size>
+	<minHeight>2</minHeight>
+	<maxHeight>4</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.CombinationPopulation"/>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>180</base>
+		</population>
+	</population>
+'>
+<!ENTITY Manshon4_2 '
+	<group>分譲マンション(4x2)</group>
+	<price>4600</price>
+	<minHeight>3</minHeight>
+	<maxHeight>5</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.CombinationPopulation"/>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>340</base>
+		</population>
+	</population>
+'>
+<!ENTITY crWhite '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+	</spriteType>
+'>
+<!ENTITY crRosyBrown '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="192,136,126"/>
+	</spriteType>
+'>
+<!ENTITY crBrown '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="122,79,31"/>
+	</spriteType>
+'>
+<!ENTITY crLtSteelBlue '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,159,180"/>
+	</spriteType>
+'>
+<!ENTITY crKhaki '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="201,195,141"/>
+	</spriteType>
+'>
+<!ENTITY crBlack '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="60,60,60"/>
+	</spriteType>
+'>
+
+]>
+
+<plug-in>
+	<title>分譲マンション</title>
+	<author>C477@2両目</author>
+	<homepage>http://chiname.tripod.co.jp/</homepage>
+
+	<contribution type="picture" id="{35EA4620-0BE3-4424-C477-CE11599C3EF1}">
+		<picture src="mansnVH_m01.bmp">
+			<override when="night" src="mansnVH_m01_n.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}">
+		<picture src="mansnVH_m02.bmp">
+			<override when="night" src="mansnVH_m02_n.bmp"/>
+		</picture>
+	</contribution>
+
+	<contribution type="varHeightBuilding" id="{0B1A4A3C-0BA0-418F-C477-6207429BA639}">
+		&Manshon4_2;
+		<size>4,2</size>
+		<pictures>
+			<top    origin=" 0,0" offset="32">
+				&crWhite;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin=" 0,80" offset="32">
+				&crWhite;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin=" 0,160" offset="32">
+				&crWhite;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{46BF9E18-76BA-447F-C477-8593A252F171}">
+		&Manshon4_2;
+		<size>2,4</size>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				&crWhite;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin="96,80" offset="16">
+				&crWhite;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin="96,160" offset="16">
+				&crWhite;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{03D40A2A-0197-48FD-C477-04FE27EE8CD4}">
+		&Manshon4_2;
+		<size>4,2</size>
+		<pictures>
+			<top    origin="192,0" offset="32">
+				&crWhite;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin="192,80" offset="32">
+				&crWhite;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin="192,160" offset="32">
+				&crWhite;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{71F8D032-E4A9-4175-C477-EE7B8B854D2F}">
+		&Manshon4_2;
+		<size>2,4</size>
+		<pictures>
+			<top    origin="288,0" offset="16">
+				&crWhite;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin="288,80" offset="16">
+				&crWhite;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin="288,160" offset="16">
+				&crWhite;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	<contribution type="varHeightBuilding" id="{0B1A4A3C-0BA0-418F-C477-6207429BA639}-a">
+		&Manshon4_2;
+		<size>4,2</size>
+		<pictures>
+			<top    origin=" 0,0" offset="32">
+				&crRosyBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin=" 0,80" offset="32">
+				&crRosyBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin=" 0,160" offset="32">
+				&crRosyBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{46BF9E18-76BA-447F-C477-8593A252F171}-a">
+		&Manshon4_2;
+		<size>2,4</size>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				&crRosyBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin="96,80" offset="16">
+				&crRosyBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin="96,160" offset="16">
+				&crRosyBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{03D40A2A-0197-48FD-C477-04FE27EE8CD4}-a">
+		&Manshon4_2;
+		<size>4,2</size>
+		<pictures>
+			<top    origin="192,0" offset="32">
+				&crRosyBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin="192,80" offset="32">
+				&crRosyBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin="192,160" offset="32">
+				&crRosyBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{71F8D032-E4A9-4175-C477-EE7B8B854D2F}-a">
+		&Manshon4_2;
+		<size>2,4</size>
+		<pictures>
+			<top    origin="288,0" offset="16">
+				&crRosyBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin="288,80" offset="16">
+				&crRosyBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin="288,160" offset="16">
+				&crRosyBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	<contribution type="varHeightBuilding" id="{0B1A4A3C-0BA0-418F-C477-6207429BA639}-b">
+		&Manshon4_2;
+		<size>4,2</size>
+		<pictures>
+			<top    origin=" 0,0" offset="32">
+				&crBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin=" 0,80" offset="32">
+				&crBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin=" 0,160" offset="32">
+				&crBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{46BF9E18-76BA-447F-C477-8593A252F171}-b">
+		&Manshon4_2;
+		<size>2,4</size>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				&crBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin="96,80" offset="16">
+				&crBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin="96,160" offset="16">
+				&crBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{03D40A2A-0197-48FD-C477-04FE27EE8CD4}-b">
+		&Manshon4_2;
+		<size>4,2</size>
+		<pictures>
+			<top    origin="192,0" offset="32">
+				&crBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin="192,80" offset="32">
+				&crBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin="192,160" offset="32">
+				&crBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{71F8D032-E4A9-4175-C477-EE7B8B854D2F}-b">
+		&Manshon4_2;
+		<size>2,4</size>
+		<pictures>
+			<top    origin="288,0" offset="16">
+				&crBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin="288,80" offset="16">
+				&crBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin="288,160" offset="16">
+				&crBrown;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	<contribution type="varHeightBuilding" id="{0B1A4A3C-0BA0-418F-C477-6207429BA639}-c">
+		&Manshon4_2;
+		<size>4,2</size>
+		<pictures>
+			<top    origin=" 0,0" offset="32">
+				&crLtSteelBlue;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin=" 0,80" offset="32">
+				&crLtSteelBlue;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin=" 0,160" offset="32">
+				&crLtSteelBlue;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{46BF9E18-76BA-447F-C477-8593A252F171}-c">
+		&Manshon4_2;
+		<size>2,4</size>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				&crLtSteelBlue;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin="96,80" offset="16">
+				&crLtSteelBlue;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin="96,160" offset="16">
+				&crLtSteelBlue;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{03D40A2A-0197-48FD-C477-04FE27EE8CD4}-c">
+		&Manshon4_2;
+		<size>4,2</size>
+		<pictures>
+			<top    origin="192,0" offset="32">
+				&crLtSteelBlue;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin="192,80" offset="32">
+				&crLtSteelBlue;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin="192,160" offset="32">
+				&crLtSteelBlue;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{71F8D032-E4A9-4175-C477-EE7B8B854D2F}-c">
+		&Manshon4_2;
+		<size>2,4</size>
+		<pictures>
+			<top    origin="288,0" offset="16">
+				&crLtSteelBlue;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin="288,80" offset="16">
+				&crLtSteelBlue;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin="288,160" offset="16">
+				&crLtSteelBlue;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	<contribution type="varHeightBuilding" id="{0B1A4A3C-0BA0-418F-C477-6207429BA639}-d">
+		&Manshon4_2;
+		<size>4,2</size>
+		<pictures>
+			<top    origin=" 0,0" offset="32">
+				&crKhaki;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin=" 0,80" offset="32">
+				&crKhaki;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin=" 0,160" offset="32">
+				&crKhaki;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{46BF9E18-76BA-447F-C477-8593A252F171}-d">
+		&Manshon4_2;
+		<size>2,4</size>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				&crKhaki;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin="96,80" offset="16">
+				&crKhaki;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin="96,160" offset="16">
+				&crKhaki;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{03D40A2A-0197-48FD-C477-04FE27EE8CD4}-d">
+		&Manshon4_2;
+		<size>4,2</size>
+		<pictures>
+			<top    origin="192,0" offset="32">
+				&crKhaki;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin="192,80" offset="32">
+				&crKhaki;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin="192,160" offset="32">
+				&crKhaki;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{71F8D032-E4A9-4175-C477-EE7B8B854D2F}-d">
+		&Manshon4_2;
+		<size>2,4</size>
+		<pictures>
+			<top    origin="288,0" offset="16">
+				&crKhaki;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin="288,80" offset="16">
+				&crKhaki;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin="288,160" offset="16">
+				&crKhaki;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	<contribution type="varHeightBuilding" id="{0B1A4A3C-0BA0-418F-C477-6207429BA639}-e">
+		&Manshon4_2;
+		<size>4,2</size>
+		<pictures>
+			<top    origin=" 0,0" offset="32">
+				&crBlack;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin=" 0,80" offset="32">
+				&crBlack;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin=" 0,160" offset="32">
+				&crBlack;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{46BF9E18-76BA-447F-C477-8593A252F171}-e">
+		&Manshon4_2;
+		<size>2,4</size>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				&crBlack;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin="96,80" offset="16">
+				&crBlack;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin="96,160" offset="16">
+				&crBlack;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{03D40A2A-0197-48FD-C477-04FE27EE8CD4}-e">
+		&Manshon4_2;
+		<size>4,2</size>
+		<pictures>
+			<top    origin="192,0" offset="32">
+				&crBlack;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin="192,80" offset="32">
+				&crBlack;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin="192,160" offset="32">
+				&crBlack;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{71F8D032-E4A9-4175-C477-EE7B8B854D2F}-e">
+		&Manshon4_2;
+		<size>2,4</size>
+		<pictures>
+			<top    origin="288,0" offset="16">
+				&crBlack;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</top>
+			<middle origin="288,80" offset="16">
+				&crBlack;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</middle>
+			<bottom origin="288,160" offset="16">
+				&crBlack;
+				<picture ref="{1FB0C22C-7B09-4C8F-C477-34B64B0D8506}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+
+
+	<contribution type="varHeightBuilding" id="{1F0EDC38-0EB4-4354-C477-A40FEF387758}">
+		&Manshon2_2;
+		<pictures>
+			<top    origin=" 0, 0" offset="16">
+				&crWhite;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin=" 0,48" offset="16">
+				&crWhite;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin=" 0,96" offset="16">
+				&crWhite;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{E7CCA63A-3BF9-40C9-C477-E05F810C86FF}">
+		&Manshon2_2;
+		<pictures>
+			<top    origin="64, 0" offset="16">
+				&crWhite;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin="64,48" offset="16">
+				&crWhite;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin="64,96" offset="16">
+				&crWhite;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{FC9B3856-EB2D-4769-C477-7500F986F621}">
+		&Manshon2_2;
+		<pictures>
+			<top    origin="128, 0" offset="16">
+				&crWhite;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin="128,48" offset="16">
+				&crWhite;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin="128,96" offset="16">
+				&crWhite;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{02D9F82C-AC43-4832-C477-FC983FF35AD2}">
+		&Manshon2_2;
+		<pictures>
+			<top    origin="192, 0" offset="16">
+				&crWhite;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin="192,48" offset="16">
+				&crWhite;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin="192,96" offset="16">
+				&crWhite;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	
+	<contribution type="varHeightBuilding" id="{1F0EDC38-0EB4-4354-C477-A40FEF387758}-a">
+		&Manshon2_2;
+		<pictures>
+			<top    origin=" 0, 0" offset="16">
+				&crRosyBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin=" 0,48" offset="16">
+				&crRosyBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin=" 0,96" offset="16">
+				&crRosyBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{E7CCA63A-3BF9-40C9-C477-E05F810C86FF}-a">
+		&Manshon2_2;
+		<pictures>
+			<top    origin="64, 0" offset="16">
+				&crRosyBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin="64,48" offset="16">
+				&crRosyBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin="64,96" offset="16">
+				&crRosyBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{FC9B3856-EB2D-4769-C477-7500F986F621}-a">
+		&Manshon2_2;
+		<pictures>
+			<top    origin="128, 0" offset="16">
+				&crRosyBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin="128,48" offset="16">
+				&crRosyBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin="128,96" offset="16">
+				&crRosyBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{02D9F82C-AC43-4832-C477-FC983FF35AD2}-a">
+		&Manshon2_2;
+		<pictures>
+			<top    origin="192, 0" offset="16">
+				&crRosyBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin="192,48" offset="16">
+				&crRosyBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin="192,96" offset="16">
+				&crRosyBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	<contribution type="varHeightBuilding" id="{1F0EDC38-0EB4-4354-C477-A40FEF387758}-b">
+		&Manshon2_2;
+		<pictures>
+			<top    origin=" 0, 0" offset="16">
+				&crBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin=" 0,48" offset="16">
+				&crBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin=" 0,96" offset="16">
+				&crBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{E7CCA63A-3BF9-40C9-C477-E05F810C86FF}-b">
+		&Manshon2_2;
+		<pictures>
+			<top    origin="64, 0" offset="16">
+				&crBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin="64,48" offset="16">
+				&crBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin="64,96" offset="16">
+				&crBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{FC9B3856-EB2D-4769-C477-7500F986F621}-b">
+		&Manshon2_2;
+		<pictures>
+			<top    origin="128, 0" offset="16">
+				&crBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin="128,48" offset="16">
+				&crBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin="128,96" offset="16">
+				&crBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{02D9F82C-AC43-4832-C477-FC983FF35AD2}-b">
+		&Manshon2_2;
+		<pictures>
+			<top    origin="192, 0" offset="16">
+				&crBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin="192,48" offset="16">
+				&crBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin="192,96" offset="16">
+				&crBrown;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	<contribution type="varHeightBuilding" id="{1F0EDC38-0EB4-4354-C477-A40FEF387758}-c">
+		&Manshon2_2;
+		<pictures>
+			<top    origin=" 0, 0" offset="16">
+				&crLtSteelBlue;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin=" 0,48" offset="16">
+				&crLtSteelBlue;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin=" 0,96" offset="16">
+				&crLtSteelBlue;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{E7CCA63A-3BF9-40C9-C477-E05F810C86FF}-c">
+		&Manshon2_2;
+		<pictures>
+			<top    origin="64, 0" offset="16">
+				&crLtSteelBlue;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin="64,48" offset="16">
+				&crLtSteelBlue;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin="64,96" offset="16">
+				&crLtSteelBlue;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{FC9B3856-EB2D-4769-C477-7500F986F621}-c">
+		&Manshon2_2;
+		<pictures>
+			<top    origin="128, 0" offset="16">
+				&crLtSteelBlue;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin="128,48" offset="16">
+				&crLtSteelBlue;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin="128,96" offset="16">
+				&crLtSteelBlue;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{02D9F82C-AC43-4832-C477-FC983FF35AD2}-c">
+		&Manshon2_2;
+		<pictures>
+			<top    origin="192, 0" offset="16">
+				&crLtSteelBlue;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin="192,48" offset="16">
+				&crLtSteelBlue;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin="192,96" offset="16">
+				&crLtSteelBlue;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	<contribution type="varHeightBuilding" id="{1F0EDC38-0EB4-4354-C477-A40FEF387758}-d">
+		&Manshon2_2;
+		<pictures>
+			<top    origin=" 0, 0" offset="16">
+				&crKhaki;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin=" 0,48" offset="16">
+				&crKhaki;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin=" 0,96" offset="16">
+				&crKhaki;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{E7CCA63A-3BF9-40C9-C477-E05F810C86FF}-d">
+		&Manshon2_2;
+		<pictures>
+			<top    origin="64, 0" offset="16">
+				&crKhaki;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin="64,48" offset="16">
+				&crKhaki;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin="64,96" offset="16">
+				&crKhaki;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{FC9B3856-EB2D-4769-C477-7500F986F621}-d">
+		&Manshon2_2;
+		<pictures>
+			<top    origin="128, 0" offset="16">
+				&crKhaki;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin="128,48" offset="16">
+				&crKhaki;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin="128,96" offset="16">
+				&crKhaki;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{02D9F82C-AC43-4832-C477-FC983FF35AD2}-d">
+		&Manshon2_2;
+		<pictures>
+			<top    origin="192, 0" offset="16">
+				&crKhaki;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin="192,48" offset="16">
+				&crKhaki;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin="192,96" offset="16">
+				&crKhaki;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	<contribution type="varHeightBuilding" id="{1F0EDC38-0EB4-4354-C477-A40FEF387758}-e">
+		&Manshon2_2;
+		<pictures>
+			<top    origin=" 0, 0" offset="16">
+				&crBlack;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin=" 0,48" offset="16">
+				&crBlack;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin=" 0,96" offset="16">
+				&crBlack;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{E7CCA63A-3BF9-40C9-C477-E05F810C86FF}-e">
+		&Manshon2_2;
+		<pictures>
+			<top    origin="64, 0" offset="16">
+				&crBlack;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin="64,48" offset="16">
+				&crBlack;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin="64,96" offset="16">
+				&crBlack;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{FC9B3856-EB2D-4769-C477-7500F986F621}-e">
+		&Manshon2_2;
+		<pictures>
+			<top    origin="128, 0" offset="16">
+				&crBlack;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin="128,48" offset="16">
+				&crBlack;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin="128,96" offset="16">
+				&crBlack;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="varHeightBuilding" id="{02D9F82C-AC43-4832-C477-FC983FF35AD2}-e">
+		&Manshon2_2;
+		<pictures>
+			<top    origin="192, 0" offset="16">
+				&crBlack;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</top>
+			<middle origin="192,48" offset="16">
+				&crBlack;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</middle>
+			<bottom origin="192,96" offset="16">
+				&crBlack;
+				<picture ref="{35EA4620-0BE3-4424-C477-CE11599C3EF1}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+</plug-in>

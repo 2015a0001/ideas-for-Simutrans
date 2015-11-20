@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+このファイルは、C477氏の作成したファイルを元に、ジャガイモが作成しました。
+詳しい情報は下記のURLへ。
+http://homepage1.nifty.com/jagaimo/west_necom/
+-->
+<!-- 
+このファイルは業種を定義します。
+記述例：
+	<business id="000" name="業種名">
+		<account fixed="0.25"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="1" />
+		<weight brand="5" marketing="4" quality="3" />
+	</business>
+
+	id：companyタグのtype属性から参照される文字列
+	name：業種名
+	fixed:売上規模に対する固定経費率
+	scale：市場規模(円貨)－同業種で売上げを分配します
+	cycle：業種固有の景気周期(日)
+	ampliture：業種固有の景気振幅(0-10)
+	ex_dependency：景気影響度(0-10)－全体の景気指数による影響の受け安さ
+	progressivity：業界の進歩性(0-10)－業界の栄枯盛衰の激しさ
+	brand：ブランドの重要性(0-10)－競争においてブランド力が占める影響度
+	marketing：販売力の重要性(0-10)－競争において販売力が占める影響度
+	quality：品質の重要性(0-10)－競争において企業または製品の品質が占める影響度
+-->
+<companies>
+	<!-- business tag descripts a 'business type' -->
+	<business id="010" name="Marine products forestry">
+		<!-- fixed:the ratio of fixed account against ideal sales amount-->
+		<account fixed="0.30"/>
+		<!-- scale:initial market scale of the business total-->
+		<!-- cycle:proper business cycle (days) -->
+		<!-- amplitude:proper business amplitude (0-10) -->
+		<!-- ex_dependency:business dependency to the economy (0-10) -->
+		<!-- progressivity:progressivity or competitive rate of the business (0-10) -->
+		<market scale="5000000000000" cycle="365" amplitude="5" ex_dependency="5" progressivity="1" />
+		<!-- brand:business waight of brand image (0-10) -->
+		<!-- marketing:business waight of marketing ability (0-10) -->
+		<!-- quality:business waight of quality of the service or production (0-10) -->
+		<weight brand="5" marketing="4" quality="3" />
+	</business>
+	<business id="011" name="Agriculture">
+		<account fixed="0.30"/>
+		<market scale="5000000000000" cycle="365" amplitude="5" ex_dependency="5" progressivity="1" />
+		<weight brand="5" marketing="4" quality="3" />
+	</business>
+	<business id="012" name="Mining">
+		<account fixed="0.40"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="1" />
+		<weight brand="5" marketing="2" quality="2" />
+	</business>
+	<business id="020" name="Construction">
+		<account fixed="0.35"/>
+		<market scale="5000000000000" cycle="60" amplitude="5" ex_dependency="3" progressivity="3" />
+		<weight brand="5" marketing="5" quality="5" />
+	</business>
+	<business id="021" name="Food">
+		<account fixed="0.30"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="3" progressivity="3" />
+		<weight brand="8" marketing="7" quality="5" />
+	</business>
+	<business id="022" name="Fiber">
+		<account fixed="0.30"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="4" progressivity="4" />
+		<weight brand="8" marketing="6" quality="6" />
+	</business>
+	<business id="023" name="Pulp paper">
+		<account fixed="0.30"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="2" />
+		<weight brand="3" marketing="5" quality="5" />
+	</business>
+	<business id="030" name="Chemistry">
+		<account fixed="0.35"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="6" />
+		<weight brand="3" marketing="3" quality="9" />
+	</business>
+	<business id="031" name="Medical supply">
+		<account fixed="0.30"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="8" />
+		<weight brand="6" marketing="5" quality="9" />
+	</business>
+	<business id="032" name="Petroleum coal">
+		<account fixed="0.35"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="4" />
+		<weight brand="3" marketing="3" quality="4" />
+	</business>
+	<business id="033" name="Rubber">
+		<account fixed="0.30"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="3" />
+		<weight brand="4" marketing="3" quality="5" />
+	</business>
+	<business id="034" name="Glass">
+		<account fixed="0.30"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="2" />
+		<weight brand="2" marketing="3" quality="4" />
+	</business>
+	<business id="035" name="Ceramics">
+		<account fixed="0.30"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="2" />
+		<weight brand="2" marketing="3" quality="4" />
+	</business>
+	<business id="036" name="Steel">
+		<account fixed="0.35"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="2" />
+		<weight brand="3" marketing="3" quality="6" />
+	</business>
+	<business id="037" name="Non iron">
+		<account fixed="0.35"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="3" />
+		<weight brand="3" marketing="3" quality="6" />
+	</business>
+	<business id="038" name="Metal product">
+		<account fixed="0.35"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="4" />
+		<weight brand="5" marketing="4" quality="7" />
+	</business>
+	<business id="040" name="Machine">
+		<account fixed="0.35"/>
+		<market scale="50000000000000" cycle="100" amplitude="5" ex_dependency="6" progressivity="5" />
+		<weight brand="6" marketing="5" quality="8" />
+	</business>
+	<business id="041" name="Electrical">
+		<account fixed="0.30"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="7" />
+		<weight brand="8" marketing="7" quality="8" />
+	</business>
+	<business id="042" name="Automobile">
+		<account fixed="0.35"/>
+		<market scale="10000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="5" />
+		<weight brand="9" marketing="6" quality="9" />
+	</business>
+	<business id="043" name="Shipbuilding">
+		<account fixed="0.35"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="5" />
+		<weight brand="7" marketing="3" quality="8" />
+	</business>
+	<business id="044" name="Aircraft">
+		<account fixed="0.35"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="5" />
+		<weight brand="9" marketing="3" quality="9" />
+	</business>
+	<business id="045" name="Transportation">
+		<account fixed="0.35"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="5" />
+		<weight brand="7" marketing="3" quality="8" />
+	</business>
+	<business id="046" name="Precise equipment">
+		<account fixed="0.35"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="6" progressivity="8" />
+		<weight brand="8" marketing="4" quality="9" />
+	</business>
+	<business id="047" name="Printing">
+		<account fixed="0.30"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="6" progressivity="8" />
+		<weight brand="8" marketing="4" quality="9" />
+	</business>
+	<business id="048" name="Additional">
+		<account fixed="0.30"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="5" />
+		<weight brand="5" marketing="5" quality="5" />
+	</business>
+	<business id="050" name="Electrical gas">
+		<account fixed="0.35"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="2" progressivity="1" />
+		<weight brand="3" marketing="3" quality="3" />
+	</business>
+	<business id="061" name="Land Transport Bureau">
+		<account fixed="0.30"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="1" />
+		<weight brand="3" marketing="7" quality="5" />
+	</business>
+	<business id="062" name="Marine transport">
+		<account fixed="0.35"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="1" />
+		<weight brand="4" marketing="5" quality="6" />
+	</business>
+	<business id="063" name="Empty luck">
+		<account fixed="0.25"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="1" />
+		<weight brand="4" marketing="5" quality="6" />
+	</business>
+	<business id="064" name="Real estate">
+		<account fixed="0.15"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="6" progressivity="1" />
+		<weight brand="3" marketing="6" quality="5" />
+	</business>
+	<business id="065" name="Warehouse transport">
+		<account fixed="0.25"/>
+		<market scale="50000000000000" cycle="100" amplitude="5" ex_dependency="6" progressivity="1" />
+		<weight brand="3" marketing="6" quality="5" />
+	</business>
+	<business id="070" name="Information communication">
+		<account fixed="0.30"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="3" progressivity="4" />
+		<weight brand="4" marketing="6" quality="6" />
+	</business>
+	<business id="071" name="Commerce (wholesale)">
+		<account fixed="0.25"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="6" progressivity="1" />
+		<weight brand="3" marketing="2" quality="3" />
+	</business>
+	<business id="072" name="Commerce (retail)">
+		<account fixed="0.25"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="7" progressivity="1" />
+		<weight brand="5" marketing="7" quality="5" />
+	</business>
+	<business id="080" name="Bank">
+		<account fixed="0.15"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="7" progressivity="1" />
+		<weight brand="9" marketing="8" quality="4" />
+	</business>
+	<business id="081" name="Bonds">
+		<account fixed="0.15"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="7" progressivity="1" />
+		<weight brand="8" marketing="9" quality="4" />
+	</business>
+	<business id="082" name="Insurance">
+		<account fixed="0.15"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="5" progressivity="2" />
+		<weight brand="9" marketing="9" quality="5" />
+	</business>
+	<business id="083" name="Building Society">
+		<account fixed="0.25"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="6" progressivity="2" />
+		<weight brand="7" marketing="8" quality="5" />
+	</business>
+	<business id="091" name="Service">
+		<account fixed="0.25"/>
+		<market scale="5000000000000" cycle="100" amplitude="5" ex_dependency="7" progressivity="3" />
+		<weight brand="4" marketing="6" quality="6" />
+	</business>
+</companies>

@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>TAKUROU</title>
+ 	<homepage>kei@viola.club.ne.jp</homepage>
+	<!--TAKUROUさんからの委託により作成-->
+ 	
+ 	<!-- イメージ画像定義 -->
+ 	<!-- Tc117 -->
+	<contribution type="picture" id="{FreeTrain-N1K2J-KeiH-TrainCarImg-Tc117N}">
+		<picture src="117a.bmp" />
+	</contribution>
+	<!-- M116/117 -->
+	<contribution type="picture" id="{FreeTrain-N1K2J-KeiH-TrainCarImg-M117-N}">
+		<picture src="117b.bmp" />
+	</contribution>
+ 	<!-- Tc117 福知山-->
+	<contribution type="picture" id="{FreeTrain-N1K2J-KeiH-TrainCarImg-Tc117F}">
+		<picture src="117a_f.bmp" />
+	</contribution>
+	<!-- M116/117 福知山-->
+	<contribution type="picture" id="{FreeTrain-N1K2J-KeiH-TrainCarImg-M117-F}">
+		<picture src="117b_f.bmp" />
+	</contribution>
+ 	<!-- Tc117 東海-->
+	<contribution type="picture" id="{FreeTrain-N1K2J-KeiH-TrainCarImg-Tc117C}">
+		<picture src="117a_JRC.bmp" />
+	</contribution>
+	<!-- M116/117 東海-->
+	<contribution type="picture" id="{FreeTrain-N1K2J-KeiH-TrainCarImg-M117-C}">
+		<picture src="117b_JRC.bmp" />
+	</contribution>
+ 	<!-- Tc117 和歌山-->
+	<contribution type="picture" id="{FreeTrain-N1K2J-KeiH-TrainCarImg-Tc117W}">
+		<picture src="117a_O.bmp" />
+	</contribution>
+	<!-- M116/117 和歌山-->
+	<contribution type="picture" id="{FreeTrain-N1K2J-KeiH-TrainCarImg-M117-W}">
+		<picture src="117b_O.bmp" />
+	</contribution>
+ 	<!-- Tc117 サンライナー-->
+	<contribution type="picture" id="{FreeTrain-N1K2J-KeiH-TrainCarImg-Tc117S}">
+		<picture src="117a_Sun.bmp" />
+	</contribution>
+	<!-- M116/117 サンライナー-->
+	<contribution type="picture" id="{FreeTrain-N1K2J-KeiH-TrainCarImg-M117-S}">
+		<picture src="117b_Sun.bmp" />
+	</contribution>
+	<!-- 153系 -->
+	<contribution type="picture" id="{FreeTrain-N1K2J-KeiH-TrainCarImg-EC153S}">
+		<picture src="153sho.bmp" />
+	</contribution>
+	<!-- サロ152 -->
+	<contribution type="picture" id="{FreeTrain-N1K2J-KeiH-TrainCarImg-Ts152S}">
+		<picture src="152saro.bmp" />
+	</contribution>
+	<!-- 475系 -->
+	<contribution type="picture" id="{FreeTrain-N1K2J-KeiH-TrainCarImg-EC475N}">
+		<picture src="475a.bmp" />
+	</contribution>
+	<!-- サロ455 -->
+	<contribution type="picture" id="{FreeTrain-N1K2J-KeiH-TrainCarImg-Ts455N}">
+		<picture src="455saro.bmp" />
+	</contribution>
+	<!-- 217先頭車 -->
+	<contribution type="picture" id="{FreeTrain-N1K2J-KeiH-TrainCarImg-Tc217F}">
+		<picture src="E217a.bmp" />
+	</contribution>
+	<!-- サロ217 -->
+	<contribution type="picture" id="{FreeTrain-N1K2J-KeiH-TrainCarImg-Ts217D}">
+		<picture src="E217dd.bmp" />
+	</contribution>
+	<!-- 217中間車 -->
+	<contribution type="picture" id="{FreeTrain-N1K2J-KeiH-TrainCarImg-MMT217}">
+		<picture src="E217b.bmp" />
+	<!-- キハ75  -->
+	<contribution type="picture" id="{FreeTrain-N1K2J-KeiH-TrainCarImg-Dc75}">
+		<picture src="kiha75.bmp" />
+             </contribution>
+</plug-in>
+
+ 	<!-- 車両定義 -->
+
+	<!-- クハ117 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-Tc117-N}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-N1K2J-KeiH-TrainCarImg-Tc117N}" />
+		</sprite>
+		<capacity>68</capacity>
+	</contribution>
+	<!-- モハ116/117 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-MM117-N}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-N1K2J-KeiH-TrainCarImg-M117-N}" />
+		</sprite>
+		<capacity>72</capacity>
+	</contribution>
+	<!-- クハ116 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-Tc116-N}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-N1K2J-KeiH-TrainImg-Tc117-N}"/>
+	</contribution>
+	<!-- クハ117-300 福知山色 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-Tc117-F}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-N1K2J-KeiH-TrainCarImg-Tc117F}" />
+		</sprite>
+		<capacity>80</capacity>
+	</contribution>
+	<!-- モハ116/117-300 福知山色 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-MM117-F}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-N1K2J-KeiH-TrainCarImg-M117-F}" />
+		</sprite>
+		<capacity>84</capacity>
+	</contribution>
+	<!-- クハ116-300 福知山色 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-Tc116-F}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-N1K2J-KeiH-TrainImg-Tc117-F}"/>
+	</contribution>
+	<!-- クハ117 東海色 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-Tc117-C}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-N1K2J-KeiH-TrainCarImg-Tc117C}" />
+		</sprite>
+		<capacity>68</capacity>
+	</contribution>
+	<!-- モハ116/117 東海色 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-MM117-C}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-N1K2J-KeiH-TrainCarImg-M117-C}" />
+		</sprite>
+		<capacity>72</capacity>
+	</contribution>
+	<!-- クハ116 東海色 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-Tc116-C}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-N1K2J-KeiH-TrainImg-Tc117-C}"/>
+	</contribution>
+	<!-- クハ117 オーシャン色 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-Tc117-W}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-N1K2J-KeiH-TrainCarImg-Tc117W}" />
+		</sprite>
+		<capacity>68</capacity>
+	</contribution>
+	<!-- モハ116/117 オーシャン色 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-MM117-W}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-N1K2J-KeiH-TrainCarImg-M117-W}" />
+		</sprite>
+		<capacity>72</capacity>
+	</contribution>
+	<!-- クハ116 オーシャン色 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-Tc116-W}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-N1K2J-KeiH-TrainImg-Tc117-W}"/>
+	</contribution>
+	<!-- クハ117 サンライナー -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-Tc117-S}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-N1K2J-KeiH-TrainCarImg-Tc117S}" />
+		</sprite>
+		<capacity>68</capacity>
+	</contribution>
+	<!-- モハ116/117 サンライナー -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-MM117-S}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-N1K2J-KeiH-TrainCarImg-M117-S}" />
+		</sprite>
+		<capacity>72</capacity>
+	</contribution>
+	<!-- クハ116 サンライナー -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-Tc116-S}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-N1K2J-KeiH-TrainImg-Tc117-S}"/>
+	</contribution>
+	<!-- 153系 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-EC153-S}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-N1K2J-KeiH-TrainCarImg-EC153S}" />
+		</sprite>
+		<capacity>80</capacity>
+	</contribution>
+	<!-- サロ152 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-Ts152-S}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-N1K2J-KeiH-TrainCarImg-Ts152S}" />
+		</sprite>
+		<capacity>48</capacity>
+	</contribution>
+	<!-- 475系 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-EC475-N}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-N1K2J-KeiH-TrainCarImg-EC475N}" />
+		</sprite>
+		<capacity>80</capacity>
+	</contribution>
+	<!-- サロ455 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-Ts455-N}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-N1K2J-KeiH-TrainCarImg-Ts455N}" />
+		</sprite>
+		<capacity>48</capacity>
+	</contribution>
+
+	<!-- クハE217 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-Tc-E217}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-N1K2J-KeiH-TrainCarImg-Tc217F}" />
+		</sprite>
+		<capacity>80</capacity>
+	</contribution>
+	<!-- モハE216/E217 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-MM-E217}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-N1K2J-KeiH-TrainCarImg-MMT217}" />
+		</sprite>
+		<capacity>84</capacity>
+	</contribution>
+	<!-- サロE217 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-Ts-E217}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-N1K2J-KeiH-TrainCarImg-Ts217D}" />
+		</sprite>
+		<capacity>84</capacity>
+	</contribution>
+	<!-- クハE216 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-Tc-E216}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-N1K2J-KeiH-TrainImg-Tc-E217}"/>
+	<!-- キハ75_0 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-Dc75_0}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-N1K2J-KeiH-TrainCarImg-Dc75}" />
+		</sprite>
+		<capacity>68</capacity>
+             <!-- キハ75_100 -->
+	<contribution type="trainCar" id="{FreeTrain-N1K2J-KeiH-TrainImg-Dc75_100}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{FreeTrain-N1K2J-KeiH-TrainImg-Dc75}"/>
+	</contribution>
+	
+	<!-- 編成の定義 -->
+	<contribution type="train" id="{FreeTrain-N1K2J-KeiH-TrainHensei-117JNR}">
+		<company>旧日本国有鉄道</company>
+		<type>117系</type>
+		<name>近郊型電車</name>
+		<author>TAKUROU</author>
+		<description>シティーライナー
+		</description>
+		<fare>700</fare>
+		<price>100</price>
+		<speed>fast</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Tc117-N}"/>
+			<car char="＞" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Tc116-N}"/>
+			<car char="＝" ref="{FreeTrain-N1K2J-KeiH-TrainImg-MM117-N}"/>
+			
+			<composition>＜＝＝＞</composition>
+			<composition>＜＝＝＝＞</composition>
+			<composition>＜＝＝＝＝＞</composition>
+			<composition>＜＝＝＞＜＝＝＞</composition>
+			<composition>＜＝＝＝＝＞＜＝＝＞</composition>
+			<composition>＜＝＝＝＝＞＜＝＝＝＝＞</composition>
+		</config>
+	</contribution>
+	
+	<contribution type="train" id="{FreeTrain-N1K2J-KeiH-TrainHensei-117JRC}">
+		<company>JR東海</company>
+		<type>117系</type>
+		<name>近郊型電車</name>
+		<author>TAKUROU</author>
+		<description></description>
+		<fare>700</fare>
+		<price>100</price>
+		<speed>fast</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Tc117-C}"/>
+			<car char="＞" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Tc116-C}"/>
+			<car char="＝" ref="{FreeTrain-N1K2J-KeiH-TrainImg-MM117-C}"/>
+			
+			<composition>＜＝＝＞</composition>
+			<composition>＜＝＝＝＞</composition>
+			<composition>＜＝＝＝＝＞</composition>
+			<composition>＜＝＝＞＜＝＝＞</composition>
+			<composition>＜＝＝＝＝＞＜＝＝＞</composition>
+			<composition>＜＝＝＝＝＞＜＝＝＝＝＞</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-N1K2J-KeiH-TrainHensei-117300}">
+		<company>JR西日本</company>
+		<type>117系</type>
+		<name>300番台福知山色</name>
+		<author>TAKUROU</author>
+		<description>シティーライナー
+		</description>
+		<fare>700</fare>
+		<price>100</price>
+		<speed>fast</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Tc117-F}"/>
+			<car char="＞" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Tc116-F}"/>
+			<car char="＝" ref="{FreeTrain-N1K2J-KeiH-TrainImg-MM117-F}"/>
+			
+			<composition>＜＝＝＞</composition>
+			<composition>＜＝＝＝＞</composition>
+			<composition>＜＝＝＝＝＞</composition>
+			<composition>＜＝＝＞＜＝＝＞</composition>
+			<composition>＜＝＝＝＝＞＜＝＝＞</composition>
+			<composition>＜＝＝＝＝＞＜＝＝＝＝＞</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-N1K2J-KeiH-TrainHensei-117JRW}">
+		<company>JR西日本</company>
+		<type>117系</type>
+		<name>新快速(国鉄色＋福知山色）</name>
+		<author>TAKUROU</author>
+		<description>新快速
+		</description>
+		<fare>700</fare>
+		<price>100</price>
+		<speed>fast</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Tc117-N}"/>
+			<car char="＞" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Tc116-N}"/>
+			<car char="＝" ref="{FreeTrain-N1K2J-KeiH-TrainImg-MM117-N}"/>
+			<car char="←" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Tc117-F}"/>
+			<car char="→" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Tc116-F}"/>
+			<car char="－" ref="{FreeTrain-N1K2J-KeiH-TrainImg-MM117-F}"/>
+
+			
+			<composition>＜＝＝＝＞</composition>
+			<composition>＜－－＝＝＞</composition>
+			<composition>＜＝＝＞←－－→</composition>
+			<composition>＜＝＝－－＞＜＝＝＞</composition>
+			<composition>＜＝＝＝＝＞←－－－－→</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-N1K2J-KeiH-TrainHensei-117OCE}">
+		<company>JR西日本</company>
+		<type>117系</type>
+		<name>和歌山地域色（オーシャン）</name>
+		<author>TAKUROU</author>
+		<description>シティーライナー
+		</description>
+		<fare>700</fare>
+		<price>100</price>
+		<speed>fast</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Tc117-W}"/>
+			<car char="＞" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Tc116-W}"/>
+			<car char="＝" ref="{FreeTrain-N1K2J-KeiH-TrainImg-MM117-W}"/>
+			
+			<composition>＜＝＝＞</composition>
+			<composition>＜＝＝＝＞</composition>
+			<composition>＜＝＝＝＝＞</composition>
+			<composition>＜＝＝＞＜＝＝＞</composition>
+			<composition>＜＝＝＝＝＞＜＝＝＞</composition>
+			<composition>＜＝＝＝＝＞＜＝＝＝＝＞</composition>
+		</config>
+             </contribution>
+
+	<contribution type="train" id="{FreeTrain-N1K2J-KeiH-TrainHensei-117OCE}">
+		<company>JR西日本</company>
+		<type>117系</type>
+		<name>和歌山地域色（オーシャン）</name>
+		<author>TAKUROU</author>
+		<description>シティーライナー
+		</description>
+		<fare>700</fare>
+		<price>100</price>
+		<speed>fast</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Tc117-W}"/>
+			<car char="＞" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Tc116-W}"/>
+			<car char="＝" ref="{FreeTrain-N1K2J-KeiH-TrainImg-MM117-W}"/>
+			
+			<composition>＜＝＝＞</composition>
+			<composition>＜＝＝＝＞</composition>
+			<composition>＜＝＝＝＝＞</composition>
+			<composition>＜＝＝＞＜＝＝＞</composition>
+			<composition>＜＝＝＝＝＞＜＝＝＞</composition>
+			<composition>＜＝＝＝＝＞＜＝＝＝＝＞</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-N1K2J-KeiH-TrainHensei-153exp}">
+		<company>旧日本国有鉄道</company>
+		<type>153系</type>
+		<name>急行型電車</name>
+		<author>TAKUROU</author>
+		<description>
+		</description>
+		<fare>750</fare>
+		<price>100</price>
+		<speed>fast</speed>
+		
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="Ｈ" ref="{FreeTrain-N1K2J-KeiH-TrainImg-EC153-S}"/>
+			<car char="Ｓ" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Ts152-S}"/>
+			
+			<composition>ＨＨＨＨ</composition>
+			<composition>ＨＨＨＨＨ</composition>
+			<composition>ＨＨＨＨＨＨ</composition>
+			<composition>ＨＳＨＨＨＨＨ</composition>
+			<composition>ＨＳＨＨＨＨＨＨ</composition>
+			<composition>ＨＳＳＨＨＨＨＨＨ</composition>
+			<composition>ＨＳＳＨＨＨＨＨＨＨ</composition>
+			<composition>ＨＳＳＨＨＨＨＨＨＨＨ</composition>
+			<composition>ＨＳＨＨＨＨＨＨＳＨＨＨ</composition>
+			<composition>ＨＳＳＨＨＨＨＨＳＨＨＨＨ</composition>
+			<composition>ＨＳＳＨＨＨＨＨＨＳＳＨＨＨ</composition>
+			<composition>ＨＳＳＨＨＨＨＨＨＨＳＳＨＨＨ</composition>
+			<composition>ＨＳＳＨＨＨＨＨＨＳＳＨＨＨＨＨ</composition>
+		</config>
+	</contribution>
+	<contribution type="train" id="{FreeTrain-N1K2J-KeiH-TrainHensei-475exp}">
+		<company>旧日本国有鉄道</company>
+		<type>475系</type>
+		<name>交直流急行色</name>
+		<author>TAKUROU</author>
+		<description>
+		</description>
+		<fare>750</fare>
+		<price>100</price>
+		<speed>fast</speed>
+		
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="Ｈ" ref="{FreeTrain-N1K2J-KeiH-TrainImg-EC475-N}"/>
+			<car char="Ｓ" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Ts455-N}"/>
+			
+			<composition>ＨＨＨＨ</composition>
+			<composition>ＨＨＨＨＨ</composition>
+			<composition>ＨＨＨＨＨＨ</composition>
+			<composition>ＨＳＨＨＨＨＨ</composition>
+			<composition>ＨＳＨＨＨＨＨＨ</composition>
+			<composition>ＨＳＳＨＨＨＨＨＨ</composition>
+			<composition>ＨＳＳＨＨＨＨＨＨＨ</composition>
+			<composition>ＨＳＳＨＨＨＨＨＨＨＨ</composition>
+			<composition>ＨＳＨＨＨＨＨＨＳＨＨＨ</composition>
+			<composition>ＨＳＳＨＨＨＨＨＳＨＨＨＨ</composition>
+			<composition>ＨＳＳＨＨＨＨＨＨＳＳＨＨＨ</composition>
+			<composition>ＨＳＳＨＨＨＨＨＨＨＳＳＨＨＨ</composition>
+			<composition>ＨＳＳＨＨＨＨＨＨＳＳＨＨＨＨＨ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-N1K2J-KeiH-TrainHensei-ECE217}">
+		<company>JR東日本</company>
+		<type>E217系</type>
+		<name>近郊型電車</name>
+		<author>TAKUROU</author>
+		<description>
+		</description>
+		<fare>750</fare>
+		<price>100</price>
+		<speed>fast</speed>
+		
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Tc-E217}"/>
+			<car char="＞" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Tc-E216}"/>
+			<car char="Ｈ" ref="{FreeTrain-N1K2J-KeiH-TrainImg-MM-E217}"/>
+			<car char="Ｓ" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Ts-E217}"/>
+			
+			<composition>＜ＨＨ＞</composition>
+			<composition>＜ＨＨＨ＞</composition>
+			<composition>＜ＨＳＨＨ＞</composition>
+			<composition>＜ＨＳＨＨＨ＞</composition>
+			<composition>＜ＨＳＳＨＨＨ＞</composition>
+			<composition>＜ＨＳＳＨＨＨＨ＞</composition>
+			<composition>＜ＨＳＳＨＨＨＨＨ＞</composition>
+			<composition>＜ＨＳＳＨＨ＞＜ＨＨ＞</composition>
+			<composition>＜ＨＳＳＨＨＨ＞＜ＨＨ＞</composition>
+			<composition>＜ＨＳＳＨＨＨＨ＞＜ＨＨ＞</composition>
+			<composition>＜ＨＳＳＨＨＨＨＨ＞＜ＨＨ＞</composition>
+			<composition>＜ＨＨＳＳＨＨＨＨＨ＞＜ＨＨ＞</composition>
+			<composition>＜ＨＨＳＳＨＨＨＨＨ＞＜ＨＨＨ＞</composition>
+		</config>
+	</contribution>
+          
+	<contribution type="train" id="{FreeTrain-N1K2J-KeiH-TrainHensei-DCC75}">
+		<company>JR東海</company>
+		<type>キハ７５系</type>
+		<name>汎用型気動車</name>
+		<author>TAKUROU</author>
+		<description>
+		</description>
+		<fare>700</fare>
+		<price>100</price>
+		<speed>fast</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Dc75_0}"/>
+			<car char="＞" ref="{FreeTrain-N1K2J-KeiH-TrainImg-Dc75_100}"/>
+			
+			<composition>＜＞</composition>
+			<composition>＜＞＞</composition>
+			<composition>＜＞＜＞</composition>
+			<composition>＜＞＜＞＞</composition>
+			<composition>＜＞＜＞＜＞</composition>
+			<composition>＜＞＜＞＜＞＞</composition>
+                                        <composition>＜＞＜＞＜＞＜＞</composition>
+                                        <composition>＜＞＜＞＜＞＜＞＞</composition>
+                                        <composition>＜＞＜＞＜＞＜＞＜＞</composition>
+                                        <composition>＜＞＜＞＜＞＜＞＜＞＞</composition>
+                                        <composition>＜＞＜＞＜＞＜＞＜＞＜＞</composition>
+                                        <composition>＜＞＜＞＜＞＜＞＜＞＜＞＞</composition>
+                                        <composition>＜＞＜＞＜＞＜＞＜＞＜＞＜＞</composition>
+                                        <composition>＜＞＜＞＜＞＜＞＜＞＜＞＜＞＞</composition>
+                                        <composition>＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞</composition>
+		</config>
+	</contribution>
+</plug-in>

@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY Apart60 '
+	<price>1500</price>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>80</base>
+	</population>
+	<height>2</height>
+	<computerCannotBuild/>
+'>
+<!ENTITY crWhite '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+	</spriteType>	
+'>
+<!ENTITY crGray '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="176,170,152"/>
+	</spriteType>	
+'>
+<!ENTITY crKhaki '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="188,174,144"/>
+	</spriteType>
+'>
+]>
+<plug-in>
+
+	<title>アパート</title>
+	<author>C477@2両目</author>
+	<homepage>http://chiname.tripod.co.jp/</homepage>
+		
+	<contribution type="picture" id="{51C14811-A4AD-4251-C477-EA063A504AAD}">
+		<picture src="bldg_apart01b.bmp">
+			<override when="night" src="bldg_apart01b_n.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{69FD021F-0C33-451A-C477-1FFA68DB615F}">
+		<picture src="bldg_apart02b.bmp">
+			<override when="night" src="bldg_apart02b_n.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{C9ADB11E-D17D-4F98-C477-82F33B1CCE27}">
+		<picture src="bldg_apart01bd.bmp">
+			<override when="night" src="bldg_apart01bd_n.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{C5DFE51B-6866-40F4-C477-4AD9BE09162A}">
+		<picture src="bldg_apart02bd.bmp">
+			<override when="night" src="bldg_apart02bd_n.bmp"/>
+		</picture>
+	</contribution>
+		
+<!-- white -->
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-00">
+		<group>低層アパート(白)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crWhite;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-01">
+		<group>低層アパート(白)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crWhite;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-02">
+		<group>低層アパート(白)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crWhite;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-03">
+		<group>低層アパート(白)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crWhite;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-04">
+		<group>低層アパート(白)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crWhite;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-05">
+		<group>低層アパート(白)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crWhite;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-06">
+		<group>低層アパート(白)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crWhite;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-07">
+		<group>低層アパート(白)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crWhite;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-08">
+		<group>低層アパート(白)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crWhite;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-09">
+		<group>低層アパート(白)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crWhite;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-10">
+		<group>低層アパート(白)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crWhite;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-11">
+		<group>低層アパート(白)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crWhite;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-12">
+		<group>低層アパート(白)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crWhite;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-13">
+		<group>低層アパート(白)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crWhite;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-14">
+		<group>低層アパート(白)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crWhite;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-15">
+		<group>低層アパート(白)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crWhite;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-20">
+		<group>60年代アパート(白)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crWhite;
+			<picture ref="{C9ADB11E-D17D-4F98-C477-82F33B1CCE27}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-21">
+		<group>60年代アパート(白)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crWhite;
+			<picture ref="{C9ADB11E-D17D-4F98-C477-82F33B1CCE27}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-22">
+		<group>60年代アパート(白)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crWhite;
+			<picture ref="{C9ADB11E-D17D-4F98-C477-82F33B1CCE27}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-23">
+		<group>60年代アパート(白)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crWhite;
+			<picture ref="{C9ADB11E-D17D-4F98-C477-82F33B1CCE27}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-24">
+		<group>60年代アパート(白)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crWhite;
+			<picture ref="{C9ADB11E-D17D-4F98-C477-82F33B1CCE27}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-25">
+		<group>60年代アパート(白)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crWhite;
+			<picture ref="{C9ADB11E-D17D-4F98-C477-82F33B1CCE27}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-26">
+		<group>60年代アパート(白)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crWhite;
+			<picture ref="{C9ADB11E-D17D-4F98-C477-82F33B1CCE27}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-27">
+		<group>60年代アパート(白)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crWhite;
+			<picture ref="{C9ADB11E-D17D-4F98-C477-82F33B1CCE27}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-28">
+		<group>60年代アパート(白)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crWhite;
+			<picture ref="{C5DFE51B-6866-40F4-C477-4AD9BE09162A}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-29">
+		<group>60年代アパート(白)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crWhite;
+			<picture ref="{C5DFE51B-6866-40F4-C477-4AD9BE09162A}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-30">
+		<group>60年代アパート(白)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crWhite;
+			<picture ref="{C5DFE51B-6866-40F4-C477-4AD9BE09162A}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-31">
+		<group>60年代アパート(白)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crWhite;
+			<picture ref="{C5DFE51B-6866-40F4-C477-4AD9BE09162A}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-32">
+		<group>60年代アパート(白)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crWhite;
+			<picture ref="{C5DFE51B-6866-40F4-C477-4AD9BE09162A}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-33">
+		<group>60年代アパート(白)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crWhite;
+			<picture ref="{C5DFE51B-6866-40F4-C477-4AD9BE09162A}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-34">
+		<group>60年代アパート(白)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crWhite;
+			<picture ref="{C5DFE51B-6866-40F4-C477-4AD9BE09162A}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{0916B378-8A3F-4DD3-C477-568137E44244}-35">
+		<group>60年代アパート(白)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crWhite;
+			<picture ref="{C5DFE51B-6866-40F4-C477-4AD9BE09162A}"/>
+		</sprite>
+	</contribution>
+	
+<!-- gray -->
+<!--		
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-00">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crGray;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-01">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crGray;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-02">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crGray;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-03">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crGray;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-04">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crGray;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-05">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crGray;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-06">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crGray;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-07">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crGray;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-08">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crGray;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-09">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crGray;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-10">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crGray;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-11">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crGray;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-12">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crGray;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-13">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crGray;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-14">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crGray;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-15">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crGray;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+-->
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-20">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crGray;
+			<picture ref="{C9ADB11E-D17D-4F98-C477-82F33B1CCE27}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-21">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crGray;
+			<picture ref="{C9ADB11E-D17D-4F98-C477-82F33B1CCE27}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-22">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crGray;
+			<picture ref="{C9ADB11E-D17D-4F98-C477-82F33B1CCE27}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-23">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crGray;
+			<picture ref="{C9ADB11E-D17D-4F98-C477-82F33B1CCE27}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-24">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crGray;
+			<picture ref="{C9ADB11E-D17D-4F98-C477-82F33B1CCE27}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-25">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crGray;
+			<picture ref="{C9ADB11E-D17D-4F98-C477-82F33B1CCE27}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-26">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crGray;
+			<picture ref="{C9ADB11E-D17D-4F98-C477-82F33B1CCE27}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-27">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crGray;
+			<picture ref="{C9ADB11E-D17D-4F98-C477-82F33B1CCE27}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-28">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crGray;
+			<picture ref="{C5DFE51B-6866-40F4-C477-4AD9BE09162A}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-29">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crGray;
+			<picture ref="{C5DFE51B-6866-40F4-C477-4AD9BE09162A}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-30">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crGray;
+			<picture ref="{C5DFE51B-6866-40F4-C477-4AD9BE09162A}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-31">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crGray;
+			<picture ref="{C5DFE51B-6866-40F4-C477-4AD9BE09162A}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-32">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crGray;
+			<picture ref="{C5DFE51B-6866-40F4-C477-4AD9BE09162A}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-33">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crGray;
+			<picture ref="{C5DFE51B-6866-40F4-C477-4AD9BE09162A}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-34">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crGray;
+			<picture ref="{C5DFE51B-6866-40F4-C477-4AD9BE09162A}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{C997F861-DA10-4B77-C477-F4EC3B710C52}-35">
+		<group>60年代アパート(灰)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crGray;
+			<picture ref="{C5DFE51B-6866-40F4-C477-4AD9BE09162A}"/>
+		</sprite>
+	</contribution>
+
+<!-- khaki -->
+		
+	<contribution type="commercial" id="{E16AFB6B-D02C-4921-C477-CE59718407B3}-00">
+		<group>低層アパート(茶)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crKhaki;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E16AFB6B-D02C-4921-C477-CE59718407B3}-01">
+		<group>低層アパート(茶)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crKhaki;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E16AFB6B-D02C-4921-C477-CE59718407B3}-02">
+		<group>低層アパート(茶)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crKhaki;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E16AFB6B-D02C-4921-C477-CE59718407B3}-03">
+		<group>低層アパート(茶)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crKhaki;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{E16AFB6B-D02C-4921-C477-CE59718407B3}-04">
+		<group>低層アパート(茶)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crKhaki;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E16AFB6B-D02C-4921-C477-CE59718407B3}-05">
+		<group>低層アパート(茶)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crKhaki;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E16AFB6B-D02C-4921-C477-CE59718407B3}-06">
+		<group>低層アパート(茶)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crKhaki;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E16AFB6B-D02C-4921-C477-CE59718407B3}-07">
+		<group>低層アパート(茶)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crKhaki;
+			<picture ref="{51C14811-A4AD-4251-C477-EA063A504AAD}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{E16AFB6B-D02C-4921-C477-CE59718407B3}-08">
+		<group>低層アパート(茶)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,0" offset="48">
+			&crKhaki;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E16AFB6B-D02C-4921-C477-CE59718407B3}-09">
+		<group>低層アパート(茶)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="32">
+			&crKhaki;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E16AFB6B-D02C-4921-C477-CE59718407B3}-10">
+		<group>低層アパート(茶)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,0" offset="48">
+			&crKhaki;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E16AFB6B-D02C-4921-C477-CE59718407B3}-11">
+		<group>低層アパート(茶)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,0" offset="32">
+			&crKhaki;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="commercial" id="{E16AFB6B-D02C-4921-C477-CE59718407B3}-12">
+		<group>低層アパート(茶)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="0,64" offset="48">
+			&crKhaki;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E16AFB6B-D02C-4921-C477-CE59718407B3}-13">
+		<group>低層アパート(茶)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="64,64" offset="32">
+			&crKhaki;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E16AFB6B-D02C-4921-C477-CE59718407B3}-14">
+		<group>低層アパート(茶)</group>
+		&Apart60;
+		<size>3,1</size>
+		<sprite origin="128,64" offset="48">
+			&crKhaki;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{E16AFB6B-D02C-4921-C477-CE59718407B3}-15">
+		<group>低層アパート(茶)</group>
+		&Apart60;
+		<size>1,3</size>
+		<sprite origin="192,64" offset="32">
+			&crKhaki;
+			<picture ref="{69FD021F-0C33-451A-C477-1FFA68DB615F}"/>
+		</sprite>
+	</contribution>
+
+</plug-in>

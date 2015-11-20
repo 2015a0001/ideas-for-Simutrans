@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>高圧線鉄塔</title>
+	<author>C477@2両目</author>
+	<homepage>http://chiname.at.infoseek.co.jp/</homepage>
+
+	<contribution type="picture" id="{0525BBF9-BC20-4A08-C477-CA12C7E50B50}">
+		<picture src="tettou-l.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{4A9FECE2-245C-48EA-C477-E0B8DFD9E982}">
+		<picture src="tettou-m.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{9B049E79-A43D-4493-C477-E2B206026436}">
+		<picture src="tettou-s.bmp"/>
+	</contribution>
+		
+	
+	<contribution type="commercial" id="{0525BBF9-BC20-4A08-C477-CA12C7E50B50}-1">
+		<group>高圧線鉄塔</group>
+		<price>10</price>
+		<size>1,1</size>
+		<height>7</height>
+		<sprite origin="0,0" offset="96">
+			<picture ref="{0525BBF9-BC20-4A08-C477-CA12C7E50B50}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	
+	<contribution type="commercial" id="{0525BBF9-BC20-4A08-C477-CA12C7E50B50}-2">
+		<group>高圧線鉄塔</group>
+		<price>10</price>
+		<size>1,1</size>
+		<height>7</height>
+		<sprite origin="32,0" offset="96">
+			<picture ref="{0525BBF9-BC20-4A08-C477-CA12C7E50B50}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="commercial" id="{4A9FECE2-245C-48EA-C477-E0B8DFD9E982}-1">
+		<group>高圧線鉄塔</group>
+		<price>8</price>
+		<size>1,1</size>
+		<height>6</height>
+		<sprite origin="0,0" offset="80">
+			<picture ref="{4A9FECE2-245C-48EA-C477-E0B8DFD9E982}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	
+	<contribution type="commercial" id="{4A9FECE2-245C-48EA-C477-E0B8DFD9E982}-2">
+		<group>高圧線鉄塔</group>
+		<price>8</price>
+		<size>1,1</size>
+		<height>6</height>
+		<sprite origin="32,0" offset="80">
+			<picture ref="{4A9FECE2-245C-48EA-C477-E0B8DFD9E982}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="commercial" id="{9B049E79-A43D-4493-C477-E2B206026436}-1">
+		<group>高圧線鉄塔</group>
+		<price>6</price>
+		<size>1,1</size>
+		<height>5</height>
+		<sprite origin="0,0" offset="64">
+			<picture ref="{9B049E79-A43D-4493-C477-E2B206026436}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	
+	<contribution type="commercial" id="{9B049E79-A43D-4493-C477-E2B206026436}-2">
+		<group>高圧線鉄塔</group>
+		<price>6</price>
+		<size>1,1</size>
+		<height>5</height>
+		<sprite origin="32,0" offset="64">
+			<picture ref="{9B049E79-A43D-4493-C477-E2B206026436}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="commercial" id="{9B049E79-A43D-4493-C477-E2B206026436}-3">
+		<group>高圧線鉄塔</group>
+		<price>6</price>
+		<size>1,1</size>
+		<height>5</height>
+		<sprite origin="64,0" offset="64">
+			<picture ref="{9B049E79-A43D-4493-C477-E2B206026436}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	
+	<contribution type="commercial" id="{9B049E79-A43D-4493-C477-E2B206026436}-4">
+		<group>高圧線鉄塔</group>
+		<price>6</price>
+		<size>1,1</size>
+		<height>5</height>
+		<sprite origin="96,0" offset="64">
+			<picture ref="{9B049E79-A43D-4493-C477-E2B206026436}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+</plug-in>

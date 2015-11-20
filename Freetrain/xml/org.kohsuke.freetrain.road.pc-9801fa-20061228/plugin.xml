@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<plug-in>
+	<title>Road</title>
+	<author>PC-9801FAさん</author>
+	<homepage>http://www.kohsuke.org/freetrain/</homepage>
+	
+	<contribution type="road" id="{8DB8AF0F-B615-4BC1-8160-9706FDF6FB6B}">
+		<class name="freetrain.contributions.road.A3RoadContribution" />
+		<name>Two lane roads</name>
+		<description>Road of two lanes</description>
+		<picture src="a3road_d.bmp">
+			<override when="night" src="a3road_n.bmp"/>
+		</picture>
+	</contribution>
+</plug-in>

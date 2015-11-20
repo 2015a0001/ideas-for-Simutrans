@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+
+<plug-in>
+
+<title>歩道橋、地下道</title>
+<author>しかしか</author>
+<homepage>http://shikashika.hp.infoseek.co.jp/</homepage>
+	
+<contribution type="roadAccessory" id="{FreeTrain-Shika-Road-Accessory-footbridge1}">
+<name>歩道橋</name>
+<sprite>
+<picture src="r_a_footbridge1.bmp"/>
+</sprite>
+</contribution>
+
+<contribution type="roadAccessory" id="{FreeTrain-Shika-Road-Accessory-footbridge1l}">
+<name>歩道橋(左)</name>
+<sprite>
+<picture src="r_a_footbridge1l.bmp"/>
+</sprite>
+</contribution>
+
+<contribution type="roadAccessory" id="{FreeTrain-Shika-Road-Accessory-footbridge1r}">
+<name>歩道橋(右)</name>
+<sprite>
+<picture src="r_a_footbridge1r.bmp"/>
+</sprite>
+</contribution>
+
+<contribution type="roadAccessory" id="{FreeTrain-Shika-Road-Accessory-footbridge1m}">
+<name>歩道橋(中央)</name>
+<sprite>
+<picture src="r_a_footbridge1m.bmp"/>
+</sprite>
+</contribution>
+
+<contribution type="roadAccessory" id="{FreeTrain-Shika-Road-Accessory-footbridge2}">
+<name>歩道橋(螺旋)</name>
+<sprite>
+<picture src="r_a_footbridge2.bmp"/>
+</sprite>
+</contribution>
+
+<contribution type="roadAccessory" id="{FreeTrain-Shika-Road-Accessory-footbridge2l}">
+<name>歩道橋(螺旋左)</name>
+<sprite>
+<picture src="r_a_footbridge2l.bmp"/>
+</sprite>
+</contribution>
+
+<contribution type="roadAccessory" id="{FreeTrain-Shika-Road-Accessory-footbridge2r}">
+<name>歩道橋(螺旋右)</name>
+<sprite>
+<picture src="r_a_footbridge2r.bmp"/>
+</sprite>
+</contribution>
+
+<contribution type="roadAccessory" id="{FreeTrain-Shika-Road-Accessory-underpass1}">
+<name>地下道入口</name>
+<sprite>
+<picture src="r_a_underpass1.bmp">
+<override when="night" src="r_a_underpass1n.bmp"/>
+</picture>
+</sprite>
+</contribution>
+
+<contribution type="roadAccessory" id="{FreeTrain-Shika-Road-Accessory-underpass1l}">
+<name>地下道入口(左)</name>
+<sprite>
+<picture src="r_a_underpass1l.bmp">
+<override when="night" src="r_a_underpass1ln.bmp"/>
+</picture>
+</sprite>
+</contribution>
+
+<contribution type="roadAccessory" id="{FreeTrain-Shika-Road-Accessory-underpass1r}">
+<name>地下道入口(右)</name>
+<sprite>
+<picture src="r_a_underpass1r.bmp">
+<override when="night" src="r_a_underpass1rn.bmp"/>
+</picture>
+</sprite>
+</contribution>
+
+<contribution type="roadAccessory" id="{FreeTrain-Shika-Road-Accessory-subway1}">
+<name>地下鉄入口</name>
+<sprite>
+<picture src="r_a_subway1.bmp">
+<override when="night" src="r_a_subway1n.bmp"/>
+</picture>
+</sprite>
+</contribution>
+
+<contribution type="roadAccessory" id="{FreeTrain-Shika-Road-Accessory-subway1l}">
+<name>地下鉄入口(左)</name>
+<sprite>
+<picture src="r_a_subway1l.bmp">
+<override when="night" src="r_a_subway1ln.bmp"/>
+</picture>
+</sprite>
+</contribution>
+
+<contribution type="roadAccessory" id="{FreeTrain-Shika-Road-Accessory-subway1r}">
+<name>地下鉄入口(右)</name>
+<sprite>
+<picture src="r_a_subway1r.bmp">
+<override when="night" src="r_a_subway1rn.bmp"/>
+</picture>
+</sprite>
+</contribution>
+
+</plug-in>

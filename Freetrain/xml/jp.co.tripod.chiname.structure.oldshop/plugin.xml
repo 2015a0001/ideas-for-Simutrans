@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+
+	<title>下町商店街</title>
+	<author>C477@2両目</author>
+	<homepage>http://chiname.tripod.co.jp/</homepage>
+		
+	<contribution type="picture" id="{77B6A74F-49BB-4B41-C477-0C93DFA1D890}">
+		<picture src="oldshops01s.bmp">
+			<override when="night" src="oldshops01s_n.bmp" />
+		</picture>
+	</contribution>
+		
+	<contribution type="commercial" id="{B208DD4E-CC9F-4654-C477-F170DDA2E8AE}">
+		<group>下町商店(小)</group>
+		<price>60</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{77B6A74F-49BB-4B41-C477-0C93DFA1D890}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{66FE6C42-A5F7-4477-C477-C5AE6DC3A496}">
+		<group>下町商店(小)</group>
+		<price>60</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,32" offset="16">
+			<picture ref="{77B6A74F-49BB-4B41-C477-0C93DFA1D890}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{A5B309F8-52E9-4462-C477-760BA4B011AC}">
+		<group>下町商店(小)</group>
+		<price>60</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{77B6A74F-49BB-4B41-C477-0C93DFA1D890}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{D6AFFBB8-FFC2-4EDE-C477-04E2A46ABB86}">
+		<group>下町商店(小)</group>
+		<price>60</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="32,32" offset="16">
+			<picture ref="{77B6A74F-49BB-4B41-C477-0C93DFA1D890}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{D2BC3598-3CD8-42F6-C477-906CF24BF77D}">
+		<group>下町商店(小)</group>
+		<price>60</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{77B6A74F-49BB-4B41-C477-0C93DFA1D890}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{D497788C-244D-43C9-C477-D91BA7326326}">
+		<group>下町商店(小)</group>
+		<price>60</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="64,32" offset="16">
+			<picture ref="{77B6A74F-49BB-4B41-C477-0C93DFA1D890}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{945BB736-C273-40B4-C477-D5D6B2AFD679}">
+		<group>下町商店(小)</group>
+		<price>60</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="96,0" offset="16">
+			<picture ref="{77B6A74F-49BB-4B41-C477-0C93DFA1D890}"/>
+		</sprite>
+	</contribution>
+	<contribution type="commercial" id="{3D6E0BA9-FE63-4F0E-C477-EFEE0404EA74}">
+		<group>下町商店(小)</group>
+		<price>60</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="96,32" offset="16">
+			<picture ref="{77B6A74F-49BB-4B41-C477-0C93DFA1D890}"/>
+		</sprite>
+	</contribution>
+</plug-in>
